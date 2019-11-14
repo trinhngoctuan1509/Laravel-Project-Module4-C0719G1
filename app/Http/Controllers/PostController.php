@@ -53,4 +53,17 @@ class PostController extends Controller
         $post = $this->postService->searchPostAdvanced($request->all());
         return $post;
     }
+
+    public function getAllPost()
+    {
+        $posts = $this->postService->getAllPosts();
+
+        return response()->json($posts, 200);
+    }
+
+    public function searchPostBasic(Request $request){
+        $data = $request->json()->all();
+        $result = $this->postService->searchPostBasic($data);
+        return response()->json($result, 200);
+    }
 }

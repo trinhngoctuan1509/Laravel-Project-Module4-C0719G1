@@ -111,4 +111,29 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         return $posts;
 
     }
+
+    // Lấy Tất cả các các bài đăng -- Nối bảng
+    public function getAllPost()
+    {
+        // TODO: Implement getAllPost() method.
+        $model = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions')->get();
+
+        return $model;
+    }
+
+    public function searchPostBasic($data)
+    {
+        // TODO: Implement searchPostBasic() method.
+        $result = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions')
+            ->where('regionId', 'like', '%' . $data['region'] . '%')
+            ->where(function ($query) use ($data) {
+                $query->where('title', 'like', '%' . $data['wordSearch'] . '%');
+                $query->orwhere('contentPost', 'like', '%' . $data['wordSearch'] . '%');
+            })
+            ->where('categoryId', 'like', '%' . $data['category'] . '%')
+            ->get();
+        return $result;
+    }
 }

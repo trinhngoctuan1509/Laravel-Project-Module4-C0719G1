@@ -30,3 +30,13 @@ Route::post('/posts', 'PostController@store')->name('posts.store');
 Route::post('/searchPostAdvanced', 'PostController@searchPostAdvanced')->name('posts.searchPostAdvanced');
 Route::put('/posts/{postId}', 'PostController@update')->name('posts.update');
 Route::delete('/posts/{postId}', 'PostController@destroy')->name('posts.destroy');
+Route::post('posts/searchPostBasic', 'PostController@searchPostBasic')->name('posts.searchPostBasic');
+
+// Get All Post
+Route::get('/postsAll', 'PostController@getAllPost')->name('posts.all');
+
+// Categories
+Route::get('/categories', 'CategoryController@index')->name('categories.all');
+
+// Region
+Route::get('/region', 'RegionController@index')->name('region.all');

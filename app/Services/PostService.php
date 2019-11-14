@@ -20,5 +20,10 @@ interface PostService
 
     public function destroy($id);
 
+
     public function searchPostGeneral($conditionsOfSearchPostGeneral);
+
+    public function getAllPosts();
+
+    public function searchPostBasic($data);
 }

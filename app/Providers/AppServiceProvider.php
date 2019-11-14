@@ -1,6 +1,18 @@
 <?php
 
 namespace App\Providers;
+
+
+use App\Repositories\Impl\UserRepositoryImpl;
+use App\Repositories\UserRepository;
+use App\Services\Impl\UserServiceImpl;
+use App\Services\UserService;
+
+use App\Repositories\CustomerRepository;
+use App\Repositories\Impl\CustomerRepositoryImpl;
+use App\Services\CustomerService;
+use App\Services\Impl\CustomerServiceImpl;
+
 use Illuminate\Support\ServiceProvider;
 use App\Repositories\CommentRepository;
 use App\Repositories\Impl\CommentRepositoryImpl;
@@ -22,6 +34,7 @@ use App\Repositories\RegionRepository;
 use App\Repositories\Impl\RegionRepositoryImpl;
 use App\Services\Impl\RegionServiceImpl;
 use App\Services\RegionService;
+
 
 
 class AppServiceProvider extends ServiceProvider
@@ -68,6 +81,14 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(
             RegionService::class,
             RegionServiceImpl::class
+        );
+        $this->app->singleton(
+            UserRepository::class,
+            UserRepositoryImpl::class
+        );
+        $this->app->singleton(
+            UserService::class,
+            UserServiceImpl::class
         );
     }
 

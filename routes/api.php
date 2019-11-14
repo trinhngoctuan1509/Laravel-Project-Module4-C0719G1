@@ -31,6 +31,9 @@ Route::put('/customers/{customerId}', 'CustomerController@update')->name('custom
 Route::delete('/customers/{customerId}', 'CustomerController@destroy')->name('customers.destroy');
 
 
+Route::post('/login','UserController@login')->name('user.login');
+
+
 Route::get('/posts', 'PostController@index')->name('posts.all');
 Route::get('/posts/{postId}', 'PostController@show')->name('posts.show');
 Route::post('/posts', 'PostController@store')->name('posts.store');
@@ -50,4 +53,3 @@ Route::get('/categories', 'CategoryController@index')->name('categories.all');
 
 // Region
 Route::get('/region', 'RegionController@index')->name('region.all');
-

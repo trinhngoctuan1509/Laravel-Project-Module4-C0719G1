@@ -11,5 +11,5 @@ namespace App\Repositories;
 
 interface PostRepository extends Repository
 {
-    public function searchPostAdvanced($searchConditionsPostAdvanced);
+    public function searchPostGeneral($conditionsOfSearchPostGeneral);
 }

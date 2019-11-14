@@ -49,8 +49,8 @@ class PostController extends Controller
         return response()->json($post['message'], $post['statusCode']);
     }
 
-    public function searchPostAdvanced(Request $request){
-        $post = $this->postService->searchPostAdvanced($request->all());
+    public function searchPostGeneral(Request $request){
+        $post = $this->postService->searchPostGeneral($request->all());
         return $post;
     }
 }

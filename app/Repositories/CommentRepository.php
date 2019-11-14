@@ -9,7 +9,7 @@
 namespace App\Repositories;
 
 
-interface CustomerRepository extends Repository
+interface CommentRepository extends Repository
 {
 
 }

@@ -8,7 +8,7 @@
 
 namespace App\Services;
 
-interface CustomerService
+interface CommentService
 {
     public function getAll();
 

@@ -2,12 +2,10 @@
 
 namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
-
-use App\Repositories\CustomerRepository;
-use App\Repositories\Impl\CustomerRepositoryImpl;
-
-use App\Services\CustomerService;
-use App\Services\Impl\CustomerServiceImpl;
+use App\Repositories\CommentRepository;
+use App\Repositories\Impl\CommentRepositoryImpl;
+use App\Services\CommentService;
+use App\Services\Impl\CommentServiceImpl;
 
 use App\Repositories\PostRepository;
 use App\Repositories\Impl\PostRepositoryImpl;
@@ -36,12 +34,12 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(
-            CustomerRepository::class,
-            CustomerRepositoryImpl::class
+            CommentRepository::class,
+            CommentRepositoryImpl::class
         );
         $this->app->singleton(
-            CustomerService::class,
-            CustomerServiceImpl::class
+            CommentService::class,
+            CommentServiceImpl::class
         );
         $this->app->singleton(
             PostRepository::class,

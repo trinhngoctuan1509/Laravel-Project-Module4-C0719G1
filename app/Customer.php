@@ -4,9 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Comment extends Model
+class Customer extends Model
 {
+    protected $table = "customers";
     protected $fillable = [
-        'userId', 'postId','commentContent'
+        'fullName', 'email','phone'
     ];
 }

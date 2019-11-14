@@ -24,4 +24,5 @@ class CommentRepositoryImpl extends EloquentRepository  implements CommentReposi
         $model = Comment::class;
         return $model;
     }
+    
 }

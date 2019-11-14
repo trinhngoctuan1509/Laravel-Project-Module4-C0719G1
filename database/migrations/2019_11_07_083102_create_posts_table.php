@@ -27,13 +27,13 @@ class CreatePostsTable extends Migration
             $table->integer('directionId');
             $table->string('contentPost');
             $table->integer('price');
-            $table->string('imagePost1');
-            $table->string('imagePost2');
-            $table->string('imagePost3');
-            $table->string('imagePost4');
-            $table->string('imagePost5');
-            $table->string('imagePost6');
-            $table->boolean('ableComposition');
+            $table->string('imagePost1')->nullable();
+            $table->string('imagePost2')->nullable();
+            $table->string('imagePost3')->nullable();
+            $table->string('imagePost4')->nullable();
+            $table->string('imagePost5')->nullable();
+            $table->string('imagePost6')->nullable();
+            $table->boolean('ableComposition')->default(false);
             $table->timestamps();
         });
     }

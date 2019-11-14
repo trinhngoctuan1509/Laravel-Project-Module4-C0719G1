@@ -23,10 +23,10 @@ class CreatePostsTable extends Migration
             $table->integer('postOfTypeId');
             $table->integer('statusOfPostId');
             $table->string('address');
-            $table->string('area');
+            $table->integer('area');
             $table->integer('directionId');
             $table->string('contentPost');
-            $table->string('price');
+            $table->integer('price');
             $table->string('imagePost1');
             $table->string('imagePost2');
             $table->string('imagePost3');

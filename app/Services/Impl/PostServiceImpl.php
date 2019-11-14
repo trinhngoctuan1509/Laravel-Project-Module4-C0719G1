@@ -103,4 +103,18 @@ class PostServiceImpl implements PostService
         $posts = $this->postRepository->searchPostAdvanced($searchConditionsPostAdvanced);
         return $posts;
     }
+
+    public function getAllPosts()
+    {
+        // TODO: Implement getAllPosts() method.
+        $posts = $this->postRepository->getAllPost();
+        return $posts;
+    }
+
+    public function searchPostBasic($data)
+    {
+        // TODO: Implement searchPostBasic() method.
+        $result = $this->postRepository->searchPostBasic($data);
+        return $result;
+    }
 }

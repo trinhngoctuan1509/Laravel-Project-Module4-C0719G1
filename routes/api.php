@@ -27,7 +27,7 @@ Route::delete('/customers/{customerId}', 'CustomerController@destroy')->name('cu
 Route::get('/posts', 'PostController@index')->name('posts.all');
 Route::get('/posts/{postId}', 'PostController@show')->name('posts.show');
 Route::post('/posts', 'PostController@store')->name('posts.store');
-Route::post('/searchPostAdvanced', 'PostController@searchPostAdvanced')->name('posts.searchPostAdvanced');
+Route::post('/searchPostGeneral', 'PostController@searchPostGeneral')->name('posts.searchPostGeneral');
 Route::put('/posts/{postId}', 'PostController@update')->name('posts.update');
 Route::delete('/posts/{postId}', 'PostController@destroy')->name('posts.destroy');
 Route::post('posts/searchPostBasic', 'PostController@searchPostBasic')->name('posts.searchPostBasic');

@@ -1,26 +1,0 @@
-
-c	php:S1192!"IDefine a constant instead of duplicating this literal "regionId" 3 times.(»å§—úÿÿÿÿ
-x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÇáÔĞşÿÿÿÿ
-6	php:S11163"Remove this empty statement.(ôŸìúÿÿÿÿ
-d	php:S1192v"PDefine a constant instead of duplicating this literal "status_of_posts" 3 times.(Ùäºw
-a	php:S1192u"GDefine a constant instead of duplicating this literal "region" 4 times.(…úüÿÿÿÿ
-x	php:S1488{"^Immediately return this expression instead of assigning it to the temporary variable "$model".(…úüÿÿÿÿ
-Pphp:S131A"7Add a "case default" clause to this "switch" statement.(·Ìîûùÿÿÿÿ
-a	php:S1192u"GDefine a constant instead of duplicating this literal "seller" 3 times.(…úüÿÿÿÿ
-_	php:S1192"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(ú¸Ñ
-Kphp:S131W"7Add a "case default" clause to this "switch" statement.(üÅù³
-N	php:S1135t"4Complete the task associated to this "TODO" comment.(÷úú¯úÿÿÿÿ
-j	php:S1192&"PDefine a constant instead of duplicating this literal "ableComposition" 3 times.(§ã±úÿÿÿÿ
-6	php:S1116<"Remove this empty statement.(ôŸìúÿÿÿÿ
-x	php:S1488u"^Immediately return this expression instead of assigning it to the temporary variable "$model".(…úüÿÿÿÿ
-6	php:S1116R"Remove this empty statement.(ôŸìúÿÿÿÿ
-6	php:S11166"Remove this empty statement.(ôŸìúÿÿÿÿ
-J	php:S1135‚"4Complete the task associated to this "TODO" comment.(Ë‰æü
-e	php:S1192u"KDefine a constant instead of duplicating this literal "categories" 3 times.(…úüÿÿÿÿ
-[	php:S1192C"FDefine a constant instead of duplicating this literal "price" 8 times.(¿¸„ÿ
-_	php:S1192v"KDefine a constant instead of duplicating this literal "directions" 3 times.(Ùäºw
-h	php:S1192u"NDefine a constant instead of duplicating this literal "post_of_types" 3 times.(…úüÿÿÿÿ
-6	php:S11169"Remove this empty statement.(ôŸìúÿÿÿÿ
-6	php:S1116e"Remove this empty statement.(ôŸìúÿÿÿÿ
-6	php:S11160"Remove this empty statement.(ôŸìúÿÿÿÿ
-z	php:S1488ƒ"_Immediately return this expression instead of assigning it to the temporary variable "$result".(õ¸Âßıÿÿÿÿ

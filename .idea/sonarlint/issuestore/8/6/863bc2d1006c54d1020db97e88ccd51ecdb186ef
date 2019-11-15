@@ -1,0 +1,10 @@
+
+Dphp:S121"0Add curly braces around the nested statement(s).(Ì·›•
+_	php:S1192"JDefine a constant instead of duplicating this literal "customers" 3 times.(ý³¶Ú
+v	php:S1488"bImmediately return this expression instead of assigning it to the temporary variable "$customers".(àçÓc
+Dphp:S121'"0Add curly braces around the nested statement(s).(Ì·›•
+w	php:S14889"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+w	php:S1488"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+e	php:S1192"KDefine a constant instead of duplicating this literal "statusCode" 4 times.(ÿæàìúÿÿÿÿ
+w	php:S1488)"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+w	php:S1488I"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ

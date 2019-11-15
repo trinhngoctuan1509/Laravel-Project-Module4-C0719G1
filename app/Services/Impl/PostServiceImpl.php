@@ -110,6 +110,21 @@ class PostServiceImpl implements PostService
         $posts = $this->postRepository->getAllPost();
         return $posts;
     }
+    public function findByIdAllpost($id)
+    {
+        $postAll = $this->postRepository->findByIdAllpost($id);
+
+        $statusCode = 200;
+        if (!$postAll)
+            $statusCode = 404;
+
+        $data = [
+            'statusCode' => $statusCode,
+            'postAll' => $postAll
+        ];
+
+        return $data;
+    }
 
     public function searchPostBasic($data)
     {

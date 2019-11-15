@@ -34,13 +34,13 @@ class CommentServiceImpl implements CommentService
         $comment = $this->commentRepository->findById($id);
 
         $statusCode = 200;
-        if (!$comment)
+        if (!$comment) {
             $statusCode = 404;
-
-        $data = [
-            'statusCode' => $statusCode,
-            'customers' => $comment
-        ];
+        }
+            $data = [
+                'statusCode' => $statusCode,
+                'customers' => $comment
+            ];
 
         return $data;
     }
@@ -50,9 +50,9 @@ class CommentServiceImpl implements CommentService
         $comment = $this->commentRepository->create($request);
 
         $statusCode = 201;
-        if (!$comment)
+        if (!$comment) {
             $statusCode = 500;
-
+        }
         $data = [
             'statusCode' => $statusCode,
             'customers' => $comment

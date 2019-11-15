@@ -107,7 +107,6 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         }else{
             $posts = $posts->where('ableComposition','=',0);
         }
-
         return $posts;
     }
 
@@ -118,6 +117,11 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         $model = $this->model->with('categories', 'region', 'seller', 'post_of_types',
             'status_of_posts', 'directions')->get();
 
+        return $model;
+    }
+    public function findByIdAllpost($id){
+        $model=$this->model->with('categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions')->find($id);
         return $model;
     }
 

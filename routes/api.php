@@ -37,6 +37,21 @@ Route::get('/postsAll', 'PostController@getAllPost')->name('posts.all');
 
 // Categories
 Route::get('/categories', 'CategoryController@index')->name('categories.all');
-
+Route::get('/categories/{categoryID}', 'CategoryController@show')->name('categories.show');
 // Region
 Route::get('/region', 'RegionController@index')->name('region.all');
+Route::get('/region/{regionId}', 'RegionController@show')->name('region.show');
+//Seller
+Route::get('/seller', 'SellerController@index')->name('seller.all');
+Route::get('/seller/{sellerId}', 'SellerController@show')->name('seller.show');
+
+//PostOfType
+Route::get('/postOfType', 'PostOfTypeController@index')->name('PostOfType.all');
+Route::get('/postOfType/{postOfTypeId}', 'PostOfTypeController@show')->name('postOfType.show');
+//PostOfType
+Route::get('/statusOfPost', 'StatusOfPostController@index')->name('statusOfPost.all');
+Route::get('/statusOfPost/{statusOfPostId}', 'StatusOfPostController@show')->name('statusOfPost.show');
+
+//
+Route::get('/direction', 'DirectionController@index')->name('direction.all');
+Route::get('/direction/{directionId}', 'DirectionController@show')->name('direction.show');

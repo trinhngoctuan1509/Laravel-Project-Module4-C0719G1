@@ -4,9 +4,8 @@
 namespace App\Services;
 
 
-interface CategoryService
+interface PostOfTypeService
 {
     public function getAll();
     public function findById($id);
-
 }

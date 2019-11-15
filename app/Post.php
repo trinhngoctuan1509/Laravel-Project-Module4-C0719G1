@@ -27,6 +27,9 @@ class Post extends Model
         return $this->belongsTo('App\StatusOfPost','statusOfPostId')->select(array('id', 'statusOfPostName'));
     }
     public function directions(){
-        return $this->belongsTo('App\Direction','directionId')->select(array('id', 'directionName'));
+    return $this->belongsTo('App\Direction','directionId')->select(array('id', 'directionName'));
+    }
+    public function user(){
+        return $this->belongsTo('App\User','userId');
     }
 }

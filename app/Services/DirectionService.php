@@ -4,9 +4,8 @@
 namespace App\Services;
 
 
-interface CategoryService
+interface DirectionService
 {
     public function getAll();
     public function findById($id);
-
 }

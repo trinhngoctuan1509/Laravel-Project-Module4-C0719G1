@@ -25,6 +25,25 @@ use App\Repositories\Impl\RegionRepositoryImpl;
 use App\Services\Impl\RegionServiceImpl;
 use App\Services\RegionService;
 
+use App\Repositories\SellerReponsitory;
+use App\Repositories\Impl\SellerReponsitoryImpl;
+use App\Services\Impl\SellerServiceImpl;
+use App\Services\SellerService;
+
+use App\Repositories\PostOfTypeReponsitory;
+use App\Repositories\Impl\PostOfTypeReponsitoryImpl;
+use App\Services\Impl\PostOfTypeServiceImpl;
+use App\Services\PostOfTypeService;
+
+use App\Repositories\StatusOfPostRepository;
+use App\Repositories\Impl\StatusOfPostRepositoryImpl;
+use App\Services\Impl\StatusOfPostServiceImpl;
+use App\Services\StatusOfPostService;
+
+use App\Repositories\DirectionRepository;
+use App\Repositories\Impl\DirectionRepositoryImpl;
+use App\Services\Impl\DirectionServiceImpl;
+use App\Services\DirectionService;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -70,6 +89,46 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(
             RegionService::class,
             RegionServiceImpl::class
+        );
+
+        // Seller
+        $this->app->singleton(
+            SellerReponsitory::class,
+            SellerReponsitoryImpl::class
+        );
+        $this->app->singleton(
+            SellerService::class,
+            SellerServiceImpl::class
+        );
+
+        // PostOfType
+        $this->app->singleton(
+            PostOfTypeReponsitory::class,
+            PostOfTypeReponsitoryImpl::class
+        );
+        $this->app->singleton(
+            PostOfTypeService::class,
+            PostOfTypeServiceImpl::class
+        );
+
+        // StatusOfPost
+        $this->app->singleton(
+            StatusOfPostRepository::class,
+            StatusOfPostRepositoryImpl::class
+        );
+        $this->app->singleton(
+            StatusOfPostService::class,
+            StatusOfPostServiceImpl::class
+        );
+
+        // Direction
+        $this->app->singleton(
+            DirectionRepository::class,
+            DirectionRepositoryImpl::class
+        );
+        $this->app->singleton(
+            DirectionService::class,
+            DirectionServiceImpl::class
         );
     }
 

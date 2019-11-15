@@ -4,9 +4,8 @@
 namespace App\Services;
 
 
-interface CategoryService
+interface SellerService
 {
-    public function getAll();
+public function getAll();
     public function findById($id);
-
 }

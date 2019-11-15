@@ -16,7 +16,7 @@ class CategoryReponsitoryImpl extends EloquentRepository implements CategoryRepo
      */
     public function getModel()
     {
-        // TODO: Implement getModel() method.
+
         $model = Category::class;
         return $model;
     }

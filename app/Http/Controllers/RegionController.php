@@ -17,4 +17,11 @@ class RegionController extends Controller
 
         return response()->json($region, 200);
     }
+
+    public function show($id)
+    {
+        $region = $this->regionService->findById($id);
+
+        return response()->json($region['region'], $region['statusCode']);
+    }
 }

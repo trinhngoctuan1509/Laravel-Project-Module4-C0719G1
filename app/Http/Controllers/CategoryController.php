@@ -17,4 +17,10 @@ class CategoryController extends Controller
 
         return response()->json($categories, 200);
     }
+    public function show($id)
+    {
+        $categories = $this->category->findById($id);
+
+        return response()->json($categories['categories'], $categories['statusCode']);
+    }
 }

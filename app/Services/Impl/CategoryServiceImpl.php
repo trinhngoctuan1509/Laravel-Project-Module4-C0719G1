@@ -16,8 +16,27 @@ class CategoryServiceImpl implements CategoryService
 
     public function getAll()
     {
-        // TODO: Implement getAll() method.
+
         $categories = $this->categoryReponsitory->getAll();
         return $categories;
+    }
+
+    public function findById($id)
+    {
+
+        $categories = $this->categoryReponsitory->findById($id);
+
+        $statusCode = 200;
+        if (!$categories) {
+            $statusCode = 404;
+        }
+
+
+        $data = [
+            'statusCode' => $statusCode,
+            'categories' => $categories
+        ];
+
+        return $data;
     }
 }

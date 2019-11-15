@@ -8,7 +8,7 @@
 
 namespace App\Services;
 
-interface PostService
+interface CommentService
 {
     public function getAll();
 
@@ -19,11 +19,4 @@ interface PostService
     public function update($request, $id);
 
     public function destroy($id);
-
-
-    public function searchPostGeneral($conditionsOfSearchPostGeneral);
-
-    public function getAllPosts();
-
-    public function searchPostBasic($data);
 }

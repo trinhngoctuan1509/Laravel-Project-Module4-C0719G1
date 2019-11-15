@@ -99,8 +99,8 @@ class PostServiceImpl implements PostService
         return $data;
     }
 
-    public  function  searchPostAdvanced($searchConditionsPostAdvanced){
-        $posts = $this->postRepository->searchPostAdvanced($searchConditionsPostAdvanced);
+    public  function  searchPostGeneral($conditionsOfSearchPostGeneral){
+        $posts = $this->postRepository->searchPostGeneral($conditionsOfSearchPostGeneral);
         return $posts;
     }
 

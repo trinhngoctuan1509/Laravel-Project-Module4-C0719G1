@@ -1,0 +1,26 @@
+
+j	php:S1192&"PDefine a constant instead of duplicating this literal "ableComposition" 3 times.(§ã±úÿÿÿÿ
+6	php:S1116g"Remove this empty statement.(ôŸìúÿÿÿÿ
+c	php:S1192!"IDefine a constant instead of duplicating this literal "regionId" 3 times.(»å§—úÿÿÿÿ
+6	php:S11162"Remove this empty statement.(ôŸìúÿÿÿÿ
+e	php:S1192+"PDefine a constant instead of duplicating this literal "status_of_posts" 3 times.(¥”Şœ
+z	php:S1488"_Immediately return this expression instead of assigning it to the temporary variable "$result".(õ¸Âßıÿÿÿÿ
+6	php:S11165"Remove this empty statement.(ôŸìúÿÿÿÿ
+x	php:S1488x"^Immediately return this expression instead of assigning it to the temporary variable "$model".(…úüÿÿÿÿ
+a	php:S1192*"GDefine a constant instead of duplicating this literal "seller" 3 times.(ë÷Áÿÿÿÿÿ
+h	php:S1192*"NDefine a constant instead of duplicating this literal "post_of_types" 3 times.(ë÷Áÿÿÿÿÿ
+x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÇáÔĞşÿÿÿÿ
+N	php:S1135w"4Complete the task associated to this "TODO" comment.(÷úú¯úÿÿÿÿ
+J	php:S1135€"4Complete the task associated to this "TODO" comment.(Ë‰æü
+e	php:S1192*"KDefine a constant instead of duplicating this literal "categories" 3 times.(ë÷Áÿÿÿÿÿ
+`	php:S1192+"KDefine a constant instead of duplicating this literal "directions" 3 times.(¥”Şœ
+3php:S125,"Remove this commented out code.(àìæ
+_	php:S1192"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(ú¸Ñ
+6	php:S11168"Remove this empty statement.(ôŸìúÿÿÿÿ
+6	php:S1116;"Remove this empty statement.(ôŸìúÿÿÿÿ
+[	php:S1192E"FDefine a constant instead of duplicating this literal "price" 8 times.(¿¸„ÿ
+6	php:S1116>"Remove this empty statement.(ôŸìúÿÿÿÿ
+6	php:S1116T"Remove this empty statement.(ôŸìúÿÿÿÿ
+Pphp:S131C"7Add a "case default" clause to this "switch" statement.(·Ìîûùÿÿÿÿ
+a	php:S1192*"GDefine a constant instead of duplicating this literal "region" 4 times.(ë÷Áÿÿÿÿÿ
+Kphp:S131Y"7Add a "case default" clause to this "switch" statement.(üÅù³

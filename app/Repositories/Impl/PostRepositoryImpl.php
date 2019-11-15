@@ -39,7 +39,9 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
 
 
         //        **************** Lọc Theo Category ******************
-        $posts = $this->model::where('categoryId','=',$categoryId)->get();
+        $posts = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions')->where('categoryId','=',$categoryId)->get();
+//        $posts = $this->model::->get();
 
 
         //        ***** Lọc Theo Hướng, Loại Tin, Khu Vực, Người Đăng Tin, Trạng Thái Sử Dụng *****

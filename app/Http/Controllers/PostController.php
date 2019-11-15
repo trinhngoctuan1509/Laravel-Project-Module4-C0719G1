@@ -66,4 +66,11 @@ class PostController extends Controller
         $result = $this->postService->searchPostBasic($data);
         return response()->json($result, 200);
     }
+
+    public function showAllpost($id)
+    {
+        $postAll = $this->postService->findByIdAllpost($id);
+
+        return response()->json($postAll['postAll'], $postAll['statusCode']);
+    }
 }

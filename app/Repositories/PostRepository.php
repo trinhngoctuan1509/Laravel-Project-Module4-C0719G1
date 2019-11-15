@@ -13,5 +13,6 @@ interface PostRepository extends Repository
 {
     public function searchPostGeneral($conditionsOfSearchPostGeneral);
     public function getAllPost();
+    public function findByIdAllpost($id);
     public function searchPostBasic($data);
 }

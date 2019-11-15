@@ -47,6 +47,7 @@ Route::post('posts/searchPostBasic', 'PostController@searchPostBasic')->name('po
 
 // Get All Post
 Route::get('/postsAll', 'PostController@getAllPost')->name('posts.all');
+Route::get('/postsAll/{postId}', 'PostController@showAllpost')->name('postsAll.showAll');
 
 // Categories
 Route::get('/categories', 'CategoryController@index')->name('categories.all');

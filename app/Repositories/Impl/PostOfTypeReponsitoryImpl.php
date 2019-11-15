@@ -15,7 +15,7 @@ class PostOfTypeReponsitoryImpl extends EloquentRepository implements PostOfType
      */
     public function getModel()
     {
-        // TODO: Implement getModel() method.
+
         $model = PostOfType::class;
         return $model;
     }

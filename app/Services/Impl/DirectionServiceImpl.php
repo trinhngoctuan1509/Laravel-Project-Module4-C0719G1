@@ -15,20 +15,20 @@ class DirectionServiceImpl implements DirectionService
     }
     public function getAll()
     {
-        // TODO: Implement getAll() method.
+
         $direction = $this->directionRepository->getAll();
         return $direction;
     }
 
     public function findById($id)
     {
-        // TODO: Implement findById() method.
+
         $direction = $this->directionRepository->findById($id);
 
         $statusCode = 200;
-        if (!$direction)
+        if (!$direction) {
             $statusCode = 404;
-
+        }
         $data = [
             'statusCode' => $statusCode,
             'direction' => $direction

@@ -15,7 +15,7 @@ class StatusOfPostRepositoryImpl extends  EloquentRepository implements  StatusO
      */
     public function getModel()
     {
-        // TODO: Implement getModel() method.
+
         $model = StatusOfPost::class;
         return $model;
     }

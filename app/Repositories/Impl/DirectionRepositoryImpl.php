@@ -15,7 +15,7 @@ class DirectionRepositoryImpl extends  EloquentRepository implements  DirectionR
      */
     public function getModel()
     {
-        // TODO: Implement getModel() method.
+
         $model = Direction::class;
         return $model;
     }

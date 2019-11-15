@@ -17,20 +17,20 @@ class PostOfTypeServiceImpl implements PostOfTypeService
 
     public function getAll()
     {
-        // TODO: Implement getAll() method.
+
         $postOfType = $this->postOfTypeReponsitory->getAll();
         return $postOfType;
     }
 
     public function findById($id)
     {
-        // TODO: Implement findById() method.
+
         $postOfType = $this->postOfTypeReponsitory->findById($id);
 
         $statusCode = 200;
-        if (!$postOfType)
+        if (!$postOfType) {
             $statusCode = 404;
-
+        }
         $data = [
             'statusCode' => $statusCode,
             'postOfType' => $postOfType

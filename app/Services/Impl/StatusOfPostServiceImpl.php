@@ -15,20 +15,20 @@ class StatusOfPostServiceImpl implements StatusOfPostService
     }
     public function getAll()
     {
-        // TODO: Implement getAll() method.
+
         $statusOfPost = $this->statusOfPostRepository->getAll();
         return $statusOfPost;
     }
 
     public function findById($id)
     {
-        // TODO: Implement findById() method.
+
         $statusOfPost = $this->statusOfPostRepository->findById($id);
 
         $statusCode = 200;
-        if (!$statusOfPost)
+        if (!$statusOfPost) {
             $statusCode = 404;
-
+        }
         $data = [
             'statusCode' => $statusCode,
             'statusOfPost' => $statusOfPost

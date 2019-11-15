@@ -16,7 +16,7 @@ class SellerReponsitoryImpl extends EloquentRepository implements SellerReponsit
      */
     public function getModel()
     {
-        // TODO: Implement getModel() method.
+
         $model = Seller::class;
         return $model;
     }

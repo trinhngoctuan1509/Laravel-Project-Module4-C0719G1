@@ -17,7 +17,7 @@ class SellerServiceImpl implements SellerService
 
     public function getAll()
     {
-        // TODO: Implement getAll() method.
+
        $seller = $this->sellerRepository->getAll();
        return $seller;
     }
@@ -28,9 +28,9 @@ class SellerServiceImpl implements SellerService
         $seller = $this->sellerRepository->findById($id);
 
         $statusCode = 200;
-        if (!$seller)
+        if (!$seller) {
             $statusCode = 404;
-
+        }
         $data = [
             'statusCode' => $statusCode,
             'seller' => $seller

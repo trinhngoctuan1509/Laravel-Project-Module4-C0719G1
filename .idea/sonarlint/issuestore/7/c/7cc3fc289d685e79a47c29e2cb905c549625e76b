@@ -1,10 +1,0 @@
-
-3php:S125"Remove this commented out code.(¥¥±Â
-@Web:HeaderCheck"&Add or update the header of this file.8”–üæ-
-e	php:S1779"QReplace all non line feed end of line characters in this file "Kernel.php" by LF.8”–üæ-
-\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8”–üæ-
-\	php:S1105%";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8”–üæ-
-\	php:S1105	";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8”–üæ-
-^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8”–üæ-
-B	php:S2003("&Replace "require" with "require_once".(—¿·‡8”–üæ-
-h	php:S4833("LReplace "require" with namespace import mechanism through the "use" keyword.(—¿·‡8”–üæ-

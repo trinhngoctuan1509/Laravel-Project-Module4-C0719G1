@@ -1,17 +1,0 @@
-
-e	php:S1192"KDefine a constant instead of duplicating this literal "0904529224" 4 times.(÷‰ÌÖÿÿÿÿÿ
-m	php:S1192"SDefine a constant instead of duplicating this literal "Hai Chau - Da Nang" 4 times.(¡âÙÌûÿÿÿÿ
-d	php:S1192"ODefine a constant instead of duplicating this literal "statusOfUserId" 4 times.(†µ¿¦
-l	php:S1192"RDefine a constant instead of duplicating this literal "imageAvatarOfUser" 4 times.(‰ƒÚâşÿÿÿÿ
-b	php:S1192"HDefine a constant instead of duplicating this literal "address" 4 times.(¡âÙÌûÿÿÿÿ
-c	php:S1192"NDefine a constant instead of duplicating this literal "levelOfUserId" 4 times.(›š€
-c	php:S1192"IDefine a constant instead of duplicating this literal "password" 4 times.( ª¦¯úÿÿÿÿ
-[	php:S1192"FDefine a constant instead of duplicating this literal "email" 4 times.(‡¶ô·
-`	php:S1192<"FDefine a constant instead of duplicating this literal "users" 4 times.(‡¤Š±ıÿÿÿÿ
-f	php:S1192"LDefine a constant instead of duplicating this literal "phoneNumber" 4 times.(÷‰ÌÖÿÿÿÿÿ
-c	php:S1192"IDefine a constant instead of duplicating this literal "fullName" 4 times.(ù£Ô†ûÿÿÿÿ
-@Web:HeaderCheck"&Add or update the header of this file.8à‚–üæ-
-i	php:S1779"UReplace all non line feed end of line characters in this file "UserSeeder.php" by LF.8à‚–üæ-
-\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8à‚–üæ-
-\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8à‚–üæ-
-^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8à‚–üæ-

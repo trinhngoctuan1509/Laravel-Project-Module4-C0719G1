@@ -1,8 +1,0 @@
-
-@Web:HeaderCheck"&Add or update the header of this file.8â€–üæ-
-a	php:S1808"EAdd a blank line after this "namespace App\Repositories" declaration.(Õ‚Ê¢8â€–üæ-
-q	php:S1779"]Replace all non line feed end of line characters in this file "CustomerRepository.php" by LF.8â€–üæ-
-\	php:S1105
-";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8â€–üæ-
-:	php:S1451"&Add or update the header of this file.8â€–üæ-
-^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8â€–üæ-

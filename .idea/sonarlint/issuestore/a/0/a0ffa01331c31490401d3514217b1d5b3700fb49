@@ -1,12 +1,0 @@
-
-\	php:S11924"GDefine a constant instead of duplicating this literal "string" 3 times.(Óÿ°ÿ
-[	php:S11925"FDefine a constant instead of duplicating this literal "email" 4 times.(ƒîĞÓ
-^	php:S11926"IDefine a constant instead of duplicating this literal "password" 3 times.( ²ß
-^	php:S11924"IDefine a constant instead of duplicating this literal "required" 3 times.(Óÿ°ÿ
-@Web:HeaderCheck"&Add or update the header of this file.8Ÿ–üæ-
-q	php:S1779"]Replace all non line feed end of line characters in this file "RegisterController.php" by LF.8Ÿ–üæ-
-\	php:S1105'";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Ÿ–üæ-
-\	php:S11052";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Ÿ–üæ-
-\	php:S1105A";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Ÿ–üæ-
-\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Ÿ–üæ-
-^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8Ÿ–üæ-

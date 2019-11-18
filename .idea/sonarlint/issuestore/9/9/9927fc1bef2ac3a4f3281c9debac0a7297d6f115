@@ -1,9 +1,0 @@
-
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-\	php:S1105#";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8ŠÛºç-
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-9Web:HeaderCheck"&Add or update the header of this file.
-j	php:S1192"IDefine a constant instead of duplicating this literal "required" 3 times.(ªç¶åûÿÿÿÿ8“ººç-
-D	php:S2047"/Rename this method to start with "is" or "has".(Á€¦
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"

@@ -31,7 +31,11 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
             'password' => $password
         ];
         if (Auth::attempt($login)) {
-//            return Auth::user();
+            if (Auth::user()->statusOfUserId==2){
+                Auth::logout();
+                $mes=['Tài khoản này hiện đang bị khóa'];
+                return $mes;
+            }
         } else {
             $mes = ["Sai tài khoản hoặc mật khẩu"];
             return $mes;
@@ -63,5 +67,11 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
             return null;
         }
         return $object;
+    }
+
+    public function getUser()
+    {
+        $user= Auth::user();
+        return $user;
     }
 }

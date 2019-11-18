@@ -35,6 +35,8 @@ Route::post('/login','UserController@login')->name('user.login');
 
 //APi register User
 Route::post('/register','UserController@register')->name('user.register');
+//API get user
+Route::get('/getUser','UserController@getUser')->name('user.getUser');
 
 
 Route::get('/posts', 'PostController@index')->name('posts.all');

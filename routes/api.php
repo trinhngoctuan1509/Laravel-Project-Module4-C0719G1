@@ -37,6 +37,7 @@ Route::post('/login','UserController@login')->name('user.login');
 Route::post('/register','UserController@register')->name('user.register');
 
 
+
 Route::get('/posts', 'PostController@index')->name('posts.all');
 Route::get('/posts/{postId}', 'PostController@show')->name('posts.show');
 Route::post('/posts', 'PostController@store')->name('posts.store');

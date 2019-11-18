@@ -64,4 +64,6 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         }
         return $object;
     }
+
+
 }

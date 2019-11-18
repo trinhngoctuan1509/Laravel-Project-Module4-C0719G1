@@ -25,4 +25,5 @@ class UserController extends Controller
         $data = $this->userService->register($request);
         return $data;
     }
+
 }

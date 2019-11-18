@@ -54,6 +54,16 @@ class PostController extends Controller
         return $post;
     }
 
+    public function searchPostByTitle(Request $request){
+        $post = $this->postService->searchPostByTitle($request->all());
+        return $post;
+    }
+
+    public function  searchPostByFengshui(Request $request){
+        $post = $this->postService->searchPostByFengshui($request->all());
+        return $post;
+    }
+
     public function getAllPost()
     {
         $posts = $this->postService->getAllPosts();

@@ -106,7 +106,7 @@ class PostServiceImpl implements PostService
 
     public function getAllPosts()
     {
-        // TODO: Implement getAllPosts() method.
+
         $posts = $this->postRepository->getAllPost();
         return $posts;
     }
@@ -128,7 +128,7 @@ class PostServiceImpl implements PostService
 
     public function searchPostBasic($data)
     {
-        // TODO: Implement searchPostBasic() method.
+
         $result = $this->postRepository->searchPostBasic($data);
         return $result;
     }

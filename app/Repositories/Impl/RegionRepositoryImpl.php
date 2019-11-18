@@ -16,7 +16,7 @@ class RegionRepositoryImpl extends EloquentRepository implements RegionRepositor
      */
     public function getModel()
     {
-        // TODO: Implement getModel() method.
+
         $model = Region::class;
         return $model;
     }

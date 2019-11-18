@@ -142,7 +142,6 @@ class AppServiceProvider extends ServiceProvider
             DirectionService::class,
             DirectionServiceImpl::class
         );
-
         $this->app->singleton(
             UserRepository::class,
             UserRepositoryImpl::class

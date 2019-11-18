@@ -30,14 +30,21 @@ Route::post('/customers', 'CustomerController@store')->name('customers.store');
 Route::put('/customers/{customerId}', 'CustomerController@update')->name('customers.update');
 Route::delete('/customers/{customerId}', 'CustomerController@destroy')->name('customers.destroy');
 
-
+// API login with email
 Route::post('/login','UserController@login')->name('user.login');
+
+//APi register User
+Route::post('/register','UserController@register')->name('user.register');
+//API get user
+Route::get('/getUser','UserController@getUser')->name('user.getUser');
 
 
 Route::get('/posts', 'PostController@index')->name('posts.all');
 Route::get('/posts/{postId}', 'PostController@show')->name('posts.show');
 Route::post('/posts', 'PostController@store')->name('posts.store');
 Route::post('/searchPostGeneral', 'PostController@searchPostGeneral')->name('posts.searchPostGeneral');
+Route::post('/searchPostByTitle', 'PostController@searchPostByTitle')->name('posts.searchPostByTitle');
+Route::post('/searchPostByFengshui', 'PostController@searchPostByFengshui')->name('posts.searchPostByFengshui');
 Route::put('/posts/{postId}', 'PostController@update')->name('posts.update');
 Route::delete('/posts/{postId}', 'PostController@destroy')->name('posts.destroy');
 

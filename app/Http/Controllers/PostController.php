@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Services\PostService;
-
+use App\Http\Requests\PostAddRequest;
 class PostController extends Controller
 {
     protected $postService;
@@ -28,7 +28,7 @@ class PostController extends Controller
         return response()->json($post['post'], $post['statusCode']);
     }
 
-    public function store(Request $request)
+    public function store(PostAddRequest $request)
     {
         $post = $this->postService->create($request->all());
 
@@ -51,6 +51,16 @@ class PostController extends Controller
 
     public function searchPostGeneral(Request $request){
         $post = $this->postService->searchPostGeneral($request->all());
+        return $post;
+    }
+
+    public function searchPostByTitle(Request $request){
+        $post = $this->postService->searchPostByTitle($request->all());
+        return $post;
+    }
+
+    public function  searchPostByFengshui(Request $request){
+        $post = $this->postService->searchPostByFengshui($request->all());
         return $post;
     }
 

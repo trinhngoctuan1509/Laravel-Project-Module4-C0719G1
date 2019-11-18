@@ -21,4 +21,10 @@ class UserServiceImpl implements UserService
         $dataUser = $this->userRepository->login($data);
         return $dataUser;
     }
+
+    public function register($data)
+    {
+        $dataUser=$this->userRepository->register($data);
+        return $dataUser;
+    }
 }

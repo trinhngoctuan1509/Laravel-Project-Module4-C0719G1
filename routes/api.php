@@ -30,8 +30,11 @@ Route::post('/customers', 'CustomerController@store')->name('customers.store');
 Route::put('/customers/{customerId}', 'CustomerController@update')->name('customers.update');
 Route::delete('/customers/{customerId}', 'CustomerController@destroy')->name('customers.destroy');
 
-
+// API login with email
 Route::post('/login','UserController@login')->name('user.login');
+
+//APi register User
+Route::post('/register','UserController@register')->name('user.register');
 
 
 Route::get('/posts', 'PostController@index')->name('posts.all');

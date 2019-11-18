@@ -1,0 +1,10 @@
+
+@Web:HeaderCheck"&Add or update the header of this file.8¤ƒ–üæ-
+d	php:S1779"PReplace all non line feed end of line characters in this file "index.php" by LF.8¤ƒ–üæ-
+G	php:S2003"&Replace "require" with "require_once".(ÝÅÞèøÿÿÿÿ8¤ƒ–üæ-
+m	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(ÝÅÞèøÿÿÿÿ8¤ƒ–üæ-
+r	php:S4833&"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ë¨ÚÕúÿÿÿÿ8¤ƒ–üæ-
+A	php:S2007&" Move this variable into a class.(ë¨ÚÕúÿÿÿÿ8¤ƒ–üæ-
+A	php:S20074" Move this variable into a class.(ðîÇþøÿÿÿÿ8¤ƒ–üæ-
+A	php:S20077" Move this variable into a class.(Ä¥íšÿÿÿÿÿ8¤ƒ–üæ-
+A	php:S20076" Move this variable into a class.(Ï°Ÿ¼þÿÿÿÿ8¤ƒ–üæ-

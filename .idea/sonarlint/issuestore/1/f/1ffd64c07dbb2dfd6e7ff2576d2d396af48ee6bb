@@ -1,14 +1,32 @@
 
-Dphp:S1215"0Add curly braces around the nested statement(s).(‰é©÷
-s	php:S1488g"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(Ó€½ğ
-I	php:S1135m"4Complete the task associated to this "TODO" comment.(Õ¶ã
-w	php:S1488("]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-w	php:S1488_"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-w	php:S14888"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-y	php:S1488u"_Immediately return this expression instead of assigning it to the temporary variable "$result".(†é¢ºûÿÿÿÿ
-I	php:S1135t"4Complete the task associated to this "TODO" comment.(Ë‰æü
-w	php:S1488L"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+k	php:S1808f"JPut one space between the closing parenthesis and the opening curly brace.(ãÿìÈûÿÿÿÿ8œ„–üæ-
+\	php:S1105l";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+x	php:S1488g"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(¨“»áüÿÿÿÿ
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8œ„–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+\	php:S11051";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
 x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(÷Ä²Æúÿÿÿÿ
-Dphp:S121%"0Add curly braces around the nested statement(s).(‰é©÷
+U	php:S1106G"9Move this open curly brace to the beginning of next line.(å¥‡8œ„–üæ-
+\	php:S1105A";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+@Web:HeaderCheck"&Add or update the header of this file.8œ„–üæ-
+w	php:S1488("]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
 x	php:S1488n"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ãÚİİşÿÿÿÿ
-e	php:S1192)"KDefine a constant instead of duplicating this literal "statusCode" 4 times.(ÿæàìúÿÿÿÿ
+Dphp:S121%"0Add curly braces around the nested statement(s).(‰é©÷
+w	php:S1488_"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+Z	php:S1106f"9Move this open curly brace to the beginning of next line.(ãÿìÈûÿÿÿÿ8œ„–üæ-
+\	php:S1105r";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+\	php:S1105!";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+]	php:S1105‚";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+T	php:S1106D"9Move this open curly brace to the beginning of next line.(¨‡ñ|8œ„–üæ-
+\	php:S1105T";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+w	php:S1488L"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+Dphp:S1215"0Add curly braces around the nested statement(s).(‰é©÷
+^	php:S1808f"=Move this open curly brace to the beginning of the next line.(ãÿìÈûÿÿÿÿ8œ„–üæ-
+~	php:S1488y"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ8œ„–üæ-
+Pphp:S121v"0Add curly braces around the nested statement(s).(ˆËÜ¬ıÿÿÿÿ8œ„–üæ-
+e	php:S1192)"KDefine a constant instead of duplicating this literal "statusCode" 5 times.(ÿæàìúÿÿÿÿ
+Z	php:S1106Y"9Move this open curly brace to the beginning of next line.(ë—şŞùÿÿÿÿ8œ„–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8œ„–üæ-
+w	php:S14888"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+z	php:S1488„"_Immediately return this expression instead of assigning it to the temporary variable "$result".(†é¢ºûÿÿÿÿ

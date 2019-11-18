@@ -1,0 +1,8 @@
+
+@Web:HeaderCheck"&Add or update the header of this file.8â€–üæ-
+yWeb:MaxLineLengthCheck"KSplit this 299 characters long line (which is greater than 120 authorized).(½öñŒÿÿÿÿÿ8â€–üæ-
+kphp:S103"KSplit this 299 characters long line (which is greater than 120 authorized).(½öñŒÿÿÿÿÿ8â€–üæ-
+:php:S113"'Add a new line at the end of this file.8â€–üæ-
+‡	php:S1779"sReplace all non line feed end of line characters in this file "a9be153dc6f06ae4bc64e9c12ee780584753c91a.php" by LF.8â€–üæ-
+8	php:S1997"$Remove the inline HTML in this file.8â€–üæ-
+:	php:S1451"&Add or update the header of this file.8â€–üæ-

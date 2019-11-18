@@ -1,2 +1,10 @@
 
-s	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ïƒ–µ
+s	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ïƒ–µ
+@Web:HeaderCheck"&Add or update the header of this file.8Û€–üæ-
+f	php:S1808"JAdd a blank line after this "namespace App\Repositories\Impl" declaration.(Ñ¨‰‚8Û€–üæ-
+O	php:S1808".Add a blank line after this "use" declaration.(ëÞÝÜþÿÿÿÿ8Û€–üæ-
+u	php:S1779"aReplace all non line feed end of line characters in this file "CustomerRepositoryImpl.php" by LF.8Û€–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Û€–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Û€–üæ-
+:	php:S1451"&Add or update the header of this file.8Û€–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8Û€–üæ-

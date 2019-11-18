@@ -1,0 +1,14 @@
+
+@Web:HeaderCheck"&Add or update the header of this file.8Ü€–üæ-
+yWeb:MaxLineLengthCheck?"KSplit this 172 characters long line (which is greater than 120 authorized).(²«ë×ÿÿÿÿÿ8Ü€–üæ-
+{Web:AvoidHtmlCommentCheck	"ORemove this comment or change its style so that it is not output to the client.(–åùç8Ü€–üæ-
+„	Web:S1829"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(’œ…Þ8Ü€–üæ-
+€Web:AvoidHtmlCommentCheck"ORemove this comment or change its style so that it is not output to the client.(ÿíÉïÿÿÿÿÿ8Ü€–üæ-
+DWeb:InlineStyleCheck"Use CSS classes instead.(ðž®­üÿÿÿÿ8Ü€–üæ-
+^Web:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯M8Ü€–üæ-
+kphp:S103?"KSplit this 172 characters long line (which is greater than 120 authorized).(²«ë×ÿÿÿÿÿ8Ü€–üæ-
+:php:S113"'Add a new line at the end of this file.8Ü€–üæ-
+8	php:S1997"$Remove the inline HTML in this file.8Ü€–üæ-
+:	php:S1451"&Add or update the header of this file.8Ü€–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8Ü€–üæ-
+Q	php:S2000"0Remove the extra characters before the open tag.(¾®¡×þÿÿÿÿ8Ü€–üæ-

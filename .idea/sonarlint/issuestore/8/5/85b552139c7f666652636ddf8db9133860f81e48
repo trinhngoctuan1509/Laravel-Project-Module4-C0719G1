@@ -1,3 +1,5 @@
 
-a	php:S1192%"GDefine a constant instead of duplicating this literal "driver" 7 times.(¯ª¦îúÿÿÿÿ
 [	php:S1192."FDefine a constant instead of duplicating this literal "cache" 3 times.(Ï‘†Þ
+a	php:S1192%"GDefine a constant instead of duplicating this literal "driver" 7 times.(¯ª¦îúÿÿÿÿ
+@Web:HeaderCheck"&Add or update the header of this file.8µƒ–üæ-
+d	php:S1779"PReplace all non line feed end of line characters in this file "cache.php" by LF.8µƒ–üæ-

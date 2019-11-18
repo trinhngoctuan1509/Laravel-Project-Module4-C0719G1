@@ -1,4 +1,9 @@
 
+j	php:S1192"PDefine a constant instead of duplicating this literal "userLevelOfCode" 3 times.(þù»Ÿüÿÿÿÿ
 d	php:S1192"ODefine a constant instead of duplicating this literal "level_of_users" 3 times.( ®àþ
 j	php:S1192"PDefine a constant instead of duplicating this literal "userLevelOfName" 3 times.(èº—†úÿÿÿÿ
-j	php:S1192"PDefine a constant instead of duplicating this literal "userLevelOfCode" 3 times.(þù»Ÿüÿÿÿÿ
+@Web:HeaderCheck"&Add or update the header of this file.8Æ‚–üæ-
+p	php:S1779"\Replace all non line feed end of line characters in this file "LevelOfUserSeeder.php" by LF.8Æ‚–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Æ‚–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Æ‚–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8Æ‚–üæ-

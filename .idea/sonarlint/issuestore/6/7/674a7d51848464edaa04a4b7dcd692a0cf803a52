@@ -1,19 +1,96 @@
 
-j	php:S1192&"PDefine a constant instead of duplicating this literal "ableComposition" 3 times.(øîœ¸þÿÿÿÿ
-6	php:S11163"Remove this empty statement.(ôŸŽìúÿÿÿÿ
-6	php:S1116R"Remove this empty statement.(ôŸŽìúÿÿÿÿ
-6	php:S1116e"Remove this empty statement.(ôŸŽìúÿÿÿÿ
-I	php:S1135"4Complete the task associated to this "TODO" comment.(Ë‰æü
-6	php:S11166"Remove this empty statement.(ôŸŽìúÿÿÿÿ
-^	php:S1192!"IDefine a constant instead of duplicating this literal "regionId" 3 times.(øÆºÛ
-x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÇáÔÐþÿÿÿÿ
-6	php:S11169"Remove this empty statement.(ôŸŽìúÿÿÿÿ
-[	php:S1192C"FDefine a constant instead of duplicating this literal "price" 8 times.(¿¸„ÿ
-a	php:S1192w"GDefine a constant instead of duplicating this literal "region" 3 times.(ÕÏü˜ùÿÿÿÿ
+W	php:S1808H"6Put exactly one space after comma separated arguments.(ªÉ—ùþÿÿÿÿ8üƒ–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8üƒ–üæ-
+U	php:S1106|"9Move this open curly brace to the beginning of next line.(ƒÅÇå8üƒ–üæ-
+R	php:S1808^"6Put exactly one space after comma separated arguments.(˜íªÐ8üƒ–üæ-
+b	php:S1808m"FPut one space between this "else" keyword and the opening curly brace.(å¥ž‡8üƒ–üæ-
+[	php:S1192E"FDefine a constant instead of duplicating this literal "price" 8 times.(¿¸„ÿ
+R	php:S1808N"6Put exactly one space after comma separated arguments.(ž³˜Œ8üƒ–üæ-
+e	php:S18086"JPut one space between the closing parenthesis and the opening curly brace.(…¼˜-8üƒ–üæ-
+R	php:S1808E"6Put exactly one space after comma separated arguments.(¿¸„ÿ8üƒ–üæ-
+Z	php:S1106<"9Move this open curly brace to the beginning of next line.(æ¹ÅŽýÿÿÿÿ8üƒ–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8üƒ–üæ-
+ƒ	php:S1808…"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "133".(·å­Ú8üƒ–üæ-
+_	php:S18086"DPut one space between this "if" keyword and the opening parenthesis.(…¼˜-8üƒ–üæ-
+Z	php:S1106k"9Move this open curly brace to the beginning of next line.(¼ÌÆ±øÿÿÿÿ8üƒ–üæ-
+R	php:S1808="6Put exactly one space after comma separated arguments.(ÿ¨›8üƒ–üæ-
+I	php:S1808x".Move the closing parenthesis on the next line.(Ùäºw8üƒ–üæ-
+U	php:S1106X"9Move this open curly brace to the beginning of next line.(±¬˜8üƒ–üæ-
+l	php:S1192+"PDefine a constant instead of duplicating this literal "status_of_posts" 4 times.(¥”Þœ8üƒ–üæ-
+U	php:S11069"9Move this open curly brace to the beginning of next line.(ÈÿœŸ8üƒ–üæ-
+†	php:S1808*"eEither split this list into multiple lines, aligned at column "12" or put all arguments on line "42".(ë÷Áÿÿÿÿÿ8üƒ–üæ-
+‡	php:S1808}"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "125".(…úüÿÿÿÿ8üƒ–üæ-
+W	php:S1808H"6Put exactly one space after comma separated arguments.(ªÉ—ùþÿÿÿÿ8üƒ–üæ-
+R	php:S1808K"6Put exactly one space after comma separated arguments.(¸ð‚¶8üƒ–üæ-
+6	php:S11162"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+R	php:S1808+"6Put exactly one space after comma separated arguments.(¥”Þœ8üƒ–üæ-
+]	php:S1105ƒ";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8üƒ–üæ-
+W	php:S18087"6Put exactly one space after comma separated arguments.(æž‡‚üÿÿÿÿ8üƒ–üæ-
+U	php:S1106B"9Move this open curly brace to the beginning of next line.(ü€ï‘8üƒ–üæ-
+S	php:S1808…"6Put exactly one space after comma separated arguments.(·å­Ú8üƒ–üæ-
+6	php:S11165"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+6	php:S11168"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+I	php:S1808~".Move the closing parenthesis on the next line.(˜ƒp8üƒ–üæ-
+T	php:S11066"9Move this open curly brace to the beginning of next line.(…¼˜-8üƒ–üæ-
+k	php:S1808k"JPut one space between the closing parenthesis and the opening curly brace.(¼ÌÆ±øÿÿÿÿ8üƒ–üæ-
+u	php:S1488…"_Immediately return this expression instead of assigning it to the temporary variable "$result".(·å­Ú
+f	php:S1808X"JPut one space between the closing parenthesis and the opening curly brace.(±¬˜8üƒ–üæ-
+`	php:S1808B"DPut one space between this "if" keyword and the opening parenthesis.(ü€ï‘8üƒ–üæ-
+f	php:S18089"JPut one space between the closing parenthesis and the opening curly brace.(ÈÿœŸ8üƒ–üæ-
+k	php:S18083"JPut one space between the closing parenthesis and the opening curly brace.(Ð¾®¤ÿÿÿÿÿ8üƒ–üæ-
+Q	php:S1808["6Put exactly one space after comma separated arguments.(³ÍÉO8üƒ–üæ-
+e	php:S18080"DPut one space between this "if" keyword and the opening parenthesis.(‚Äíçøÿÿÿÿ8üƒ–üæ-
+W	php:S1808w"6Put exactly one space after comma separated arguments.(ÕÏü˜ùÿÿÿÿ8üƒ–üæ-
+c	php:S1192!"IDefine a constant instead of duplicating this literal "regionId" 3 times.(»å§—úÿÿÿÿ
+`	php:S18089"DPut one space between this "if" keyword and the opening parenthesis.(ÈÿœŸ8üƒ–üæ-
+P	php:S1808†".Move the closing parenthesis on the next line.(õ‡åøÿÿÿÿ8üƒ–üæ-
+Z	php:S1106C"9Move this open curly brace to the beginning of next line.(·Ìîûùÿÿÿÿ8üƒ–üæ-
+Z	php:S11060"9Move this open curly brace to the beginning of next line.(‚Äíçøÿÿÿÿ8üƒ–üæ-
+J	php:S1808+".Move the closing parenthesis on the next line.(¥”Þœ8üƒ–üæ-
+U	php:S1106Y"9Move this open curly brace to the beginning of next line.(üÅù³8üƒ–üæ-
+‡	php:S1808w"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "119".(ÕÏü˜ùÿÿÿÿ8üƒ–üæ-
+6	php:S1116>"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+\	php:S1105u";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8üƒ–üæ-
+6	php:S1116;"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+R	php:S1808^"6Put exactly one space after comma separated arguments.(˜íªÐ8üƒ–üæ-
+Q	php:S18081"6Put exactly one space after comma separated arguments.(½Êí-8üƒ–üæ-
 x	php:S1488w"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
-6	php:S11160"Remove this empty statement.(ôŸŽìúÿÿÿÿ
-Kphp:S131W"7Add a "case default" clause to this "switch" statement.(üÅù³
-u	php:S1488€"_Immediately return this expression instead of assigning it to the temporary variable "$result".(·å­Ú
-6	php:S1116<"Remove this empty statement.(ôŸŽìúÿÿÿÿ
-Pphp:S131A"7Add a "case default" clause to this "switch" statement.(·Ìîûùÿÿÿÿ
-`	php:S1192"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(Ð¨û§
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8üƒ–üæ-
+Pphp:S131C"7Add a "case default" clause to this "switch" statement.(·Ìîûùÿÿÿÿ
+k	php:S1808<"JPut one space between the closing parenthesis and the opening curly brace.(æ¹ÅŽýÿÿÿÿ8üƒ–üæ-
+	php:S1488}"^Immediately return this expression instead of assigning it to the temporary variable "$model".(…úüÿÿÿÿ8üƒ–üæ-
+Q	php:S1808l"6Put exactly one space after comma separated arguments.(ÁÇâL8üƒ–üæ-
+W	php:S1808Q"6Put exactly one space after comma separated arguments.(±šÊøÿÿÿÿ8üƒ–üæ-
+j	php:S1192&"PDefine a constant instead of duplicating this literal "ableComposition" 3 times.(§ã±úÿÿÿÿ
+f	php:S1808B"JPut one space between the closing parenthesis and the opening curly brace.(ü€ï‘8üƒ–üæ-
+e	php:S18083"DPut one space between this "if" keyword and the opening parenthesis.(Ð¾®¤ÿÿÿÿÿ8üƒ–üæ-
+e	php:S1808k"DPut one space between this "if" keyword and the opening parenthesis.(¼ÌÆ±øÿÿÿÿ8üƒ–üæ-
+f	php:S1808|"JPut one space between the closing parenthesis and the opening curly brace.(ƒÅÇå8üƒ–üæ-
+o	php:S1192*"NDefine a constant instead of duplicating this literal "post_of_types" 4 times.(ë÷Áÿÿÿÿÿ8üƒ–üæ-
+x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÇáÔÐþÿÿÿÿ
+@Web:HeaderCheck"&Add or update the header of this file.8üƒ–üæ-
+Kphp:S131Y"7Add a "case default" clause to this "switch" statement.(üÅù³
+e	php:S1808<"DPut one space between this "if" keyword and the opening parenthesis.(æ¹ÅŽýÿÿÿÿ8üƒ–üæ-
+U	php:S1106m"9Move this open curly brace to the beginning of next line.(å¥ž‡8üƒ–üæ-
+R	php:S1808a"6Put exactly one space after comma separated arguments.(Ü† œ8üƒ–üæ-
+g	php:S1192+"KDefine a constant instead of duplicating this literal "directions" 4 times.(¥”Þœ8üƒ–üæ-
+R	php:S1808d"6Put exactly one space after comma separated arguments.(¥«ö¡8üƒ–üæ-
+Y	php:S1808|"=Move this open curly brace to the beginning of the next line.(ƒÅÇå8üƒ–üæ-
+6	php:S1116g"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+_	php:S1192"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(ú¸Ñ
+6	php:S1116T"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+R	php:S18084"6Put exactly one space after comma separated arguments.(üÅ¼™8üƒ–üæ-
+:php:S125,"Remove this commented out code.(àìæ8üƒ–üæ-
+R	php:S1808N"6Put exactly one space after comma separated arguments.(ž³˜Œ8üƒ–üæ-
+h	php:S1192*"GDefine a constant instead of duplicating this literal "seller" 4 times.(ë÷Áÿÿÿÿÿ8üƒ–üæ-
+l	php:S1192*"KDefine a constant instead of duplicating this literal "categories" 4 times.(ë÷Áÿÿÿÿÿ8üƒ–üæ-
+W	php:S1808:"6Put exactly one space after comma separated arguments.(™‡¯ˆÿÿÿÿÿ8üƒ–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8üƒ–üæ-
+W	php:S1808n"6Put exactly one space after comma separated arguments.(‡Ëé«ûÿÿÿÿ8üƒ–üæ-
+R	php:S1808K"6Put exactly one space after comma separated arguments.(¸ð‚¶8üƒ–üæ-
+R	php:S1808a"6Put exactly one space after comma separated arguments.(Ü† œ8üƒ–üæ-
+V	php:S1106ˆ"9Move this open curly brace to the beginning of next line.(‹æ„„8üƒ–üæ-
+k	php:S18080"JPut one space between the closing parenthesis and the opening curly brace.(‚Äíçøÿÿÿÿ8üƒ–üæ-
+`	php:S1808X"DPut one space between this "if" keyword and the opening parenthesis.(±¬˜8üƒ–üæ-
+h	php:S1192*"GDefine a constant instead of duplicating this literal "region" 5 times.(ë÷Áÿÿÿÿÿ8üƒ–üæ-
+Z	php:S11063"9Move this open curly brace to the beginning of next line.(Ð¾®¤ÿÿÿÿÿ8üƒ–üæ-

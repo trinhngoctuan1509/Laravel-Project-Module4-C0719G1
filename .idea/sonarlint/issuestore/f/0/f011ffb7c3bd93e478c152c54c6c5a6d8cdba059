@@ -1,0 +1,8 @@
+
+9Web:HeaderCheck"&Add or update the header of this file.
+g	php:S1779"ZReplace all non line feed end of line characters in this file "UserServiceImpl.php" by LF.
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+v	php:S1488"aImmediately return this expression instead of assigning it to the temporary variable "$dataUser".(æ¼€¦
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"

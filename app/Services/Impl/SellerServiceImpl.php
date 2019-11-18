@@ -24,7 +24,7 @@ class SellerServiceImpl implements SellerService
 
     public function findById($id)
     {
-        // TODO: Implement findById() method.
+
         $seller = $this->sellerRepository->findById($id);
 
         $statusCode = 200;

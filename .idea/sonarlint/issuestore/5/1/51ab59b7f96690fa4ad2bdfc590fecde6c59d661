@@ -1,6 +1,11 @@
 
 p	php:S1192"VDefine a constant instead of duplicating this literal "Nha Re Gia Phai Chang" 3 times.(ó‹÷úÿÿÿÿ
-\	php:S1192"GDefine a constant instead of duplicating this literal "userId" 4 times.(ôÇ£
-c	php:S1192&"IDefine a constant instead of duplicating this literal "comments" 4 times.(˜•¨—şÿÿÿÿ
 a	php:S1192"GDefine a constant instead of duplicating this literal "postId" 4 times.(ÅÂ¼Íÿÿÿÿÿ
+c	php:S1192&"IDefine a constant instead of duplicating this literal "comments" 4 times.(˜•¨—şÿÿÿÿ
 i	php:S1192"ODefine a constant instead of duplicating this literal "commentContent" 4 times.(ó‹÷úÿÿÿÿ
+\	php:S1192"GDefine a constant instead of duplicating this literal "userId" 4 times.(ôÇ£
+@Web:HeaderCheck"&Add or update the header of this file.8´‚–üæ-
+l	php:S1779"XReplace all non line feed end of line characters in this file "CommentSeeder.php" by LF.8´‚–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8´‚–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8´‚–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8´‚–üæ-

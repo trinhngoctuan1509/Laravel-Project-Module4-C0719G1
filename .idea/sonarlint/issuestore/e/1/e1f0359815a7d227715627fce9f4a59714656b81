@@ -1,8 +1,10 @@
 
-`	php:S1192"FDefine a constant instead of duplicating this literal "stack" 3 times.(Ù±Š‚ùÿÿÿÿ
-]	php:S1192B"HDefine a constant instead of duplicating this literal "monolog" 3 times.(“üÒš
-\	php:S1192'"GDefine a constant instead of duplicating this literal "driver" 9 times.(Ý†Ž˜
 [	php:S1192("FDefine a constant instead of duplicating this literal "daily" 3 times.(ÇµŒ±
-`	php:S1192/"FDefine a constant instead of duplicating this literal "level" 6 times.(€Ÿ¿Šùÿÿÿÿ
+]	php:S1192B"HDefine a constant instead of duplicating this literal "monolog" 3 times.(“üÒš
+`	php:S1192"FDefine a constant instead of duplicating this literal "stack" 3 times.(Ù±Š‚ùÿÿÿÿ
 b	php:S1192D"HDefine a constant instead of duplicating this literal "handler" 3 times.(Ï ÄËúÿÿÿÿ
+\	php:S1192'"GDefine a constant instead of duplicating this literal "driver" 9 times.(Ý†Ž˜
 `	php:S1192/"FDefine a constant instead of duplicating this literal "debug" 5 times.(€Ÿ¿Šùÿÿÿÿ
+`	php:S1192/"FDefine a constant instead of duplicating this literal "level" 6 times.(€Ÿ¿Šùÿÿÿÿ
+@Web:HeaderCheck"&Add or update the header of this file.8áƒ–üæ-
+f	php:S1779"RReplace all non line feed end of line characters in this file "logging.php" by LF.8áƒ–üæ-

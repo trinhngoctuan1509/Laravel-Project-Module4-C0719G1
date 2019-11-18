@@ -129,7 +129,7 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
 
     public function searchPostBasic($data)
     {
-        // TODO: Implement searchPostBasic() method.
+
         $result = $this->model->with('user','categories', 'region', 'seller', 'post_of_types',
             'status_of_posts', 'directions')
             ->where('regionId', 'like', '%' . $data['region'] . '%')

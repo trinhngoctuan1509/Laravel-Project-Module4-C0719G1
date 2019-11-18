@@ -1,4 +1,9 @@
 
+a	php:S1192"MDefine a constant instead of duplicating this literal "categoryCode" 6 times.(êÃäl
 g	php:S1192"MDefine a constant instead of duplicating this literal "categoryName" 6 times.(Ğ™“ÿøÿÿÿÿ
 `	php:S1192,"KDefine a constant instead of duplicating this literal "categories" 6 times.(Ï¾Ë
-a	php:S1192"MDefine a constant instead of duplicating this literal "categoryCode" 6 times.(êÃäl
+@Web:HeaderCheck"&Add or update the header of this file.8Ó‚–üæ-
+m	php:S1779"YReplace all non line feed end of line characters in this file "CategorySeeder.php" by LF.8Ó‚–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Ó‚–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Ó‚–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8Ó‚–üæ-

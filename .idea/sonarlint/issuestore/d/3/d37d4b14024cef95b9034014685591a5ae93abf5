@@ -1,0 +1,8 @@
+
+@Web:HeaderCheck"&Add or update the header of this file.8ç–üæ-
+e	php:S1779"QReplace all non line feed end of line characters in this file "server.php" by LF.8ç–üæ-
+C	php:S2043""Do not access "$_SERVER" directly.(±‰ğ¡ÿÿÿÿÿ8ç–üæ-
+U	php:S1106"9Move this open curly brace to the beginning of next line.(½åå8ç–üæ-
+m	php:S4833"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Š¿İ¨8ç–üæ-
+<	php:S2007
+" Move this variable into a class.(Â„Ï”8ç–üæ-

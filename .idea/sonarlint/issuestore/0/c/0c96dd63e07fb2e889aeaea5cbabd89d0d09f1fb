@@ -1,0 +1,30 @@
+
+@Web:HeaderCheck"&Add or update the header of this file.8‡‚–üæ-
+^Web:InternationalizationCheck")Define this label in the resource bundle.(ÛİçÕüÿÿÿÿ8‡‚–üæ-
+„	Web:S1829
+"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(òîÄ¹8‡‚–üæ-
+DWeb:InlineStyleCheck"Use CSS classes instead.(ğ®­üÿÿÿÿ8‡‚–üæ-
+^Web:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯M8‡‚–üæ-
+YWeb:InternationalizationCheckG")Define this label in the resource bundle.(„óİ8‡‚–üæ-
+YWeb:InternationalizationCheckI")Define this label in the resource bundle.(•»şÃ8‡‚–üæ-
+^Web:InternationalizationCheckL")Define this label in the resource bundle.(¡‘­ˆøÿÿÿÿ8‡‚–üæ-
+‰	Web:S1829X"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(‘Œ©øùÿÿÿÿ8‡‚–üæ-
+^Web:InternationalizationCheckX")Define this label in the resource bundle.(‘Œ©øùÿÿÿÿ8‡‚–üæ-
+„	Web:S1829Y"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.( ¸å¶8‡‚–üæ-
+YWeb:InternationalizationCheckY")Define this label in the resource bundle.( ¸å¶8‡‚–üæ-
+‰	Web:S1829Z"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(£…ÒÑùÿÿÿÿ8‡‚–üæ-
+^Web:InternationalizationCheckZ")Define this label in the resource bundle.(£…ÒÑùÿÿÿÿ8‡‚–üæ-
+‰	Web:S1829["hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(‡¨´¦ıÿÿÿÿ8‡‚–üæ-
+^Web:InternationalizationCheck[")Define this label in the resource bundle.(‡¨´¦ıÿÿÿÿ8‡‚–üæ-
+„	Web:S1829\"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(³¬©¢8‡‚–üæ-
+YWeb:InternationalizationCheck\")Define this label in the resource bundle.(³¬©¢8‡‚–üæ-
+‰	Web:S1829]"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(˜¢úÿÿÿÿ8‡‚–üæ-
+^Web:InternationalizationCheck]")Define this label in the resource bundle.(˜¢úÿÿÿÿ8‡‚–üæ-
+„	Web:S1829^"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(ØªŠ8‡‚–üæ-
+YWeb:InternationalizationCheck^")Define this label in the resource bundle.(ØªŠ8‡‚–üæ-
+‰	Web:S1829_"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(€ŸÉ™ûÿÿÿÿ8‡‚–üæ-
+^Web:InternationalizationCheck_")Define this label in the resource bundle.(€ŸÉ™ûÿÿÿÿ8‡‚–üæ-
+l	php:S1779"XReplace all non line feed end of line characters in this file "welcome.blade.php" by LF.8‡‚–üæ-
+:	php:S1451"&Add or update the header of this file.8‡‚–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8‡‚–üæ-
+Q	php:S2000"0Remove the extra characters before the open tag.(¾®¡×şÿÿÿÿ8‡‚–üæ-

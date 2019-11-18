@@ -1,3 +1,9 @@
 
 K	php:S1185/"1Remove this method "render" to simply inherit it.(ËÙÜ¯úÿÿÿÿ
 K	php:S1185#"1Remove this method "report" to simply inherit it.(’ŒÀôûÿÿÿÿ
+@Web:HeaderCheck"&Add or update the header of this file.8é€–üæ-
+f	php:S1779"RReplace all non line feed end of line characters in this file "Handler.php" by LF.8é€–üæ-
+\	php:S1105$";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8é€–üæ-
+\	php:S11050";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8é€–üæ-
+\	php:S1105	";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8é€–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8é€–üæ-

@@ -1,0 +1,8 @@
+
+@Web:HeaderCheck"&Add or update the header of this file.8à€–üæ-
+w	php:S1779"cReplace all non line feed end of line characters in this file "BroadcastServiceProvider.php" by LF.8à€–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8à€–üæ-
+\	php:S1105	";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8à€–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8à€–üæ-
+A	php:S2003"&Replace "require" with "require_once".(²è£D8à€–üæ-
+g	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(²è£D8à€–üæ-

@@ -1,2 +1,16 @@
 
 d	php:S1192"JDefine a constant instead of duplicating this literal "providers" 5 times.(ƒ¤¾Ÿøÿÿÿÿ
+@Web:HeaderCheck"&Add or update the header of this file.8ú–üæ-
+a	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ñúÎæşÿÿÿÿ8ú–üæ-
+a	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ƒ¤¾Ÿøÿÿÿÿ8ú–üæ-
+\	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(¥è…Ô8ú–üæ-
+a	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(‹óÜ²úÿÿÿÿ8ú–üæ-
+a	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ƒ¤¾Ÿøÿÿÿÿ8ú–üæ-
+\	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ŒÙœ¸8ú–üæ-
+a	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ƒ¤¾Ÿøÿÿÿÿ8ú–üæ-
+\	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(‘–—£8ú–üæ-
+a	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ƒ¤¾Ÿøÿÿÿÿ8ú–üæ-
+\	php:S1131""@Remove the useless trailing whitespaces at the end of this line.(½°©é8ú–üæ-
+a	php:S1131$"@Remove the useless trailing whitespaces at the end of this line.(ƒ¤¾Ÿøÿÿÿÿ8ú–üæ-
+:php:S113"'Add a new line at the end of this file.8ú–üæ-
+:	php:S1451"&Add or update the header of this file.8ú–üæ-

@@ -1,0 +1,5 @@
+
+@Web:HeaderCheck"&Add or update the header of this file.8á–üæ-
+j	php:S1779"VReplace all non line feed end of line characters in this file "LevelOfUser.php" by LF.8á–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8á–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8á–üæ-

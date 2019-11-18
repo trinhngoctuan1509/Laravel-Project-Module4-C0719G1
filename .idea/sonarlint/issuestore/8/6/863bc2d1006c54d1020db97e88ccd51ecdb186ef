@@ -1,11 +1,26 @@
 
-°	php:S2681("•This statement will not be executed conditionally; only the first statement of this 2-statement block will be. The rest will execute unconditionally.(»µ“ ÿÿÿÿÿ
-e	php:S1192)"KDefine a constant instead of duplicating this literal "statusCode" 4 times.(ÿæàìúÿÿÿÿ
-w	php:S14888"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-w	php:S1488("]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-v	php:S1488"bImmediately return this expression instead of assigning it to the temporary variable "$customers".(àçÓc
-Dphp:S1215"0Add curly braces around the nested statement(s).(Ì·›•
-w	php:S1488L"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-_	php:S1192*"JDefine a constant instead of duplicating this literal "customers" 3 times.(ı³¶Ú
-w	php:S1488_"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-Dphp:S121%"0Add curly braces around the nested statement(s).(Ì·›•
+Dphp:S121"0Add curly braces around the nested statement(s).(Ì·›•
+w	php:S14889"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+Dphp:S121'"0Add curly braces around the nested statement(s).(Ì·›•
+w	php:S1488)"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+_	php:S1192"JDefine a constant instead of duplicating this literal "customers" 3 times.(ı³¶Ú
+w	php:S1488"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+w	php:S1488I"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+v	php:S1488"bImmediately return this expression instead of assigning it to the temporary variable "$customers".(àçÓc
+e	php:S1192"KDefine a constant instead of duplicating this literal "statusCode" 4 times.(ÿæàìúÿÿÿÿ
+@Web:HeaderCheck"&Add or update the header of this file.8–üæ-
+b	php:S1808"FAdd a blank line after this "namespace App\Services\Impl" declaration.(Æú¦ê8–üæ-
+O	php:S1808".Add a blank line after this "use" declaration.(Ñş÷†ıÿÿÿÿ8–üæ-
+r	php:S1779"^Replace all non line feed end of line characters in this file "CustomerServiceImpl.php" by LF.8–üæ-
+U	php:S11065"9Move this open curly brace to the beginning of next line.(å¥‡8–üæ-
+Z	php:S11062"9Move this open curly brace to the beginning of next line.(¯Ùà®şÿÿÿÿ8–üæ-
+U	php:S1106D"9Move this open curly brace to the beginning of next line.(ˆñŸ™8–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8–üæ-
+\	php:S1105$";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8–üæ-
+\	php:S11050";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8–üæ-
+\	php:S1105@";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8–üæ-
+:	php:S1451"&Add or update the header of this file.8–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8–üæ-

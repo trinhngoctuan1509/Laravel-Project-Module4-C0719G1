@@ -1,0 +1,5 @@
+
+@Web:HeaderCheck"&Add or update the header of this file.8Ç–üæ-
+n	php:S1779"ZReplace all non line feed end of line characters in this file "VerifyCsrfToken.php" by LF.8Ç–üæ-
+\	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ8Ç–üæ-
+^	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"8Ç–üæ-

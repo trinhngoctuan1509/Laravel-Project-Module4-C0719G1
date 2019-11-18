@@ -193,7 +193,7 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         return $model;
     }
     public function findByIdAllpost($id){
-        $model=$this->model->with('categories', 'region', 'seller', 'post_of_types',
+        $model=$this->model->with('user','categories', 'region', 'seller', 'post_of_types',
             'status_of_posts', 'directions')->find($id);
         return $model;
     }

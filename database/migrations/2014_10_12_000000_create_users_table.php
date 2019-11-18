@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('phoneNumber');
             $table->integer('statusOfUserId');
             $table->integer('levelOfUserId');
-            $table->string('imageAvatarOfUser');
+            $table->string('imageAvatarOfUser')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();

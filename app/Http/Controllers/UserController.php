@@ -41,5 +41,7 @@ class UserController extends Controller
         $user = $this->userService->getUser($request);
         return $user;
 
+
     }
+
 }

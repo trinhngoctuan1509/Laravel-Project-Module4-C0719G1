@@ -31,7 +31,7 @@ Route::put('/customers/{customerId}', 'CustomerController@update')->name('custom
 Route::delete('/customers/{customerId}', 'CustomerController@destroy')->name('customers.destroy');
 
 // API login with email
-Route::post('/login','UserController@login')->name('user.login');
+Route::post('/login','LoginController@login')->name('user.login');
 
 //APi register User
 Route::post('/register','UserController@register')->name('user.register');

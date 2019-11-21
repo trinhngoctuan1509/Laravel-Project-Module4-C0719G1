@@ -25,8 +25,8 @@ class UserController extends Controller
         $data = $this->userService->register($request);
         return $data;
     }
-    public function getUser(){
-        $user = $this->userService->getUser();
+    public function getUser(Request $request){
+        $user = $this->userService->getUser($request);
         return $user;
     }
 }

@@ -8,6 +8,7 @@ use App\Repositories\Eloquent\EloquentRepository;
 use App\Repositories\UserRepository;
 use App\User;
 use Illuminate\Support\Facades\Auth;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
 class UserRepositoryImpl extends EloquentRepository implements UserRepository
 {
@@ -16,6 +17,13 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
      * get Model
      * @return string
      */
+    protected $user;
+
+    public function __construct()
+    {
+        $this->user = JWTAuth::parseToken()->authenticate();
+    }
+
     public function getModel()
     {
         $model = User::class;
@@ -69,9 +77,17 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         return $object;
     }
 
+<<<<<<< HEAD
     public function getAllUsers()
     {
         $users = $this->model->with('status_of_users','level_of_users')->get();
         return $users;
+=======
+    public function getUser($data)
+    {
+        $user = JWTAuth::authenticate($data->token);
+
+        return response()->json($user);
+>>>>>>> d217168227af7dc80fc5752e5898532306a74b2f
     }
 }

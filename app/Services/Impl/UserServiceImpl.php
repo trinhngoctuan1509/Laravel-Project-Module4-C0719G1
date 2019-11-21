@@ -28,9 +28,16 @@ class UserServiceImpl implements UserService
         return $dataUser;
     }
 
+<<<<<<< HEAD
     public function getAllUsers()
     {
         $users =$this->userRepository->getAllUsers();
         return $users;
+=======
+    public function getUser($data)
+    {
+        $user=$this->userRepository->getUser($data);
+        return $user;
+>>>>>>> d217168227af7dc80fc5752e5898532306a74b2f
     }
 }

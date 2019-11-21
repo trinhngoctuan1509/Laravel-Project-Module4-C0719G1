@@ -2,12 +2,11 @@
 
 
 namespace App\Repositories\Impl;
-
-use App\Category;
-use App\Repositories\CategoryReponsitory;
+use App\Direction;
+use App\Repositories\DirectionRepository;
 use App\Repositories\Eloquent\EloquentRepository;
 
-class CategoryReponsitoryImpl extends EloquentRepository implements CategoryReponsitory
+class DirectionRepositoryImpl extends  EloquentRepository implements  DirectionRepository
 {
 
     /**
@@ -17,7 +16,7 @@ class CategoryReponsitoryImpl extends EloquentRepository implements CategoryRepo
     public function getModel()
     {
 
-        $model = Category::class;
+        $model = Direction::class;
         return $model;
     }
 }

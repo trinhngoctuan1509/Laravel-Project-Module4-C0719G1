@@ -17,8 +17,25 @@ class RegionServiceImpl implements RegionService
 
     public function getAll()
     {
-        // TODO: Implement getAll() method.
+
         $region = $this->regionRepository->getAll();
         return $region;
+    }
+
+    public function findById($id)
+    {
+
+        $region = $this->regionRepository->findById($id);
+
+        $statusCode = 200;
+        if (!$region) {
+            $statusCode = 404;
+        }
+        $data = [
+            'statusCode' => $statusCode,
+            'region' => $region
+        ];
+
+        return $data;
     }
 }

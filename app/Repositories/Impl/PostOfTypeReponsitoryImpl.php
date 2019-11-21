@@ -2,12 +2,11 @@
 
 
 namespace App\Repositories\Impl;
-
-use App\Category;
-use App\Repositories\CategoryReponsitory;
+use App\PostOfType;
+use App\Repositories\PostOfTypeReponsitory;
 use App\Repositories\Eloquent\EloquentRepository;
 
-class CategoryReponsitoryImpl extends EloquentRepository implements CategoryReponsitory
+class PostOfTypeReponsitoryImpl extends EloquentRepository implements PostOfTypeReponsitory
 {
 
     /**
@@ -17,7 +16,7 @@ class CategoryReponsitoryImpl extends EloquentRepository implements CategoryRepo
     public function getModel()
     {
 
-        $model = Category::class;
+        $model = PostOfType::class;
         return $model;
     }
 }

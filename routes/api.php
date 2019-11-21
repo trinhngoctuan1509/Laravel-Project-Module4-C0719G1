@@ -43,6 +43,8 @@ Route::get('/posts', 'PostController@index')->name('posts.all');
 Route::get('/posts/{postId}', 'PostController@show')->name('posts.show');
 Route::post('/posts', 'PostController@store')->name('posts.store');
 Route::post('/searchPostGeneral', 'PostController@searchPostGeneral')->name('posts.searchPostGeneral');
+Route::post('/searchPostByTitle', 'PostController@searchPostByTitle')->name('posts.searchPostByTitle');
+Route::post('/searchPostByFengshui', 'PostController@searchPostByFengshui')->name('posts.searchPostByFengshui');
 Route::put('/posts/{postId}', 'PostController@update')->name('posts.update');
 Route::delete('/posts/{postId}', 'PostController@destroy')->name('posts.destroy');
 
@@ -52,9 +54,25 @@ Route::post('posts/searchPostBasic', 'PostController@searchPostBasic')->name('po
 
 // Get All Post
 Route::get('/postsAll', 'PostController@getAllPost')->name('posts.all');
+Route::get('/postsAll/{postId}', 'PostController@showAllpost')->name('postsAll.showAll');
 
 // Categories
 Route::get('/categories', 'CategoryController@index')->name('categories.all');
-
+Route::get('/categories/{categoryID}', 'CategoryController@show')->name('categories.show');
 // Region
 Route::get('/region', 'RegionController@index')->name('region.all');
+Route::get('/region/{regionId}', 'RegionController@show')->name('region.show');
+//Seller
+Route::get('/seller', 'SellerController@index')->name('seller.all');
+Route::get('/seller/{sellerId}', 'SellerController@show')->name('seller.show');
+
+//PostOfType
+Route::get('/postOfType', 'PostOfTypeController@index')->name('PostOfType.all');
+Route::get('/postOfType/{postOfTypeId}', 'PostOfTypeController@show')->name('postOfType.show');
+//PostOfType
+Route::get('/statusOfPost', 'StatusOfPostController@index')->name('statusOfPost.all');
+Route::get('/statusOfPost/{statusOfPostId}', 'StatusOfPostController@show')->name('statusOfPost.show');
+
+//
+Route::get('/direction', 'DirectionController@index')->name('direction.all');
+Route::get('/direction/{directionId}', 'DirectionController@show')->name('direction.show');

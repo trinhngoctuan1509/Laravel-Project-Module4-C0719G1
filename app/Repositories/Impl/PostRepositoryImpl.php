@@ -12,6 +12,7 @@ namespace App\Repositories\Impl;
 use App\Post;
 use App\Repositories\PostRepository;
 use App\Repositories\Eloquent\EloquentRepository;
+use Illuminate\Support\Facades\Auth;
 
 class PostRepositoryImpl extends EloquentRepository  implements PostRepository
 {
@@ -25,6 +26,10 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         return $model;
     }
 
+
+//    *********************************************************************
+//    ******************** Start Search Post General **********************
+//    *********************************************************************
     public function searchPostGeneral($conditionsOfSearchPostGeneral)
     {
         $categoryId = $conditionsOfSearchPostGeneral['categoryId'];
@@ -32,16 +37,22 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         $postOfTypeId = $conditionsOfSearchPostGeneral['postOfTypeId'];
         $regionId = $conditionsOfSearchPostGeneral['regionId'];
         $sellerId = $conditionsOfSearchPostGeneral['sellerId'];
-        $statusId = $conditionsOfSearchPostGeneral['statusId'];
+        $statusOfPostId = $conditionsOfSearchPostGeneral['statusOfPostId'];
         $areaRangeId = $conditionsOfSearchPostGeneral['areaRangeId'];
         $priceRangeId = $conditionsOfSearchPostGeneral['priceRangeId'];
         $ableComposition = $conditionsOfSearchPostGeneral['ableComposition'];
 
 
-        //        **************** Lọc Theo Category ******************
-        $posts = $this->model::where('categoryId','=',$categoryId)->get();
+        //        **************** Nối bảng ******************
+        $posts = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions');
 
 
+//        //        **************** Lọc Theo Category ******************
+        if($categoryId!=0){
+            $posts = $posts->where('categoryId','=',$categoryId);
+        }
+//
         //        ***** Lọc Theo Hướng, Loại Tin, Khu Vực, Người Đăng Tin, Trạng Thái Sử Dụng *****
         if($directionId!=0){
             $posts = $posts->where('directionId','=',$directionId);
@@ -55,8 +66,8 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         if($sellerId!=0){
             $posts = $posts->where('sellerId','=',$sellerId);
         };
-        if($statusId!=0){
-            $posts = $posts->where('statusId','=',$statusId);
+        if($statusOfPostId!=0){
+            $posts = $posts->where('statusOfPostId','=',$statusOfPostId);
         };
 
 
@@ -64,19 +75,19 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         if($priceRangeId!=0){
         switch ($priceRangeId) {
             case 1:
-                $posts = $posts->where('price','<',5);
+                $posts = $posts->where('price','<',5000000);
                 break;
             case 2:
-                echo $posts = $posts->where('price','>=',5)->where('price','<=',10);
+                $posts = $posts->where('price','>=',5000000)->where('price','<=',10000000);
                 break;
             case 3:
-                $posts = $posts->where('price','>=',10)->where('price','<=',20);
+                $posts = $posts->where('price','>=',10000000)->where('price','<=',20000000);
                 break;
             case 4:
-                $posts = $posts->where('price','>=',20)->where('price','<=',50);
+                $posts = $posts->where('price','>=',20000000)->where('price','<=',50000000);
                 break;
             case 5:
-                $posts = $posts->where('price','>',50);
+                $posts = $posts->where('price','>',50000000);
                 break;
             }
         };
@@ -103,28 +114,94 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
 
         //        **************** Lọc Theo Có Thể Trả Giá *******************
         if($ableComposition){
-            $posts = $posts->where('ableComposition','=',1);
+            $posts = $posts->where('ableComposition','=',1)->get();
         }else{
-            $posts = $posts->where('ableComposition','=',0);
+            $posts = $posts->where('ableComposition','=',0)->get();
         }
-
         return $posts;
     }
+    //    *********************************************************************
+    //    ******************** End Search Post General ************************
+    //    *********************************************************************
+
+
+
+
+    //    *********************************************************************
+    //    ******************** Start Search Post By Title *********************
+    //    *********************************************************************
+    public function searchPostByTitle($keywordOfSearchPostByTitle){
+        $title = $keywordOfSearchPostByTitle['title'];
+        $posts = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions')->where('title','like','%'.$title.'%')->get();
+        return $posts;
+    }
+    //    *********************************************************************
+    //    ******************** End Search Post By Title ***********************
+    //    *********************************************************************
+
+
+
+
+
+    //    *********************************************************************
+    //    ******************** Start Search Post By Fengshui *********************
+    //    *********************************************************************
+    public function searchPostByFengshui($conditionsOfSearchPostByFengshui){
+        $yearOfBirth = $conditionsOfSearchPostByFengshui['yearOfBirth'];
+        $gender = $conditionsOfSearchPostByFengshui['gender'];
+        $numberOfFengshui = $yearOfBirth%4;
+        $directionIdOfFengshui = null;
+
+        if($gender == 1){
+            switch ($numberOfFengshui){
+                case 0: $directionIdOfFengshui=1; break;
+                case 1: $directionIdOfFengshui=2; break;
+                case 2: $directionIdOfFengshui=3; break;
+                case 3: $directionIdOfFengshui=4; break;
+            }
+        }else{
+            switch ($numberOfFengshui){
+                case 0: $directionIdOfFengshui=5; break;
+                case 1: $directionIdOfFengshui=6; break;
+                case 2: $directionIdOfFengshui=7; break;
+                case 3: $directionIdOfFengshui=8; break;
+        }}
+
+        $posts = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions')->where('directionId','=',$directionIdOfFengshui)->get();
+        return $posts;
+
+    }
+
+    //    *********************************************************************
+    //    ******************** End Search Post By Fengshui *********************
+    //    *********************************************************************
+
+
+
+
+
 
     // Lấy Tất cả các các bài đăng -- Nối bảng
     public function getAllPost()
     {
-        // TODO: Implement getAllPost() method.
-        $model = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+
+        $model = $this->model->with('user','categories', 'region', 'seller', 'post_of_types',
             'status_of_posts', 'directions')->get();
 
+        return $model;
+    }
+    public function findByIdAllpost($id){
+        $model=$this->model->with('user','categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions')->find($id);
         return $model;
     }
 
     public function searchPostBasic($data)
     {
-        // TODO: Implement searchPostBasic() method.
-        $result = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+
+        $result = $this->model->with('user','categories', 'region', 'seller', 'post_of_types',
             'status_of_posts', 'directions')
             ->where('regionId', 'like', '%' . $data['region'] . '%')
             ->where(function ($query) use ($data) {

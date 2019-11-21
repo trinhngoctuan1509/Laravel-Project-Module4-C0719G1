@@ -3,11 +3,10 @@
 
 namespace App\Repositories\Impl;
 
-use App\Category;
-use App\Repositories\CategoryReponsitory;
+use App\StatusOfPost;
 use App\Repositories\Eloquent\EloquentRepository;
-
-class CategoryReponsitoryImpl extends EloquentRepository implements CategoryReponsitory
+use App\Repositories\StatusOfPostRepository;
+class StatusOfPostRepositoryImpl extends  EloquentRepository implements  StatusOfPostRepository
 {
 
     /**
@@ -17,7 +16,7 @@ class CategoryReponsitoryImpl extends EloquentRepository implements CategoryRepo
     public function getModel()
     {
 
-        $model = Category::class;
+        $model = StatusOfPost::class;
         return $model;
     }
 }

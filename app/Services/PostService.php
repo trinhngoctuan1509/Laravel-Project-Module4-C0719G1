@@ -24,6 +24,11 @@ interface PostService
     public function searchPostGeneral($conditionsOfSearchPostGeneral);
 
     public function getAllPosts();
+    public function findByIdAllpost($id);
 
     public function searchPostBasic($data);
+
+    public function searchPostByTitle($keywordOfSearchPostByTitle);
+
+    public function searchPostByFengshui($conditionsOfSearchPostByFengshui);
 }

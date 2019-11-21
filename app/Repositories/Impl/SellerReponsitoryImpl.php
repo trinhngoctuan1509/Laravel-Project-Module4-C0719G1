@@ -3,11 +3,11 @@
 
 namespace App\Repositories\Impl;
 
-use App\Category;
-use App\Repositories\CategoryReponsitory;
+use App\Seller;
 use App\Repositories\Eloquent\EloquentRepository;
+use App\Repositories\SellerReponsitory;
 
-class CategoryReponsitoryImpl extends EloquentRepository implements CategoryReponsitory
+class SellerReponsitoryImpl extends EloquentRepository implements SellerReponsitory
 {
 
     /**
@@ -17,7 +17,7 @@ class CategoryReponsitoryImpl extends EloquentRepository implements CategoryRepo
     public function getModel()
     {
 
-        $model = Category::class;
+        $model = Seller::class;
         return $model;
     }
 }

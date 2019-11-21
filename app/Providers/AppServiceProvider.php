@@ -3,9 +3,14 @@
 namespace App\Providers;
 
 
+use App\Repositories\Impl\LoginReponsitoryImpl;
 use App\Repositories\Impl\UserRepositoryImpl;
+use App\Repositories\LoginReponsitory;
 use App\Repositories\UserRepository;
+
+use App\Services\Impl\LoginServiceImpl;
 use App\Services\Impl\UserServiceImpl;
+use App\Services\LoginService;
 use App\Services\UserService;
 
 use App\Repositories\CustomerRepository;
@@ -150,6 +155,14 @@ class AppServiceProvider extends ServiceProvider
             UserService::class,
             UserServiceImpl::class
 
+        );
+        $this->app->singleton(
+            LoginReponsitory::class,
+            LoginReponsitoryImpl::class
+        );
+        $this->app->singleton(
+            LoginService::class,
+            LoginServiceImpl::class
         );
     }
 

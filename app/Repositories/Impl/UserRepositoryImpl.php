@@ -69,9 +69,9 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         return $object;
     }
 
-    public function getUser()
+    public function getAllUsers()
     {
-        $user= Auth::user();
-        return $user;
+        $users = $this->model->with('status_of_users','level_of_users')->get();
+        return $users;
     }
 }

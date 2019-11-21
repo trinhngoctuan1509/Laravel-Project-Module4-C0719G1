@@ -42,4 +42,10 @@ class User extends Authenticatable
     function post(){
         return $this->hasMany('App\Post','userId');
     }
+
+    public function status_of_users(){
+        return $this->belongsTo('App\statusOfUser','statusOfUserId')->select(array('id', 'statusOfUserName'));
+    }public function level_of_users(){
+        return $this->belongsTo('App\LevelOfUser','levelOfUserId')->select(array('id', 'userLevelOfName'));
+    }
 }

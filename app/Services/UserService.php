@@ -8,5 +8,5 @@ interface UserService
 {
     public function login($data);
     public function register($data);
-    public function getUser();
+    public function getAllUsers();
 }

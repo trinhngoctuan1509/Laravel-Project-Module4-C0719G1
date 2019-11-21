@@ -37,12 +37,8 @@ Route::post('/login','LoginController@login')->name('user.login');
 Route::post('/register','UserController@register')->name('user.register');
 //API get user
 Route::get('/getAllUsers','UserController@getAllUsers')->name('user.getAllUsers');
-<<<<<<< HEAD
 Route::get('/getuser','UserController@getUser')->name('user.getAllUsers');
-
-=======
 Route::get('/getUserById/{id}','UserController@getUserById')->name('user.getUserById');
->>>>>>> da74f5240eb74707b1251521359da0e5cd05b2c7
 
 
 Route::get('/posts', 'PostController@index')->name('posts.all');

@@ -15,13 +15,20 @@ class StatusOfUserSeeder extends Seeder
             'statusOfUserCode' => 'SOUC00001',
             'statusOfUserName' => 'Đang Hoạt Động'
         ];
-
         $data2 = [
             'statusOfUserCode' => 'SOUC00002',
-            'statusOfUserName' => 'Đã Bị Khóa'
+            'statusOfUserName' => 'Đang Bị Khóa'
         ];
+        $data3 = [
+            'statusOfUserCode' => 'SOUC00003',
+            'statusOfUserName' => 'Đang Chờ Confirm'
+        ];
+
+
+
 
         DB::table('status_of_users')->insert($data1);
         DB::table('status_of_users')->insert($data2);
+        DB::table('status_of_users')->insert($data3);
     }
 }

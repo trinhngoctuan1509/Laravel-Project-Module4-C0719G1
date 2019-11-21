@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->integer('levelOfUserId');
             $table->string('imageAvatarOfUser')->nullable();
             $table->string('password');
+            $table->string('reasonLocked')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

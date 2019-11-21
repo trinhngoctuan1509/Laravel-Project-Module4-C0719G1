@@ -58,6 +58,7 @@ class User extends Authenticatable implements JWTSubject
     public function getJWTCustomClaims()
     {
         return [];
+    }
 
 
     function post(){
@@ -67,7 +68,9 @@ class User extends Authenticatable implements JWTSubject
 
     public function status_of_users(){
         return $this->belongsTo('App\statusOfUser','statusOfUserId')->select(array('id', 'statusOfUserName'));
-    }public function level_of_users(){
+    }
+
+    public function level_of_users(){
         return $this->belongsTo('App\LevelOfUser','levelOfUserId')->select(array('id', 'userLevelOfName'));
     }
 }

@@ -20,11 +20,13 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
     protected $user1;
 
 
+
     public function getModel()
     {
         $model = User::class;
         return $model;
     }
+
 
 
 
@@ -61,7 +63,17 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         $users = $this->model->with('status_of_users', 'level_of_users')->get();
         return $users;
     }
+
+
+    public function getUserById($id){
+        $users = $this->model->with('status_of_users', 'level_of_users');
+        $users = $users->where('id','=',$id)->get();
+        return $users;
+    }
+
+
     public function getUser($data)
+
     {
         $this->user1 = JWTAuth::parseToken()->authenticate();
         $user = JWTAuth::authenticate($data->token);

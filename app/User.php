@@ -59,6 +59,10 @@ class User extends Authenticatable implements JWTSubject
     {
         return [];
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> da74f5240eb74707b1251521359da0e5cd05b2c7
 
     function post(){
         return $this->hasMany('App\Post','userId');
@@ -67,7 +71,9 @@ class User extends Authenticatable implements JWTSubject
 
     public function status_of_users(){
         return $this->belongsTo('App\statusOfUser','statusOfUserId')->select(array('id', 'statusOfUserName'));
-    }public function level_of_users(){
+    }
+
+    public function level_of_users(){
         return $this->belongsTo('App\LevelOfUser','levelOfUserId')->select(array('id', 'userLevelOfName'));
     }
 }

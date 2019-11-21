@@ -30,7 +30,9 @@ class UserServiceImpl implements UserService
 
     public function getUser()
     {
+
         $user = $this->userRepository->getUser();
+
         return $user;
     }
 }

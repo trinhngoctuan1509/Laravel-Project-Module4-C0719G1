@@ -104,6 +104,17 @@ class PostServiceImpl implements PostService
         return $posts;
     }
 
+    public function searchPostByTitle($keywordOfSearchPostByTitle){
+        $post = $this->postRepository->searchPostByTitle($keywordOfSearchPostByTitle);
+        return $post;
+    }
+
+    public function searchPostByFengshui($conditionsOfSearchPostByFengshui)
+    {
+        $post = $this->postRepository->searchPostByFengshui($conditionsOfSearchPostByFengshui);
+        return $post;
+    }
+
     public function getAllPosts()
     {
 

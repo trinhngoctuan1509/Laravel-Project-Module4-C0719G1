@@ -18,4 +18,5 @@ interface PostRepository extends Repository
     public function findByIdAllpost($id);
     public function searchPostBasic($data);
     public function getAllPostOfUserByUserId($id);
+
 }

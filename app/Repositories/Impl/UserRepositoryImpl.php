@@ -28,6 +28,8 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
     }
 
 
+
+
     public function register($data)
     {
         try {
@@ -62,18 +64,20 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         return $users;
     }
 
+
     public function getUserById($id){
         $users = $this->model->with('status_of_users', 'level_of_users');
         $users = $users->where('id','=',$id)->get();
         return $users;
     }
 
+
     public function getUser($data)
     {
         $this->user1 = JWTAuth::parseToken()->authenticate();
         $user = JWTAuth::authenticate($data->token);
-
         return response()->json($user);
 
     }
+
 }

@@ -212,4 +212,16 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
             ->get();
         return $result;
     }
+
+
+
+
+    //    *********************************************************************
+    //    ***************** Get tất cả bài Post bằng UserId *******************
+    //    *********************************************************************
+    public function getAllPostOfUserByUserId($id){
+        $posts = $this->model->with('categories', 'region', 'seller', 'post_of_types',
+            'status_of_posts', 'directions')->where('userId','=',$id)->get();
+        return $posts;
+    }
 }

@@ -78,3 +78,7 @@ Route::get('/statusOfPost/{statusOfPostId}', 'StatusOfPostController@show')->nam
 //
 Route::get('/direction', 'DirectionController@index')->name('direction.all');
 Route::get('/direction/{directionId}', 'DirectionController@show')->name('direction.show');
+
+
+// Get tất cả bài Post bằng UserID
+Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId');

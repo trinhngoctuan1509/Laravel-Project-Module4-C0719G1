@@ -73,7 +73,6 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
 
     public function getUser($data)
-
     {
         $this->user1 = JWTAuth::parseToken()->authenticate();
         $user = JWTAuth::authenticate($data->token);

@@ -31,4 +31,6 @@ interface PostService
     public function searchPostByTitle($keywordOfSearchPostByTitle);
 
     public function searchPostByFengshui($conditionsOfSearchPostByFengshui);
+
+    public function getAllPostOfUserByUserId($id);
 }

@@ -14,5 +14,4 @@ public function getAllUsers();
 public function getUserById($id);
 
 public function getUser($data);
-
 }

@@ -31,6 +31,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -54,6 +55,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -77,6 +79,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -100,6 +103,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -123,6 +127,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -146,6 +151,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -169,6 +175,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -192,6 +199,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -215,6 +223,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -238,6 +247,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -261,6 +271,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -284,6 +295,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -307,6 +319,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 
@@ -330,6 +343,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'ableComposition' => true
         ];
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Services\UserService;
 use Illuminate\Http\Request;
+use App\Http\Requests\Register;
 
 class UserController extends Controller
 
@@ -18,6 +19,10 @@ class UserController extends Controller
     public function login(Request $request)
     {
         $data = $this->userService->login($request);
+        return $data;
+    }
+    public  function register(Register $request){
+        $data = $this->userService->register($request);
         return $data;
     }
 }

@@ -1,19 +1,0 @@
-
-j	php:S1192&"PDefine a constant instead of duplicating this literal "ableComposition" 3 times.(øîœ¸şÿÿÿÿ
-6	php:S11163"Remove this empty statement.(ôŸìúÿÿÿÿ
-6	php:S1116R"Remove this empty statement.(ôŸìúÿÿÿÿ
-6	php:S1116e"Remove this empty statement.(ôŸìúÿÿÿÿ
-I	php:S1135"4Complete the task associated to this "TODO" comment.(Ë‰æü
-6	php:S11166"Remove this empty statement.(ôŸìúÿÿÿÿ
-^	php:S1192!"IDefine a constant instead of duplicating this literal "regionId" 3 times.(øÆºÛ
-x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÇáÔĞşÿÿÿÿ
-6	php:S11169"Remove this empty statement.(ôŸìúÿÿÿÿ
-[	php:S1192C"FDefine a constant instead of duplicating this literal "price" 8 times.(¿¸„ÿ
-a	php:S1192w"GDefine a constant instead of duplicating this literal "region" 3 times.(ÕÏü˜ùÿÿÿÿ
-x	php:S1488w"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
-6	php:S11160"Remove this empty statement.(ôŸìúÿÿÿÿ
-Kphp:S131W"7Add a "case default" clause to this "switch" statement.(üÅù³
-u	php:S1488€"_Immediately return this expression instead of assigning it to the temporary variable "$result".(·å­Ú
-6	php:S1116<"Remove this empty statement.(ôŸìúÿÿÿÿ
-Pphp:S131A"7Add a "case default" clause to this "switch" statement.(·Ìîûùÿÿÿÿ
-`	php:S1192"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(Ğ¨û§

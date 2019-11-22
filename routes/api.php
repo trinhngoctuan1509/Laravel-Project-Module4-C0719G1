@@ -31,10 +31,14 @@ Route::put('/customers/{customerId}', 'CustomerController@update')->name('custom
 Route::delete('/customers/{customerId}', 'CustomerController@destroy')->name('customers.destroy');
 
 // API login with email
-Route::post('/login','UserController@login')->name('user.login');
+Route::post('/login','LoginController@login')->name('user.login');
 
 //APi register User
 Route::post('/register','UserController@register')->name('user.register');
+//API get user
+Route::get('/getAllUsers','UserController@getAllUsers')->name('user.getAllUsers');
+Route::get('/getuser','UserController@getUser')->name('user.getAllUsers');
+Route::get('/getUserById/{id}','UserController@getUserById')->name('user.getUserById');
 
 
 Route::get('/posts', 'PostController@index')->name('posts.all');

@@ -34,6 +34,7 @@ class CreatePostsTable extends Migration
             $table->string('imagePost4')->nullable();
             $table->string('imagePost5')->nullable();
             $table->string('imagePost6')->nullable();
+            $table->integer('post_availability_status_id')->default(1);
             $table->boolean('ableComposition')->default(false);
             $table->timestamps();
         });

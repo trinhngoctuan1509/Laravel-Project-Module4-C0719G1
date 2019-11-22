@@ -21,6 +21,7 @@ class ForeignKeyPost extends Migration
             $table->foreign('postOfTypeId')->references('id')->on('post_of_types');
             $table->foreign('statusOfPostId')->references('id')->on('status_of_posts');
             $table->foreign('directionId')->references('id')->on('directions');
+            $table->foreign('post_availability_status_id')->references('id')->on('post_availability_status');
         });
     }
 

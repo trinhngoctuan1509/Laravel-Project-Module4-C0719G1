@@ -1,0 +1,8 @@
+
+~	php:S1488J"]Immediately return this expression instead of assigning it to the temporary variable "$user".(ãš…³üÿÿÿÿ8‰…±ãç-
+Z	php:S1192"FDefine a constant instead of duplicating this literal "email" 4 times.(ôÖx
+c	php:S1192"IDefine a constant instead of duplicating this literal "password" 4 times.(òŸê™ıÿÿÿÿ
+x	php:S1488$"\Immediately return this expression instead of assigning it to the temporary variable "$mes".(Ÿ¹å¸8¦Ğ‘åç-
+v	php:S1488("\Immediately return this expression instead of assigning it to the temporary variable "$mes".(şÏ¢¢úÿÿÿÿ
+s	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(Ïšêø
+O	php:S14817"5Remove this unused "$passwordConfirm" local variable.(â€£üÿÿÿÿ

@@ -8,6 +8,7 @@ use App\Repositories\Eloquent\EloquentRepository;
 use App\Repositories\UserRepository;
 use App\User;
 use Illuminate\Support\Facades\Auth;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
 class UserRepositoryImpl extends EloquentRepository implements UserRepository
 {
@@ -16,27 +17,18 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
      * get Model
      * @return string
      */
+    protected $user1;
+
+
+
     public function getModel()
     {
         $model = User::class;
         return $model;
     }
 
-    public function login($data)
-    {
-        $email = $data['email'];
-        $password = $data['password'];
-        $login = [
-            'email' => $email,
-            'password' => $password
-        ];
-        if (Auth::attempt($login)) {
-//            return Auth::user();
-        } else {
-            $mes = ["Sai tài khoản hoặc mật khẩu"];
-            return $mes;
-        }
-    }
+
+
 
     public function register($data)
     {
@@ -64,4 +56,29 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         }
         return $object;
     }
+
+
+    public function getAllUsers()
+    {
+        $users = $this->model->with('status_of_users', 'level_of_users')->get();
+        return $users;
+    }
+
+
+    public function getUserById($id){
+        $users = $this->model->with('status_of_users', 'level_of_users');
+        $users = $users->where('id','=',$id)->get();
+        return $users;
+    }
+
+
+    public function getUser($data)
+
+    {
+        $this->user1 = JWTAuth::parseToken()->authenticate();
+        $user = JWTAuth::authenticate($data->token);
+        return response()->json($user);
+
+    }
+
 }

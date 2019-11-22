@@ -6,6 +6,12 @@ namespace App\Services;
 
 interface UserService
 {
-    public function login($data);
+
     public function register($data);
+
+    public function getAllUsers();
+
+    public function getUserById($id);
+    public function getUser($data);
+
 }

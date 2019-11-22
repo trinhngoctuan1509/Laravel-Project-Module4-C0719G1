@@ -17,7 +17,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
      * get Model
      * @return string
      */
-    protected $user1;
+    protected $user;
 
 
 
@@ -75,8 +75,8 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
     public function getUser($data)
 
     {
-        $this->user1 = JWTAuth::parseToken()->authenticate();
-        $user = JWTAuth::authenticate($data->token);
+        $user = JWTAuth::parseToken()->authenticate();
+//        $user = JWTAuth::authenticate($data->token);
         return response()->json($user);
 
     }

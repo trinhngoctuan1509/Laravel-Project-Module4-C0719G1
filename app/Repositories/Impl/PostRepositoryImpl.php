@@ -212,4 +212,9 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
             ->get();
         return $result;
     }
+
+    public function getPostApproval()
+    {
+       $postApproval= $this->model->where('')
+    }
 }

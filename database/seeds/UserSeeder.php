@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use Illuminate\Support\Str;
 class UserSeeder extends Seeder
 {
     /**
@@ -17,9 +17,12 @@ class UserSeeder extends Seeder
             'address' => 'Hai Chau - Da Nang',
             'phoneNumber' => '0904529224',
             'password' => bcrypt('123'),
-            'statusOfUserId' => 1,
+            'tokenVerifymail'=>Str::random(),
+            'VerifymailId'=>'2',
+            'statusOfUserId' => 2,
             'levelOfUserId' => 2,
-            'imageAvatarOfUser' => 'tuan.png'
+            'imageAvatarOfUser' => 'tuan.png',
+            'reasonLocked' => 'Comment chửi thề, thiếu văn hóa'
         ];
 
         $data2 = [
@@ -28,9 +31,12 @@ class UserSeeder extends Seeder
             'address' => 'Hai Chau - Da Nang',
             'phoneNumber' => '0904529224',
             'password' => bcrypt('123'),
+            'tokenVerifymail'=>Str::random(),
+            'VerifymailId'=>'2',
             'statusOfUserId' => 1,
             'levelOfUserId' => 2,
-            'imageAvatarOfUser' => 'dai.png'
+            'imageAvatarOfUser' => 'dai.png',
+            'reasonLocked' => null
         ];
 
         $data3 = [
@@ -39,9 +45,12 @@ class UserSeeder extends Seeder
             'address' => 'Hai Chau - Da Nang',
             'phoneNumber' => '0904529224',
             'password' => bcrypt('123'),
-            'levelOfUserId' => 2,
-            'statusOfUserId' => 2,
-            'imageAvatarOfUser' => 'vu.png'
+            'tokenVerifymail'=>Str::random(),
+            'VerifymailId'=>'2',
+            'statusOfUserId' => 1,
+            'levelOfUserId' => 1,
+            'imageAvatarOfUser' => 'vu.png',
+            'reasonLocked' => null
         ];
 
         $data4 = [
@@ -50,9 +59,12 @@ class UserSeeder extends Seeder
             'address' => 'Hai Chau - Da Nang',
             'phoneNumber' => '0904529224',
             'password' => bcrypt('123'),
-            'levelOfUserId' => 2,
+            'tokenVerifymail'=>Str::random(),
+            'VerifymailId'=>'2',
             'statusOfUserId' => 2,
-            'imageAvatarOfUser' => 'thoa.png'
+            'levelOfUserId' => 2,
+            'imageAvatarOfUser' => 'thoa.png',
+            'reasonLocked' => null
         ];
 
 

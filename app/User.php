@@ -18,7 +18,8 @@ class User extends Authenticatable implements JWTSubject
      * @var array
      */
     protected $fillable = [
-        'fullName', 'email', 'address','phoneNumber','statusOfUserId','levelOfUserId','imageAvatarOfUser','password'
+        'fullName', 'email', 'address','phoneNumber','statusOfUserId','levelOfUserId',
+        'imageAvatarOfUser','password','tokenVerifymail','VerifymailId'
     ];
 
     /**
@@ -58,10 +59,18 @@ class User extends Authenticatable implements JWTSubject
     public function getJWTCustomClaims()
     {
         return [];
-
+    }
 
     function post(){
         return $this->hasMany('App\Post','userId');
 
+    }
+
+    public function status_of_users(){
+        return $this->belongsTo('App\statusOfUser','statusOfUserId')->select(array('id', 'statusOfUserName'));
+    }
+
+    public function level_of_users(){
+        return $this->belongsTo('App\LevelOfUser','levelOfUserId')->select(array('id', 'userLevelOfName'));
     }
 }

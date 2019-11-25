@@ -23,6 +23,4 @@ interface PostRepository extends Repository
     public function getPostApproval();
     // function get bài đăng đang đã duyệt
     public function getPostAppred();
-
-
 }

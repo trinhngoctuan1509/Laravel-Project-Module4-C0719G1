@@ -102,6 +102,4 @@ class PostController extends Controller
 
         return response()->json($postPendingApproval, 200);
     }
-
-
 }

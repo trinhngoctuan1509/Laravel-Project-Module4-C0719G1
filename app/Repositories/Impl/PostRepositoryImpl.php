@@ -13,6 +13,7 @@ use App\Post;
 use App\Repositories\PostRepository;
 use App\Repositories\Eloquent\EloquentRepository;
 use Illuminate\Support\Facades\Auth;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
 class PostRepositoryImpl extends EloquentRepository  implements PostRepository
 {
@@ -188,13 +189,13 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
     {
 
         $model = $this->model->with('user','categories', 'region', 'seller', 'post_of_types',
-            'status_of_posts', 'directions')->get();
+            'status_of_posts', 'directions')->where('post_availability_status_id',1)->get();
 
         return $model;
     }
     public function findByIdAllpost($id){
         $model=$this->model->with('user','categories', 'region', 'seller', 'post_of_types',
-            'status_of_posts', 'directions')->find($id);
+            'status_of_posts', 'directions')->where('post_availability_status_id',1)->find($id);
         return $model;
     }
 
@@ -203,6 +204,7 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
 
         $result = $this->model->with('user','categories', 'region', 'seller', 'post_of_types',
             'status_of_posts', 'directions')
+            ->where('post_availability_status_id',1)
             ->where('regionId', 'like', '%' . $data['region'] . '%')
             ->where(function ($query) use ($data) {
                 $query->where('title', 'like', '%' . $data['wordSearch'] . '%');
@@ -228,6 +230,7 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
             'status_of_posts', 'directions')->where('userId','=',$id)->get();
         return $posts;
     }
+
     // function get bài đăng đang đã duyệt
     public function getPostAppred()
     {

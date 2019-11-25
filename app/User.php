@@ -73,4 +73,6 @@ class User extends Authenticatable implements JWTSubject
     public function level_of_users(){
         return $this->belongsTo('App\LevelOfUser','levelOfUserId')->select(array('id', 'userLevelOfName'));
     }
+
+
 }

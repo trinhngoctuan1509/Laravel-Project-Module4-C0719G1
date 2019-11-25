@@ -147,6 +147,7 @@ class PostServiceImpl implements PostService
         $posts = $this->postRepository->getAllPostOfUserByUserId($id);
         return $posts;
     }
+
     // function get bài đăng đang chờ duyệt
     public function getPostApproval()
     {

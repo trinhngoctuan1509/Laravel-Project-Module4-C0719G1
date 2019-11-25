@@ -41,7 +41,7 @@ Route::post('/register','UserController@register')->name('user.register');
 Route::get('/logout','UserController@logout')->name('user.logout');
 //API get user
 Route::get('/getAllUsers','UserController@getAllUsers')->name('user.getAllUsers');
-Route::get('/getuser','UserController@getUser')->name('user.getAllUsers');
+Route::get('/getUser','UserController@getUser')->name('user.getAllUsers');
 Route::get('/getUserById/{id}','UserController@getUserById')->name('user.getUserById');
 
 
@@ -66,6 +66,13 @@ Route::post('posts/searchPostBasic', 'PostController@searchPostBasic')->name('po
 // Get All Post
 Route::get('/postsAll', 'PostController@getAllPost')->name('posts.all');
 Route::get('/postsAll/{postId}', 'PostController@showAllpost')->name('postsAll.showAll');
+//Posts Auth
+Route::post('/my-post', 'PostAuthUserController@store')->name('PostAuthUser.store');
+Route::get('/my-post', 'PostAuthUserController@getPostByUser')->name('getPostByUser');
+Route::get('/my-post/{postId}', 'PostAuthUserController@show')->name('PostAuthUser.show');
+Route::put('/my-post/{postId}', 'PostAuthUserController@update')->name('PostAuthUser.update');
+Route::delete('/my-post/{postId}', 'PostAuthUserController@destroy')->name('PostAuthUser.destroy');
+Route::post('/my-post/searchTitle', 'PostAuthUserController@searchTitlePostAuth')->name('searchTitlePostAuth');
 
 // Categories
 Route::get('/categories', 'CategoryController@index')->name('categories.all');

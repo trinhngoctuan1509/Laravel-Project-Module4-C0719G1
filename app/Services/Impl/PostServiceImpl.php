@@ -148,4 +148,5 @@ class PostServiceImpl implements PostService
         $posts = $this->postRepository->getAllPostOfUserByUserId($id);
         return $posts;
     }
+
 }

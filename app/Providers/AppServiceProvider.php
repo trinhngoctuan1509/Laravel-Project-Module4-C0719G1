@@ -60,6 +60,11 @@ use App\Repositories\Impl\DirectionRepositoryImpl;
 use App\Services\Impl\DirectionServiceImpl;
 use App\Services\DirectionService;
 
+use App\Repositories\PostAuthUserRepository;
+use App\Repositories\Impl\PostAuthUserRepositoryImpl;
+use App\Services\Impl\PostAuthUserServiceImpl;
+use App\Services\PostAuthUserService;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -163,6 +168,16 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(
             LoginService::class,
             LoginServiceImpl::class
+        );
+
+        // PostAuthUser
+        $this->app->singleton(
+            PostAuthUserRepository::class,
+            PostAuthUserRepositoryImpl::class
+        );
+        $this->app->singleton(
+            PostAuthUserService::class,
+            PostAuthUserServiceImpl::class
         );
     }
 

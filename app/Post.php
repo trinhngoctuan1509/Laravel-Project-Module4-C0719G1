@@ -8,8 +8,8 @@ class Post extends Model
 {
     protected $table = "posts";
     protected $fillable = [
-        'userId', 'title','categoryId','regionId','sellerId','postOfTypeId','statusOfPostId','address','area','directionId','contentPost','price','imagePost1',
-        'imagePost2','imagePost3','imagePost4','imagePost5','imagePost6','ableComposition'
+         'userId','title','categoryId','regionId','sellerId','postOfTypeId','statusOfPostId','address','area','directionId','contentPost','price','imagePost1',
+        'imagePost2','imagePost3','imagePost4','imagePost5','imagePost6','ableComposition','post_availability_status_id'
     ];
     public function categories(){
         return $this->belongsTo('App\Category','categoryId')->select(array('id', 'categoryName'));
@@ -31,5 +31,8 @@ class Post extends Model
     }
     public function user(){
         return $this->belongsTo('App\User','userId');
+    }
+    public function post_availability_status(){
+        return $this->belongsTo('App\PostAvailabilityStatus','post_availability_status_id');
     }
 }

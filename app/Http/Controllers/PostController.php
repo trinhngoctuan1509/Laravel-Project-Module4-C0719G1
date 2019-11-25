@@ -89,4 +89,6 @@ class PostController extends Controller
         $posts = $this->postService->getAllPostOfUserByUserId($id);
         return $posts;
     }
+
+
 }

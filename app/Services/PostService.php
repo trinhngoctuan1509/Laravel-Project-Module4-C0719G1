@@ -33,4 +33,5 @@ interface PostService
     public function searchPostByFengshui($conditionsOfSearchPostByFengshui);
 
     public function getAllPostOfUserByUserId($id);
+
 }

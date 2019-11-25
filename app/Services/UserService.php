@@ -19,7 +19,11 @@ interface UserService
     public function lockUserAccount($dataLockUserAccount);
 
     public function  unlockUserAccount($userId);
-    
+
+    public function getNumberOfUsers();
+
+    public function findUser($keyWordForFindUser);
+
   //function logout
     public function logout($data);
 }

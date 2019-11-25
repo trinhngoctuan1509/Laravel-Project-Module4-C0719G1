@@ -73,7 +73,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
     public function getAllUsers()
     {
-        $users = $this->model->with('status_of_users', 'level_of_users')->get();
+        $users = $this->model->with('status_of_users', 'level_of_users')->paginate(3);
         return $users;
     }
 
@@ -130,5 +130,18 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
                 'message' => 'Xin lỗi! đăng xuất thất bại!'
             ], 500);
         }
+    }
+
+    public function getNumberOfUsers(){
+        $users = $this->model->get();
+        $numberOfUser = count($users);
+        return $numberOfUser;
+    }
+
+    public function findUser($keyWordForFindUser){
+        $allUsers = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%');
+        $NumberOfResultFindUser = count($allUsers);
+        $users = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%')->paginate(2);
+        return [$NumberOfResultFindUser, $users];
     }
 }

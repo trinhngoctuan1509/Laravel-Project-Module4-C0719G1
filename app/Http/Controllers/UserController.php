@@ -33,6 +33,12 @@ class UserController extends Controller
         $user = $this->userService->getUserById($id);
         return $user;
     }
+
+    public function findUser(Request $request){
+        $keyWordForFindUser = $request->keyWordForFindUser;
+        $users = $this->userService->findUser($keyWordForFindUser);
+        return $users;
+    }
 //function get user đăng nhập
     public function getUser(Request $request){
         $user = $this->userService->getUser($request);
@@ -62,5 +68,11 @@ class UserController extends Controller
         $data->save();
         $mes= "verify User thành công";
         return $mes;
+    }
+
+
+    public function getNumberOfUsers(){
+        $numberOfUsers = $this->userService->getNumberOfUsers();
+        return $numberOfUsers;
     }
 }

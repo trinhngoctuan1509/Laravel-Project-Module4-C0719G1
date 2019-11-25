@@ -33,6 +33,7 @@ interface PostService
     public function searchPostByFengshui($conditionsOfSearchPostByFengshui);
 
     public function getAllPostOfUserByUserId($id);
+    public function getNumberOfPostOfUserByUserId($id);
 
     // function get bài đăng đang chờ duyệt
     public function getPostApproval();

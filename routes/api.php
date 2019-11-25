@@ -101,3 +101,7 @@ Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId
 // Khóa tài khoản user
 Route::post('/lockUserAccount','UserController@lockUserAccount');
 Route::post('/unlockUserAccount','UserController@unlockUserAccount');
+//
+Route::post('/getNumberOfPostOfUserByUserId','PostController@getNumberOfPostOfUserByUserId');
+Route::get('/getNumberOfUsers','UserController@getNumberOfUsers');
+Route::post('/findUser','UserController@findUser');

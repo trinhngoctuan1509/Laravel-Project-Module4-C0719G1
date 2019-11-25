@@ -227,7 +227,7 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
     //    *********************************************************************
     public function getAllPostOfUserByUserId($id){
         $posts = $this->model->with('categories', 'region', 'seller', 'post_of_types',
-            'status_of_posts', 'directions','post_availability_status')->where('userId','=',$id)->get();
+            'status_of_posts', 'directions','post_availability_status')->where('userId','=',$id)->paginate(3);
         return $posts;
     }
 
@@ -236,5 +236,11 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
     {
         $postApproval = $this->model->with('post_of_types','categories')->where('post_availability_status_id','=',1)->get();
         return $postApproval;
+    }
+
+    public function getNumberOfPostOfUserByUserId($id){
+        $posts = $this->model->where('userId','=',$id)->get();
+        $numberOfPosts = count($posts);
+        return $numberOfPosts;
     }
 }

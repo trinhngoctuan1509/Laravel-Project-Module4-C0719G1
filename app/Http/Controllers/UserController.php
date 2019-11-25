@@ -49,6 +49,6 @@ class UserController extends Controller
         $data->VerifymailId=2;
         $data->save();
         $mes= "verify User thành công";
-        return $mes;
+        return redirect('http://localhost:4200/successConfirmMail');
     }
 }

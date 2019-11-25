@@ -160,4 +160,9 @@ class PostServiceImpl implements PostService
         $postPendingApproval= $this->postRepository->getPostAppred();
         return $postPendingApproval;
     }
+
+    public function getNumberOfPostOfUserByUserId($id){
+        $numberOfPost = $this->postRepository->getNumberOfPostOfUserByUserId($id);
+        return $numberOfPost;
+    }
 }

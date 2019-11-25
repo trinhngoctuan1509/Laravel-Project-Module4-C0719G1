@@ -14,6 +14,7 @@ class UserController extends Controller
     public function __construct(UserService $userService)
     {
         $this->userService = $userService;
+
     }
 
     public function login(Request $request)
@@ -43,5 +44,17 @@ class UserController extends Controller
 
 
     }
+//    public function update(Request $request, $id)
+//    {
+//        $dataEditUsers = $this->userService->update($request->all(), $id);
+//
+//        return response()->json( $dataEditUsers['editUsers'],  $dataEditUsers['statusCode']);
+//    }
 
+
+    public function EditUser(Request $request){
+        $dataEditUser = $request;
+        $messageEditUserSuccess = $this->userService->EditUser($dataEditUser);
+        return $messageEditUserSuccess;
+    }
 }

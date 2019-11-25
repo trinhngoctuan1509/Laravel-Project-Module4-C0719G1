@@ -81,4 +81,20 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
     }
 
+    public function EditUser($dataEditUser){
+        $userId = $dataEditUser->userId;
+        $fullNameNew = $dataEditUser->fullNameNew;
+        $addressNew = $dataEditUser->addressNew;
+        $phoneNumberNew = $dataEditUser->phoneNumberNew;
+
+        $user = $this->model->find($userId);
+        $user->fullName = $fullNameNew;
+        $user->address = $addressNew;
+        $user->phoneNumber = $phoneNumberNew;
+        $user->save();
+        return $user;
+    }
+
+
+
 }

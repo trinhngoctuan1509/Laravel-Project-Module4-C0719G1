@@ -49,4 +49,46 @@ class UserServiceImpl implements UserService
         return $user;
 
     }
+    public function update($request, $id)
+    {
+        $oldEditUsers = $this->userRepository->findById($id);
+
+
+        if (!$oldEditUsers) {
+            $newEditUsers = null;
+            $statusCode = 404;
+        } else {
+            $newEditUsers = $this->userRepository->update($request,$oldEditUsers);
+            $newEditUsers = $this->userRepository->findById($id);
+            $statusCode = 200;
+        }
+
+        $data = [
+            'statusCode' => $statusCode,
+            'editUsers' => $newEditUsers
+        ];
+        return $data;
+
+//        $oldPost = $this->userRepository->findById($id);
+//
+//        if (!$oldPost) {
+//            $newPost = null;
+//            $statusCode = 404;
+//        } else {
+//            $newPost = $this->userRepository->update($request, $oldPost);
+//            $statusCode = 200;
+//        }
+//
+//        $data = [
+//            'statusCode' => $statusCode,
+//            'post' => $newPost
+//        ];
+//        return $data;
+    }
+
+
+    public function EditUser($dataEditUser){
+        $messageEditUserSuccess = $this->userRepository->EditUser($dataEditUser);
+        return $messageEditUserSuccess;
+    }
 }

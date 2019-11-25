@@ -14,7 +14,12 @@ use App\Services\Impl\HelpsServiceImpl;
 
 use App\Services\Impl\LoginServiceImpl;
 
+use App\Services\Impl\loginAdminServiceImpl;
+use App\Repositories\LoginAdminReponsitory;
+use App\Repositories\Impl\loginAdminReponsitoryImpl;
+
 use App\Services\Impl\UserServiceImpl;
+use App\Services\LoginAdminService;
 use App\Services\LoginService;
 use App\Services\UserService;
 
@@ -187,6 +192,15 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(
             LoginService::class,
             LoginServiceImpl::class
+        );
+
+        $this->app->singleton(
+            LoginAdminReponsitory::class,
+            loginAdminReponsitoryImpl::class
+        );
+        $this->app->singleton(
+            LoginAdminService::class,
+            loginAdminServiceImpl::class
         );
     }
 

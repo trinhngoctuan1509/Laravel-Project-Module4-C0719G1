@@ -38,6 +38,18 @@ class UserController extends Controller
         $user = $this->userService->getUser($request);
         return $user;
     }
+
+    public function lockUserAccount(Request $request){
+        $messageLockUserAccountSuccess = $this->userService->lockUserAccount($request);
+        return $messageLockUserAccountSuccess;
+    }
+
+    public function unlockUserAccount(Request $request){
+        $userId = $request[0];
+        $messageUnlockUserAccountSuccess = $this->userService->unlockUserAccount($userId);
+        return $messageUnlockUserAccountSuccess;
+    }
+
 //function logout
     public function logout(Request $request){
         $loguot=$this->userService->logout($request);

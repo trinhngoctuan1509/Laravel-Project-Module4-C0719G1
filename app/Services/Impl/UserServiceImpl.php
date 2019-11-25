@@ -46,6 +46,16 @@ class UserServiceImpl implements UserService
 
     }
 
+    public function lockUserAccount($dataLockUserAccount){
+        $messageLockUserAccountSuccess = $this->userRepository->lockUserAccount($dataLockUserAccount);
+        return $messageLockUserAccountSuccess;
+    }
+
+    public function  unlockUserAccount($userId){
+        $messageUnlockUserAccountSuccess = $this->userRepository->unlockUserAccount($userId);
+        return $messageUnlockUserAccountSuccess;
+    }
+
 //function logout
     public function logout($data)
     {

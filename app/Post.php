@@ -32,6 +32,7 @@ class Post extends Model
     public function user(){
         return $this->belongsTo('App\User','userId');
     }
+
     public function post_availability_status(){
         return $this->belongsTo('App\PostAvailabilityStatus','post_availability_status_id');
     }

@@ -98,3 +98,6 @@ Route::get('/helps', 'HelpsController@index')->name('helps.all');
 Route::post('/helps', 'HelpsController@store')->name('helps.store');
 // Get tất cả bài Post bằng UserID
 Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId');
+// Khóa tài khoản user
+Route::post('/lockUserAccount','UserController@lockUserAccount');
+Route::post('/unlockUserAccount','UserController@unlockUserAccount');

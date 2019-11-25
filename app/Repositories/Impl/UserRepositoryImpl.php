@@ -80,4 +80,23 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
     }
 
+    public function lockUserAccount($dataLockUserAccount){
+        $userId = $dataLockUserAccount->userId;
+        $reasonLockUserAccount = $dataLockUserAccount->reasonLockUserAccount;
+
+        $user = $this->model->find($userId);
+        $user->statusOfUserId = 2;
+        $user->reasonLocked = $reasonLockUserAccount;
+        $user->save();
+        return $user;
+    }
+
+    public function  unlockUserAccount($userId){
+        $user = $this->model->find($userId);
+        $user->statusOfUserId = 1;
+        $user->reasonLocked = null;
+        $user->save();
+        return $user;
+    }
+
 }

@@ -82,3 +82,6 @@ Route::get('/direction/{directionId}', 'DirectionController@show')->name('direct
 
 // Get tất cả bài Post bằng UserID
 Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId');
+// Khóa tài khoản user
+Route::post('/lockUserAccount','UserController@lockUserAccount');
+Route::post('/unlockUserAccount','UserController@unlockUserAccount');

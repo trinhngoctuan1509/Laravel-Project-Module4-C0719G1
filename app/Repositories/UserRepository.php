@@ -16,4 +16,10 @@ public function getUserById($id);
 
 
 public function getUser($data);
+
+public function lockUserAccount($dataLockUserAccount);
+
+public function  unlockUserAccount($userId);
 }
+
+

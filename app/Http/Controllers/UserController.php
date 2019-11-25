@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Services\UserService;
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Requests\Register;
 
@@ -17,12 +18,9 @@ class UserController extends Controller
 
     }
 
-    public function login(Request $request)
+    // function đăng ký
+    public function register(Register $request)
     {
-        $data = $this->userService->login($request);
-        return $data;
-    }
-    public  function register(Register $request){
         $data = $this->userService->register($request);
         return $data;
     }
@@ -33,17 +31,32 @@ class UserController extends Controller
         return $users;
     }
 
-    public function getUserById($id){
+    public function getUserById($id)
+    {
         $user = $this->userService->getUserById($id);
         return $user;
     }
 
-    public function getUser(Request $request){
+//function get user đăng nhập
+    public function getUser(Request $request)
+    {
         $user = $this->userService->getUser($request);
         return $user;
-
-
     }
+
+    public function lockUserAccount(Request $request)
+    {
+        $messageLockUserAccountSuccess = $this->userService->lockUserAccount($request);
+        return $messageLockUserAccountSuccess;
+    }
+
+    public function unlockUserAccount(Request $request)
+    {
+        $userId = $request[0];
+        $messageUnlockUserAccountSuccess = $this->userService->unlockUserAccount($userId);
+        return $messageUnlockUserAccountSuccess;
+    }
+
 //    public function update(Request $request, $id)
 //    {
 //        $dataEditUsers = $this->userService->update($request->all(), $id);
@@ -52,9 +65,28 @@ class UserController extends Controller
 //    }
 
 
-    public function EditUser(Request $request){
+    public function EditUser(Request $request)
+    {
         $dataEditUser = $request;
         $messageEditUserSuccess = $this->userService->EditUser($dataEditUser);
         return $messageEditUserSuccess;
+    }
+
+//function logout
+    public function logout(Request $request)
+    {
+        $loguot = $this->userService->logout($request);
+        return $loguot;
+    }
+
+//funcition check đăng ký mail
+    function verifyUser($token)
+    {
+        $data = User::where('tokenVerifymail', $token)->first();
+        $data->VerifymailId = 2;
+        $data->save();
+        $mes = "verify User thành công";
+        return $mes;
+
     }
 }

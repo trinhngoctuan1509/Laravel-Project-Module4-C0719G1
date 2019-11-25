@@ -31,6 +31,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 2,
             'ableComposition' => true
         ];
@@ -55,6 +56,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -79,6 +81,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -103,6 +106,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -127,6 +131,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -151,6 +156,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 2,
             'ableComposition' => true
         ];
@@ -175,6 +181,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 3,
             'ableComposition' => true
         ];
@@ -199,6 +206,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -223,6 +231,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -247,6 +256,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -271,6 +281,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -295,6 +306,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -319,6 +331,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];
@@ -343,6 +356,7 @@ class PostSeeder extends Seeder
             'imagePost4' => 'image4.png',
             'imagePost5' => 'image5.png',
             'imagePost6' => 'image6.png',
+            'created_at' => '2019/11/02',
             'post_availability_status_id' => 1,
             'ableComposition' => true
         ];

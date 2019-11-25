@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| API Routs
 |--------------------------------------------------------------------------
 |
 | Here is where you can register API routes for your application. These
@@ -32,12 +32,16 @@ Route::delete('/customers/{customerId}', 'CustomerController@destroy')->name('cu
 
 // API login with email
 Route::post('/login','LoginController@login')->name('user.login');
+// api trong email gửi đi
+Route::get('/verifyUser/{token}','UserController@verifyUser')->name('user.verifyUser');
 
 //APi register User
 Route::post('/register','UserController@register')->name('user.register');
+//api logout user
+Route::get('/logout','UserController@logout')->name('user.logout');
 //API get user
 Route::get('/getAllUsers','UserController@getAllUsers')->name('user.getAllUsers');
-Route::get('/getuser','UserController@getUser')->name('user.getAllUsers');
+Route::get('/getUser','UserController@getUser')->name('user.getAllUsers');
 Route::get('/getUserById/{id}','UserController@getUserById')->name('user.getUserById');
 
 
@@ -52,6 +56,11 @@ Route::post('/searchPostByFengshui', 'PostController@searchPostByFengshui')->nam
 Route::put('/posts/{postId}', 'PostController@update')->name('posts.update');
 Route::delete('/posts/{postId}', 'PostController@destroy')->name('posts.destroy');
 
+//function get bài đăng đang chờ duyệt
+Route::get('/getPostApproval', 'PostController@getPostApproval')->name('posts.getPostApproval');
+//function get bài đăng đã duyệt
+Route::get('/getPostAppred', 'PostController@getPostAppred')->name('posts.getPostAppred');
+
 
 
 Route::post('posts/searchPostBasic', 'PostController@searchPostBasic')->name('posts.searchPostBasic');
@@ -59,6 +68,13 @@ Route::post('posts/searchPostBasic', 'PostController@searchPostBasic')->name('po
 // Get All Post
 Route::get('/postsAll', 'PostController@getAllPost')->name('posts.all');
 Route::get('/postsAll/{postId}', 'PostController@showAllpost')->name('postsAll.showAll');
+//Posts Auth
+Route::post('/my-post', 'PostAuthUserController@store')->name('PostAuthUser.store');
+Route::get('/my-post', 'PostAuthUserController@getPostByUser')->name('getPostByUser');
+Route::get('/my-post/{postId}', 'PostAuthUserController@show')->name('PostAuthUser.show');
+Route::put('/my-post/{postId}', 'PostAuthUserController@update')->name('PostAuthUser.update');
+Route::delete('/my-post/{postId}', 'PostAuthUserController@destroy')->name('PostAuthUser.destroy');
+Route::post('/my-post/searchTitle', 'PostAuthUserController@searchTitlePostAuth')->name('searchTitlePostAuth');
 
 // Categories
 Route::get('/categories', 'CategoryController@index')->name('categories.all');
@@ -80,9 +96,9 @@ Route::get('/statusOfPost/{statusOfPostId}', 'StatusOfPostController@show')->nam
 //
 Route::get('/direction', 'DirectionController@index')->name('direction.all');
 Route::get('/direction/{directionId}', 'DirectionController@show')->name('direction.show');
-
 Route::get('/helps', 'HelpsController@index')->name('helps.all');
 Route::post('/helps', 'HelpsController@store')->name('helps.store');
+
 
 
 // Edit User New
@@ -91,3 +107,9 @@ Route::post('/editUser','UserController@EditUser');
 Route::post('/loginAdmin','LoginAdminController@login')->name('user.loginAdmin');
 
 
+
+// Get tất cả bài Post bằng UserID
+Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId');
+// Khóa tài khoản user
+Route::post('/lockUserAccount','UserController@lockUserAccount');
+Route::post('/unlockUserAccount','UserController@unlockUserAccount');

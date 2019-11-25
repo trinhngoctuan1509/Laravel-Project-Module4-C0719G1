@@ -16,12 +16,8 @@ class UserServiceImpl implements UserService
         $this->userRepository = $userRepository;
     }
 
-    public function login($data)
-    {
-        $dataUser = $this->userRepository->login($data);
-        return $dataUser;
-    }
 
+// function đăng ký
     public function register($data)
     {
         $dataUser=$this->userRepository->register($data);
@@ -42,13 +38,14 @@ class UserServiceImpl implements UserService
         return $user;
     }
 
-
+//function get user đăng nhập
     public function getUser($data)
     {
         $user=$this->userRepository->getUser($data);
         return $user;
 
     }
+
     public function update($request, $id)
     {
         $oldEditUsers = $this->userRepository->findById($id);
@@ -90,5 +87,24 @@ class UserServiceImpl implements UserService
     public function EditUser($dataEditUser){
         $messageEditUserSuccess = $this->userRepository->EditUser($dataEditUser);
         return $messageEditUserSuccess;
+    }
+
+
+    public function lockUserAccount($dataLockUserAccount){
+        $messageLockUserAccountSuccess = $this->userRepository->lockUserAccount($dataLockUserAccount);
+        return $messageLockUserAccountSuccess;
+    }
+
+    public function  unlockUserAccount($userId){
+        $messageUnlockUserAccountSuccess = $this->userRepository->unlockUserAccount($userId);
+        return $messageUnlockUserAccountSuccess;
+    }
+
+//function logout
+    public function logout($data)
+    {
+        $loguot=$this->userRepository->logout($data);
+        return $loguot;
+
     }
 }

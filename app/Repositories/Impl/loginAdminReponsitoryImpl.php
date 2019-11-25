@@ -35,10 +35,15 @@ class loginAdminReponsitoryImpl extends EloquentRepository implements LoginAdmin
 
         if ($jwt_token = JWTAuth::attempt($login)) {
             $user = Auth::user();
-            if (!$user['levelOfUserId']==1){
+            if (!$user['statusOfUserId']==1){
                 return response()->json([
                     'success' => false,
-                    'message' => 'Tài khoản của bạn đã bị khóa',
+                    'message' => 'Tài khoản của bạn đã bị khóa bởi admin',
+                ]);
+            }elseif ($user['VerifymailId']==1){
+                return response()->json([
+                    'success' => false,
+                    'message' => 'vui lòng check email để hoàn tất đăng ký',
                 ]);
             }
             return response()->json([
@@ -50,8 +55,7 @@ class loginAdminReponsitoryImpl extends EloquentRepository implements LoginAdmin
             return response()->json([
                 'success' => false,
                 'message' => 'Tài khoản hoặc mật khẩu không đúng',
-            ], 401);
-
+            ]);
         }
     }
 }

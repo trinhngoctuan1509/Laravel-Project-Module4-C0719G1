@@ -93,6 +93,19 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
     }
 
+
+    public function EditUser($dataEditUser)
+    {
+        $userId = $dataEditUser->userId;
+        $fullNameNew = $dataEditUser->fullNameNew;
+        $addressNew = $dataEditUser->addressNew;
+        $phoneNumberNew = $dataEditUser->phoneNumberNew;
+
+        $user = $this->model->find($userId);
+        $user->fullName = $fullNameNew;
+        $user->address = $addressNew;
+        $user->phoneNumber = $phoneNumberNew;
+    }
     public function lockUserAccount($dataLockUserAccount){
         $userId = $dataLockUserAccount->userId;
         $reasonLockUserAccount = $dataLockUserAccount->reasonLockUserAccount;
@@ -108,9 +121,13 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         $user = $this->model->find($userId);
         $user->statusOfUserId = 1;
         $user->reasonLocked = null;
+
         $user->save();
         return $user;
     }
+
+
+
 
 
 //function logout
@@ -131,6 +148,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
             ], 500);
         }
     }
+
 
     public function getNumberOfUsers(){
         $users = $this->model->get();

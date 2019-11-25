@@ -16,9 +16,16 @@ interface UserService
     //function get user đăng nhập
     public function getUser($data);
 
+
+    public function update($request, $id);
+
+    public function EditUser($dataEditUser);
+
+
     public function lockUserAccount($dataLockUserAccount);
 
     public function  unlockUserAccount($userId);
+
 
     public function getNumberOfUsers();
 
@@ -26,4 +33,5 @@ interface UserService
 
   //function logout
     public function logout($data);
+
 }

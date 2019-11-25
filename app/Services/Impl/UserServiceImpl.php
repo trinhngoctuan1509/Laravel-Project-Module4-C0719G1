@@ -46,6 +46,50 @@ class UserServiceImpl implements UserService
 
     }
 
+    public function update($request, $id)
+    {
+        $oldEditUsers = $this->userRepository->findById($id);
+
+
+        if (!$oldEditUsers) {
+            $newEditUsers = null;
+            $statusCode = 404;
+        } else {
+            $newEditUsers = $this->userRepository->update($request,$oldEditUsers);
+            $newEditUsers = $this->userRepository->findById($id);
+            $statusCode = 200;
+        }
+
+        $data = [
+            'statusCode' => $statusCode,
+            'editUsers' => $newEditUsers
+        ];
+        return $data;
+
+//        $oldPost = $this->userRepository->findById($id);
+//
+//        if (!$oldPost) {
+//            $newPost = null;
+//            $statusCode = 404;
+//        } else {
+//            $newPost = $this->userRepository->update($request, $oldPost);
+//            $statusCode = 200;
+//        }
+//
+//        $data = [
+//            'statusCode' => $statusCode,
+//            'post' => $newPost
+//        ];
+//        return $data;
+    }
+
+
+    public function EditUser($dataEditUser){
+        $messageEditUserSuccess = $this->userRepository->EditUser($dataEditUser);
+        return $messageEditUserSuccess;
+    }
+
+
     public function lockUserAccount($dataLockUserAccount){
         $messageLockUserAccountSuccess = $this->userRepository->lockUserAccount($dataLockUserAccount);
         return $messageLockUserAccountSuccess;
@@ -71,5 +115,6 @@ class UserServiceImpl implements UserService
     {
         $loguot=$this->userRepository->logout($data);
         return $loguot;
+
     }
 }

@@ -14,7 +14,12 @@ use App\Services\Impl\HelpsServiceImpl;
 
 use App\Services\Impl\LoginServiceImpl;
 
+use App\Services\Impl\loginAdminServiceImpl;
+use App\Repositories\LoginAdminReponsitory;
+use App\Repositories\Impl\loginAdminReponsitoryImpl;
+
 use App\Services\Impl\UserServiceImpl;
+use App\Services\LoginAdminService;
 use App\Services\LoginService;
 use App\Services\UserService;
 
@@ -194,6 +199,16 @@ class AppServiceProvider extends ServiceProvider
             LoginServiceImpl::class
         );
 
+
+        $this->app->singleton(
+            LoginAdminReponsitory::class,
+            loginAdminReponsitoryImpl::class
+        );
+        $this->app->singleton(
+            LoginAdminService::class,
+            loginAdminServiceImpl::class
+        );
+
         // PostAuthUser
         $this->app->singleton(
             PostAuthUserRepository::class,
@@ -202,6 +217,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(
             PostAuthUserService::class,
             PostAuthUserServiceImpl::class
+
         );
     }
 

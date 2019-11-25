@@ -45,6 +45,8 @@ Route::get('/getUser','UserController@getUser')->name('user.getAllUsers');
 Route::get('/getUserById/{id}','UserController@getUserById')->name('user.getUserById');
 
 
+Route::put('/getUserById/{id}','UserController@update')->name('user.update');
+
 Route::get('/posts', 'PostController@index')->name('posts.all');
 Route::get('/posts/{postId}', 'PostController@show')->name('posts.show');
 Route::post('/posts', 'PostController@store')->name('posts.store');
@@ -96,6 +98,16 @@ Route::get('/direction', 'DirectionController@index')->name('direction.all');
 Route::get('/direction/{directionId}', 'DirectionController@show')->name('direction.show');
 Route::get('/helps', 'HelpsController@index')->name('helps.all');
 Route::post('/helps', 'HelpsController@store')->name('helps.store');
+
+
+
+// Edit User New
+Route::post('/editUser','UserController@EditUser');
+//loginadmin
+Route::post('/loginAdmin','LoginAdminController@login')->name('user.loginAdmin');
+
+
+
 // Get tất cả bài Post bằng UserID
 Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId');
 // Khóa tài khoản user

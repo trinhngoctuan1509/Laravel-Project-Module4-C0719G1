@@ -16,6 +16,7 @@ class ForeignKeyUser extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->foreign('statusOfUserId')->references('id')->on('status_of_users');
             $table->foreign('levelOfUserId')->references('id')->on('level_of_users');
+            $table->foreign('VerifymailId')->references('id')->on('verifymails');
         });
     }
 

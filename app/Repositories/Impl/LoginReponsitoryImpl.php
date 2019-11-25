@@ -38,7 +38,12 @@ class LoginReponsitoryImpl extends EloquentRepository implements LoginReponsitor
                         if ($user['statusOfUserId']==2){
                             return response()->json([
                                 'success' => false,
-                                'message' => 'Tài khoản của bạn đã bị khóa',
+                                'message' => 'Tài khoản của bạn đã bị khóa bởi admin',
+                            ]);
+                        }elseif ($user['VerifymailId']==1){
+                            return response()->json([
+                                'success' => false,
+                                'message' => 'vui lòng check email để hoàn tất đăng ký',
                             ]);
                         }
             return response()->json([
@@ -50,8 +55,7 @@ class LoginReponsitoryImpl extends EloquentRepository implements LoginReponsitor
             return response()->json([
                 'success' => false,
                 'message' => 'Tài khoản hoặc mật khẩu không đúng',
-            ], 401);
-
+            ]);
         }
     }
 }

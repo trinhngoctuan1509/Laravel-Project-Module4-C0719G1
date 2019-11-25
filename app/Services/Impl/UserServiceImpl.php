@@ -16,12 +16,8 @@ class UserServiceImpl implements UserService
         $this->userRepository = $userRepository;
     }
 
-    public function login($data)
-    {
-        $dataUser = $this->userRepository->login($data);
-        return $dataUser;
-    }
 
+// function đăng ký
     public function register($data)
     {
         $dataUser=$this->userRepository->register($data);
@@ -42,7 +38,7 @@ class UserServiceImpl implements UserService
         return $user;
     }
 
-
+//function get user đăng nhập
     public function getUser($data)
     {
         $user=$this->userRepository->getUser($data);
@@ -50,5 +46,10 @@ class UserServiceImpl implements UserService
 
     }
 
-
+//function logout
+    public function logout($data)
+    {
+        $loguot=$this->userRepository->logout($data);
+        return $loguot;
+    }
 }

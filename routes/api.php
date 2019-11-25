@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| API Routs
 |--------------------------------------------------------------------------
 |
 | Here is where you can register API routes for your application. These
@@ -32,9 +32,13 @@ Route::delete('/customers/{customerId}', 'CustomerController@destroy')->name('cu
 
 // API login with email
 Route::post('/login','LoginController@login')->name('user.login');
+// api trong email gửi đi
+Route::get('/verifyUser/{token}','UserController@verifyUser')->name('user.verifyUser');
 
 //APi register User
 Route::post('/register','UserController@register')->name('user.register');
+//api logout user
+Route::get('/logout','UserController@logout')->name('user.logout');
 //API get user
 Route::get('/getAllUsers','UserController@getAllUsers')->name('user.getAllUsers');
 Route::get('/getuser','UserController@getUser')->name('user.getAllUsers');
@@ -49,6 +53,11 @@ Route::post('/searchPostByTitle', 'PostController@searchPostByTitle')->name('pos
 Route::post('/searchPostByFengshui', 'PostController@searchPostByFengshui')->name('posts.searchPostByFengshui');
 Route::put('/posts/{postId}', 'PostController@update')->name('posts.update');
 Route::delete('/posts/{postId}', 'PostController@destroy')->name('posts.destroy');
+
+//function get bài đăng đang chờ duyệt
+Route::get('/getPostApproval', 'PostController@getPostApproval')->name('posts.getPostApproval');
+//function get bài đăng đã duyệt
+Route::get('/getPostAppred', 'PostController@getPostAppred')->name('posts.getPostAppred');
 
 
 

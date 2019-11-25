@@ -102,4 +102,10 @@ class PostController extends Controller
 
         return response()->json($postPendingApproval, 200);
     }
+
+    public function getNumberOfPostOfUserByUserId(Request $request){
+        $id = $request[0];
+        $numberOfPost = $this->postService->getNumberOfPostOfUserByUserId($id);
+        return $numberOfPost;
+    }
 }

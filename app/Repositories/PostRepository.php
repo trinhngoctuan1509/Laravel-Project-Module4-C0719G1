@@ -18,9 +18,10 @@ interface PostRepository extends Repository
     public function findByIdAllpost($id);
     public function searchPostBasic($data);
     public function getAllPostOfUserByUserId($id);
+    public function getNumberOfPostOfUserByUserId($id);
 
     // function get bài đăng đang chờ duyệt
     public function getPostApproval();
-    // function get bài đăng đang đã duyệt
+    // function get bài đăng đang đã
     public function getPostAppred();
 }

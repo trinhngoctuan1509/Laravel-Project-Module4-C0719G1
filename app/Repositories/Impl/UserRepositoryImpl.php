@@ -73,7 +73,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
     public function getAllUsers()
     {
-        $users = $this->model->with('status_of_users', 'level_of_users')->get();
+        $users = $this->model->with('status_of_users', 'level_of_users')->paginate(3);
         return $users;
     }
 
@@ -133,7 +133,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 //function logout
     public function logout($data)
     {
-        $this->user1 = JWTAuth::parseToken()->authenticate();
+       JWTAuth::parseToken()->authenticate();
         try {
             JWTAuth::invalidate($data->token);
 
@@ -149,4 +149,17 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         }
     }
 
+
+    public function getNumberOfUsers(){
+        $users = $this->model->get();
+        $numberOfUser = count($users);
+        return $numberOfUser;
+    }
+
+    public function findUser($keyWordForFindUser){
+        $allUsers = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%');
+        $NumberOfResultFindUser = count($allUsers);
+        $users = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%')->paginate(2);
+        return [$NumberOfResultFindUser, $users];
+    }
 }

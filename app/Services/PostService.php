@@ -34,4 +34,8 @@ interface PostService
 
     public function getAllPostOfUserByUserId($id);
 
+    // function get bài đăng đang chờ duyệt
+    public function getPostApproval();
+    // function get bài đăng đang đã duyệt
+    public function getPostAppred();
 }

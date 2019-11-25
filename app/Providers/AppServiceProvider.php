@@ -8,7 +8,12 @@ use App\Repositories\Impl\UserRepositoryImpl;
 use App\Repositories\LoginReponsitory;
 use App\Repositories\UserRepository;
 
+use App\Services\HelpsService;
+use App\Services\Impl\HelpsServiceImpl;
+
+
 use App\Services\Impl\LoginServiceImpl;
+
 use App\Services\Impl\UserServiceImpl;
 use App\Services\LoginService;
 use App\Services\UserService;
@@ -18,11 +23,16 @@ use App\Repositories\Impl\CustomerRepositoryImpl;
 use App\Services\CustomerService;
 use App\Services\Impl\CustomerServiceImpl;
 
+use App\User;
 use Illuminate\Support\ServiceProvider;
 use App\Repositories\CommentRepository;
 use App\Repositories\Impl\CommentRepositoryImpl;
 use App\Services\CommentService;
 use App\Services\Impl\CommentServiceImpl;
+
+use App\Repositories\HelpsRepository;
+use App\Repositories\Impl\HelpsRepositoryImpl;
+
 
 use App\Repositories\PostRepository;
 use App\Repositories\Impl\PostRepositoryImpl;
@@ -66,6 +76,7 @@ use App\Services\Impl\PostAuthUserServiceImpl;
 use App\Services\PostAuthUserService;
 
 
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -83,6 +94,18 @@ class AppServiceProvider extends ServiceProvider
             CommentService::class,
             CommentServiceImpl::class
         );
+
+        $this->app->singleton(
+            HelpsRepository::class,
+            HelpsRepositoryImpl::class
+        );
+        $this->app->singleton(
+            HelpsService::class,
+            HelpsServiceImpl::class
+        );
+
+
+
         $this->app->singleton(
             PostRepository::class,
             PostRepositoryImpl::class
@@ -152,6 +175,7 @@ class AppServiceProvider extends ServiceProvider
             DirectionService::class,
             DirectionServiceImpl::class
         );
+
         $this->app->singleton(
             UserRepository::class,
             UserRepositoryImpl::class

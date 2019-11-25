@@ -72,7 +72,6 @@ class PostServiceImpl implements PostService
             $newPost = $this->postRepository->update($request, $oldPost);
             $statusCode = 200;
         }
-
         $data = [
             'statusCode' => $statusCode,
             'post' => $newPost
@@ -149,4 +148,16 @@ class PostServiceImpl implements PostService
         return $posts;
     }
 
+    // function get bài đăng đang chờ duyệt
+    public function getPostApproval()
+    {
+       $postApproval= $this->postRepository->getPostApproval();
+       return $postApproval;
+    }
+    // function get bài đăng  đã duyệt
+    public function getPostAppred()
+    {
+        $postPendingApproval= $this->postRepository->getPostAppred();
+        return $postPendingApproval;
+    }
 }

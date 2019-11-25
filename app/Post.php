@@ -8,7 +8,7 @@ class Post extends Model
 {
     protected $table = "posts";
     protected $fillable = [
-         'userId','title','categoryId','regionId','sellerId','postOfTypeId','statusOfPostId','address','area','directionId','contentPost','price','imagePost1',
+        'userId', 'title','categoryId','regionId','sellerId','postOfTypeId','statusOfPostId','address','area','directionId','contentPost','price','imagePost1',
         'imagePost2','imagePost3','imagePost4','imagePost5','imagePost6','ableComposition','post_availability_status_id'
     ];
     public function categories(){

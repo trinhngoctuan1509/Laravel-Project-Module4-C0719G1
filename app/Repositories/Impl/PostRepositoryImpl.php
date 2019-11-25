@@ -215,8 +215,12 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         return $result;
     }
 
-
-
+// function get bài đăng đang chờ duyệt
+    public function getPostApproval()
+    {
+        $postApproval = $this->model->with('post_of_types','categories')->where('post_availability_status_id','=',2)->get();
+        return $postApproval;
+}
 
     //    *********************************************************************
     //    ***************** Get tất cả bài Post bằng UserId *******************
@@ -227,5 +231,10 @@ class PostRepositoryImpl extends EloquentRepository  implements PostRepository
         return $posts;
     }
 
-
+    // function get bài đăng đang đã duyệt
+    public function getPostAppred()
+    {
+        $postApproval = $this->model->with('post_of_types','categories')->where('post_availability_status_id','=',1)->get();
+        return $postApproval;
+    }
 }

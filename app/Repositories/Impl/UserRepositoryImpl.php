@@ -116,7 +116,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 //function logout
     public function logout($data)
     {
-        $this->user1 = JWTAuth::parseToken()->authenticate();
+       JWTAuth::parseToken()->authenticate();
         try {
             JWTAuth::invalidate($data->token);
 

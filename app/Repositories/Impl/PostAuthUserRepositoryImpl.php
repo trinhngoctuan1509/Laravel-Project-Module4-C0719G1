@@ -59,6 +59,7 @@ class PostAuthUserRepositoryImpl implements PostAuthUserRepository
         $object->delete();
     }
 
+    //Search Title ---Auth
     public function searchTitlePostAuth($data)
     {
         $input = $data['searchWord'];

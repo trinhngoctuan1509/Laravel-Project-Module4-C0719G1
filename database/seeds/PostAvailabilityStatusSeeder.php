@@ -12,14 +12,15 @@ class PostAvailabilityStatusSeeder extends Seeder
     public function run()
     {
         $data1 = [
-            'availability_status' => 'Chưa Duyệt'
+            'availability_status' => 'Đang rao'
         ];
         $data2 = [
-            'availability_status' => 'Đang Rao'
+            'availability_status' => 'Đang duyệt'
         ];
         $data3 = [
-            'availability_status' => 'Đã Gỡ Bỏ'
+            'availability_status' => 'Đã gỡ bỏ'
         ];
+
         DB::table('post_availability_status')->insert($data1);
         DB::table('post_availability_status')->insert($data2);
         DB::table('post_availability_status')->insert($data3);

@@ -83,4 +83,10 @@ class PostController extends Controller
 
         return response()->json($postAll['postAll'], $postAll['statusCode']);
     }
+
+    public function getAllPostOfUserByUserId(Request $request){
+        $id = $request[0];
+        $posts = $this->postService->getAllPostOfUserByUserId($id);
+        return $posts;
+    }
 }

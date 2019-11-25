@@ -89,4 +89,17 @@ class PostController extends Controller
         $posts = $this->postService->getAllPostOfUserByUserId($id);
         return $posts;
     }
+    // function get bài đăng  chờ duyệt
+    public function getPostApproval(){
+        $postApproval = $this->postService->getPostApproval();
+
+        return response()->json($postApproval, 200);
+    }
+
+    // function get bài đăng  đã duyệt
+    public function getPostAppred(){
+        $postPendingApproval = $this->postService->getPostAppred();
+
+        return response()->json($postPendingApproval, 200);
+    }
 }

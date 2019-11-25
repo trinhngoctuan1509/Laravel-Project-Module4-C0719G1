@@ -19,6 +19,8 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('address');
             $table->string('phoneNumber');
+            $table->string('tokenVerifymail');
+            $table->integer('VerifymailId')->default(1);
             $table->integer('statusOfUserId');
             $table->integer('levelOfUserId');
             $table->string('imageAvatarOfUser')->nullable();

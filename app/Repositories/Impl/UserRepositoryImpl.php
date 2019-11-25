@@ -8,7 +8,10 @@ use App\Repositories\Eloquent\EloquentRepository;
 use App\Repositories\UserRepository;
 use App\User;
 use Illuminate\Support\Facades\Auth;
+
+use Illuminate\Support\Str;
 use Tymon\JWTAuth\Facades\JWTAuth;
+use Illuminate\Support\Facades\Mail;
 
 class UserRepositoryImpl extends EloquentRepository implements UserRepository
 {
@@ -17,7 +20,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
      * get Model
      * @return string
      */
-    protected $user1;
+    protected $user;
 
 
 
@@ -29,7 +32,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
 
 
-
+// function đăng ký
     public function register($data)
     {
         try {
@@ -37,6 +40,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
             $email = $data['email'];
             $address = $data['address'];
             $phoneNumber = $data['phoneNumber'];
+            $tokenVerifymail=Str::random();
             $statusOfUserId = 1;
             $levelOfUserId = 3;
             $password = bcrypt($data['password']);
@@ -46,10 +50,19 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
                 "email" => $email,
                 "address" => $address,
                 "phoneNumber" => $phoneNumber,
+                'tokenVerifymail'=>$tokenVerifymail,
                 "statusOfUserId" => $statusOfUserId,
                 "levelOfUserId" => $levelOfUserId,
                 "password" => $password
             ];
+            $data=array("name"=>$fullName,
+                "body"=>"Tài khoản của bạn đã được đăng ký vui vòng nhấn vào link bên dưới để hoàn tất đăng ký",
+                "token"=>$tokenVerifymail);
+            Mail::send('email', $data, function ($message) use ($fullName, $email) {
+                $message->to($email)->subject('Codegym comfirm email');
+            });
+
+
             $object = $this->model->create($signin);
         } catch (\Exception $e) {
             return null;
@@ -71,11 +84,11 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         return $users;
     }
 
-
+//function get user đăng nhập
     public function getUser($data)
     {
-        $this->user1 = JWTAuth::parseToken()->authenticate();
-        $user = JWTAuth::authenticate($data->token);
+        $user = JWTAuth::parseToken()->authenticate();
+//        $user = JWTAuth::authenticate($data->token);
         return response()->json($user);
 
     }
@@ -99,4 +112,23 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         return $user;
     }
 
+
+//function logout
+    public function logout($data)
+    {
+        $this->user1 = JWTAuth::parseToken()->authenticate();
+        try {
+            JWTAuth::invalidate($data->token);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Bạn đã đăng xuất thành công'
+            ]);
+        } catch (JWTException $exception) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Xin lỗi! đăng xuất thất bại!'
+            ], 500);
+        }
+    }
 }

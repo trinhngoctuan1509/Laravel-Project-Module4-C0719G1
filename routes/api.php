@@ -56,10 +56,19 @@ Route::post('/searchPostByFengshui', 'PostController@searchPostByFengshui')->nam
 Route::put('/posts/{postId}', 'PostController@update')->name('posts.update');
 Route::delete('/posts/{postId}', 'PostController@destroy')->name('posts.destroy');
 
+
+Route::post('/searchPostApproval', 'PostController@searchPostApproval')->name('posts.searchPostApproval');
+Route::post('/searchPostAppred', 'PostController@searchPostAppred')->name('posts.searchPostAppred');
+
 //function get bài đăng đang chờ duyệt
 Route::get('/getPostApproval', 'PostController@getPostApproval')->name('posts.getPostApproval');
 //function get bài đăng đã duyệt
 Route::get('/getPostAppred', 'PostController@getPostAppred')->name('posts.getPostAppred');
+
+
+Route::get('/getPostDetailApproval/{id}', 'PostController@getPostDetailApproval')->name('posts.getPostDetailApproval');
+
+
 
 
 
@@ -117,3 +126,5 @@ Route::post('/unlockUserAccount','UserController@unlockUserAccount');
 Route::post('/getNumberOfPostOfUserByUserId','PostController@getNumberOfPostOfUserByUserId');
 Route::get('/getNumberOfUsers','UserController@getNumberOfUsers');
 Route::post('/findUser','UserController@findUser');
+Route::post('changeStatusPostAppvoral','PostController@changeStatusPostAppvoral');
+Route::post('changeStatusPostAppved','PostController@changeStatusPostAppved');

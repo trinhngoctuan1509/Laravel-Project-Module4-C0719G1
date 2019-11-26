@@ -39,4 +39,14 @@ interface PostService
     public function getPostApproval();
     // function get bài đăng đang đã duyệt
     public function getPostAppred();
+    //search post đang chờ duyệt
+    public function searchPostApproval($data);
+    //search post đang đã duyệt
+    public function searchPostAppred($data);
+
+    public function getPostDetailApproval($id);
+
+    public function changeStatusPostAppvoral($id);
+
+    public function changeStatusPostAppved($id);
 }

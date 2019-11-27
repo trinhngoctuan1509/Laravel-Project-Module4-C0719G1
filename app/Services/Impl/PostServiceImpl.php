@@ -165,4 +165,44 @@ class PostServiceImpl implements PostService
         $numberOfPost = $this->postRepository->getNumberOfPostOfUserByUserId($id);
         return $numberOfPost;
     }
+    //search post đang chờ duyệt
+    public function searchPostApproval($data)
+    {
+       $posts=$this->postRepository->searchPostApproval($data);
+       return $posts;
+    }
+    //search post đang đã duyệt
+    public function searchPostAppred($data)
+    {
+        $posts=$this->postRepository->searchPostAppred($data);
+        return $posts;
+    }
+
+    public function getPostDetailApproval($id)
+    {
+        $post = $this->postRepository->getPostDetailApproval($id);
+
+        $statusCode = 200;
+        if (!$post)
+            $statusCode = 404;
+
+        $data = [
+            'statusCode' => $statusCode,
+            'post' => $post
+        ];
+
+        return $data;
+    }
+
+    public function changeStatusPostAppvoral($id)
+    {
+      $post=$this->postRepository->changeStatusPostAppvoral($id);
+      return $post;
+    }
+
+    public function changeStatusPostAppved($id)
+    {
+        $post=$this->postRepository->changeStatusPostAppved($id);
+        return $post;
+    }
 }

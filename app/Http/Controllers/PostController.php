@@ -84,6 +84,11 @@ class PostController extends Controller
         return response()->json($postAll['postAll'], $postAll['statusCode']);
     }
 
+    public function getPostDetailApproval($id){
+        $post=$this->postService->getPostDetailApproval($id);
+        return response()->json($post['post'], $post['statusCode']);
+    }
+
     public function getAllPostOfUserByUserId(Request $request){
         $id = $request[0];
         $posts = $this->postService->getAllPostOfUserByUserId($id);
@@ -108,4 +113,27 @@ class PostController extends Controller
         $numberOfPost = $this->postService->getNumberOfPostOfUserByUserId($id);
         return $numberOfPost;
     }
+
+    //search post đang chờ duyệt
+    public function searchPostApproval(Request $request){
+        $posts= $this->postService->searchPostApproval($request);
+        return $posts;
+    }
+
+    //search post đang đã duyệt
+    public function searchPostAppred(Request $request){
+        $posts= $this->postService->searchPostAppred($request);
+        return $posts;
+    }
+
+    public function changeStatusPostAppvoral(Request $request){
+        $post=$this->postService->changeStatusPostAppvoral($request);
+        return $post;
+    }
+
+    public function changeStatusPostAppved(Request $request){
+        $post=$this->postService->changeStatusPostAppved($request);
+        return $post;
+    }
+
 }

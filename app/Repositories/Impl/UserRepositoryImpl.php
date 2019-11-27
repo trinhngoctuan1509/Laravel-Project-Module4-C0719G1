@@ -139,9 +139,10 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
     }
 
     public function findUser($keyWordForFindUser){
-        $allUsers = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%');
+        $allUsers = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%')->get();
         $NumberOfResultFindUser = count($allUsers);
-        $users = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%')->paginate(2);
-        return [$NumberOfResultFindUser, $users];
+        $users = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%')->paginate(3);
+//        return [$NumberOfResultFindUser, $users];
+        return [$NumberOfResultFindUser,$users] ;
     }
 }

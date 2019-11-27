@@ -66,28 +66,9 @@ class UserServiceImpl implements UserService
         ];
         return $data;
 
-//        $oldPost = $this->userRepository->findById($id);
-//
-//        if (!$oldPost) {
-//            $newPost = null;
-//            $statusCode = 404;
-//        } else {
-//            $newPost = $this->userRepository->update($request, $oldPost);
-//            $statusCode = 200;
-//        }
-//
-//        $data = [
-//            'statusCode' => $statusCode,
-//            'post' => $newPost
-//        ];
-//        return $data;
     }
 
 
-    public function EditUser($dataEditUser){
-        $messageEditUserSuccess = $this->userRepository->EditUser($dataEditUser);
-        return $messageEditUserSuccess;
-    }
 
 
     public function lockUserAccount($dataLockUserAccount){
@@ -113,8 +94,21 @@ class UserServiceImpl implements UserService
 //function logout
     public function logout($data)
     {
-        $loguot=$this->userRepository->logout($data);
+               $loguot=$this->userRepository->logout($data);
         return $loguot;
 
+    }
+
+    public function changePassword($data)
+    {
+     $changepassword=$this->userRepository->changePassword($data);
+     return $changepassword;
+    }
+
+
+    public function updateedit($data)
+    {
+       $updateEdit=$this->userRepository->updateedit($data);
+       return $updateEdit;
     }
 }

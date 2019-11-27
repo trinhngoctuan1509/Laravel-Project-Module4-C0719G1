@@ -6,6 +6,7 @@ use App\Services\UserService;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Requests\Register;
+use App\Http\Requests\RequestPassword;
 
 class UserController extends Controller
 
@@ -64,19 +65,11 @@ class UserController extends Controller
         return $messageUnlockUserAccountSuccess;
     }
 
-//    public function update(Request $request, $id)
-//    {
-//        $dataEditUsers = $this->userService->update($request->all(), $id);
-//
-//        return response()->json( $dataEditUsers['editUsers'],  $dataEditUsers['statusCode']);
-//    }
-
-
-    public function EditUser(Request $request)
+    public function update(Request $request, $id)
     {
-        $dataEditUser = $request;
-        $messageEditUserSuccess = $this->userService->EditUser($dataEditUser);
-        return $messageEditUserSuccess;
+        $dataEditUsers = $this->userService->update($request->all(), $id);
+
+        return response()->json( $dataEditUsers['editUsers'],  $dataEditUsers['statusCode']);
     }
 
 //function logout
@@ -101,5 +94,15 @@ class UserController extends Controller
     public function getNumberOfUsers(){
         $numberOfUsers = $this->userService->getNumberOfUsers();
         return $numberOfUsers;
+    }
+    public function postChangePassword( RequestPassword $requestPassword)
+    {
+        $changepassword=$this->userService->changePassword($requestPassword);
+        return $changepassword;
+    }
+    public function putupdateeditusers( Request $request)
+    {
+        $changepassword=$this->userService-> updateedit($request);
+        return $changepassword;
     }
 }

@@ -18,7 +18,7 @@ public function getUserById($id);
 public function getUser($data);
 
 
-public function EditUser($dataEditUser);
+
 
 public function lockUserAccount($dataLockUserAccount);
 
@@ -30,6 +30,9 @@ public function findUser($keyWordForFindUser);
 
 //function logout
 public function logout($data);
+
+public function  changePassword($data);
+public function  updateedit($data);
 
 
 }

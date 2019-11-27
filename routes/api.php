@@ -56,10 +56,19 @@ Route::post('/searchPostByFengshui', 'PostController@searchPostByFengshui')->nam
 Route::put('/posts/{postId}', 'PostController@update')->name('posts.update');
 Route::delete('/posts/{postId}', 'PostController@destroy')->name('posts.destroy');
 
+
+Route::post('/searchPostApproval', 'PostController@searchPostApproval')->name('posts.searchPostApproval');
+Route::post('/searchPostAppred', 'PostController@searchPostAppred')->name('posts.searchPostAppred');
+
 //function get bài đăng đang chờ duyệt
 Route::get('/getPostApproval', 'PostController@getPostApproval')->name('posts.getPostApproval');
 //function get bài đăng đã duyệt
 Route::get('/getPostAppred', 'PostController@getPostAppred')->name('posts.getPostAppred');
+
+
+Route::get('/getPostDetailApproval/{id}', 'PostController@getPostDetailApproval')->name('posts.getPostDetailApproval');
+
+
 
 
 
@@ -89,13 +98,14 @@ Route::get('/seller/{sellerId}', 'SellerController@show')->name('seller.show');
 //PostOfType
 Route::get('/postOfType', 'PostOfTypeController@index')->name('PostOfType.all');
 Route::get('/postOfType/{postOfTypeId}', 'PostOfTypeController@show')->name('postOfType.show');
-//PostOfType
+//statusOfPost
 Route::get('/statusOfPost', 'StatusOfPostController@index')->name('statusOfPost.all');
 Route::get('/statusOfPost/{statusOfPostId}', 'StatusOfPostController@show')->name('statusOfPost.show');
 
-//
+//direction
 Route::get('/direction', 'DirectionController@index')->name('direction.all');
 Route::get('/direction/{directionId}', 'DirectionController@show')->name('direction.show');
+
 Route::get('/helps', 'HelpsController@index')->name('helps.all');
 Route::post('/helps', 'HelpsController@store')->name('helps.store');
 
@@ -125,4 +135,5 @@ Route::post('/updateedit', 'UserController@putupdateeditusers');
 Route::post('/getNumberOfPostOfUserByUserId','PostController@getNumberOfPostOfUserByUserId');
 Route::get('/getNumberOfUsers','UserController@getNumberOfUsers');
 Route::post('/findUser','UserController@findUser');
-
+Route::post('changeStatusPostAppvoral','PostController@changeStatusPostAppvoral');
+Route::post('changeStatusPostAppved','PostController@changeStatusPostAppved');

@@ -89,13 +89,14 @@ Route::get('/seller/{sellerId}', 'SellerController@show')->name('seller.show');
 //PostOfType
 Route::get('/postOfType', 'PostOfTypeController@index')->name('PostOfType.all');
 Route::get('/postOfType/{postOfTypeId}', 'PostOfTypeController@show')->name('postOfType.show');
-//PostOfType
+//statusOfPost
 Route::get('/statusOfPost', 'StatusOfPostController@index')->name('statusOfPost.all');
 Route::get('/statusOfPost/{statusOfPostId}', 'StatusOfPostController@show')->name('statusOfPost.show');
 
-//
+//direction
 Route::get('/direction', 'DirectionController@index')->name('direction.all');
 Route::get('/direction/{directionId}', 'DirectionController@show')->name('direction.show');
+
 Route::get('/helps', 'HelpsController@index')->name('helps.all');
 Route::post('/helps', 'HelpsController@store')->name('helps.store');
 

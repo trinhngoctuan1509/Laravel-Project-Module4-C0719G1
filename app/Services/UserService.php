@@ -19,7 +19,7 @@ interface UserService
 
     public function update($request, $id);
 
-    public function EditUser($dataEditUser);
+
 
 
     public function lockUserAccount($dataLockUserAccount);
@@ -28,5 +28,7 @@ interface UserService
 
   //function logout
     public function logout($data);
+    public function  changePassword($data);
+    public function  updateedit($data);
 
 }

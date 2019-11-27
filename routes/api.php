@@ -103,6 +103,8 @@ Route::post('/helps', 'HelpsController@store')->name('helps.store');
 
 // Edit User New
 Route::post('/editUser','UserController@EditUser');
+
+Route::put('/editUsers/{editUsersId}', 'UserController@update')->name('editUsers.update');
 //loginadmin
 Route::post('/loginAdmin','LoginAdminController@login')->name('user.loginAdmin');
 
@@ -113,3 +115,7 @@ Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId
 // Khóa tài khoản user
 Route::post('/lockUserAccount','UserController@lockUserAccount');
 Route::post('/unlockUserAccount','UserController@unlockUserAccount');
+
+//thay doi mat khau
+Route::post('changepassword', 'UserController@postChangePassword');
+Route::post('/updateedit', 'UserController@putupdateeditusers');

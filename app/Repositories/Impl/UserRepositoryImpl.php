@@ -92,20 +92,48 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         return response()->json($user);
 
     }
+    public function  changePassword($data){
 
 
-    public function EditUser($dataEditUser)
-    {
-        $userId = $dataEditUser->userId;
-        $fullNameNew = $dataEditUser->fullNameNew;
-        $addressNew = $dataEditUser->addressNew;
-        $phoneNumberNew = $dataEditUser->phoneNumberNew;
+        $user = JWTAuth::parseToken()->authenticate();
+        $login=[
+            "email"=>$user['email'],
+            "password"=>$data['current_password']
+        ];
+        if (Auth::attempt($login)){
+            $updatUser=User::find($user['id']);
+            $updatUser->password=bcrypt($data['passwordnew']);
+            $updatUser->save();
+            return response()->json([
+                'success' => true,
+                'message' => 'doi mat khau thanh cong',
+            ]);
 
-        $user = $this->model->find($userId);
-        $user->fullName = $fullNameNew;
-        $user->address = $addressNew;
-        $user->phoneNumber = $phoneNumberNew;
+
+        }else{
+            return response()->json([
+                'success' => false,
+                'message' => 'mat khau cu khong dung',
+            ]);
+//            return $passwordold;
+        }
     }
+    public function  updateedit($data){
+        $user = JWTAuth::parseToken()->authenticate();
+        $updatedit=User::find($user['id']);
+        $updatedit->fullName=$data['fullName'];
+        $updatedit->address=$data['address'];
+        $updatedit->phoneNumber=$data['phoneNumber'];
+        $updatedit->save();
+        return response()->json([
+            'success' => true,
+            'message' => 'update editusers thanh cong',
+        ]);
+
+    }
+
+
+
     public function lockUserAccount($dataLockUserAccount){
         $userId = $dataLockUserAccount->userId;
         $reasonLockUserAccount = $dataLockUserAccount->reasonLockUserAccount;

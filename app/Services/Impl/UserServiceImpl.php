@@ -81,6 +81,16 @@ class UserServiceImpl implements UserService
         return $messageUnlockUserAccountSuccess;
     }
 
+    public function getNumberOfUsers(){
+        $numberOfUsers = $this->userRepository->getNumberOfUsers();
+        return $numberOfUsers;
+    }
+
+    public function findUser($keyWordForFindUser){
+        $users = $this->userRepository->findUser($keyWordForFindUser);
+        return $users;
+    }
+
 //function logout
     public function logout($data)
     {

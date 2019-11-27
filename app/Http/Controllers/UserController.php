@@ -38,6 +38,13 @@ class UserController extends Controller
         return $user;
     }
 
+
+    public function findUser(Request $request){
+        $keyWordForFindUser = $request->keyWordForFindUser;
+        $users = $this->userService->findUser($keyWordForFindUser);
+        return $users;
+    }
+
 //function get user đăng nhập
     public function getUser(Request $request)
     {
@@ -78,9 +85,15 @@ class UserController extends Controller
         $data = User::where('tokenVerifymail', $token)->first();
         $data->VerifymailId = 2;
         $data->save();
-        $mes = "verify User thành công";
-        return $mes;
 
+        $mes= "verify User thành công";
+        return redirect('http://localhost:4200/successConfirmMail');
+    }
+
+
+    public function getNumberOfUsers(){
+        $numberOfUsers = $this->userService->getNumberOfUsers();
+        return $numberOfUsers;
     }
     public function postChangePassword( RequestPassword $requestPassword)
     {

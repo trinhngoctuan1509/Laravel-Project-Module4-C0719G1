@@ -1,34 +1,34 @@
 
-y	php:S1488ã"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ë÷Áÿÿÿÿÿ
-Lphp:S131¤"7Add a "case default" clause to this "switch" statement.(¼ô ö
-u	php:S1488Ì"_Immediately return this expression instead of assigning it to the temporary variable "$result".(·å­Ú
-J	php:S1109©"/Move this closing curly brace to the next line.(Ïú¸Œøÿÿÿÿ
-[	php:S1192†"FDefine a constant instead of duplicating this literal "title" 3 times.(øõëL
-6	php:S1116D"Remove this empty statement.(ôŸìúÿÿÿÿ
-c	php:S1192&"IDefine a constant instead of duplicating this literal "regionId" 3 times.(»å§—úÿÿÿÿ
-e	php:S1192/"KDefine a constant instead of duplicating this literal "categories" 9 times.(ë÷Áÿÿÿÿÿ
-h	php:S1192/"NDefine a constant instead of duplicating this literal "post_of_types" 9 times.(ë÷Áÿÿÿÿÿ
-‡	php:S1488ê"eImmediately return this expression instead of assigning it to the temporary variable "$postApproval".(ŒŸşÙÿÿÿÿÿ8“Äøé-
-e	php:S11920"PDefine a constant instead of duplicating this literal "status_of_posts" 7 times.(ÔÁ´œ
-6	php:S1116]"Remove this empty statement.(ôŸìúÿÿÿÿ
-y	php:S1488Ä"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
+j	php:S1192+"PDefine a constant instead of duplicating this literal "ableComposition" 3 times.(§ã±úÿÿÿÿ
 6	php:S1116>"Remove this empty statement.(ôŸìúÿÿÿÿ
-Kphp:S131b"7Add a "case default" clause to this "switch" statement.(üÅù³
-Lphp:S131"7Add a "case default" clause to this "switch" statement.(¼ô ö
-y	php:S1488‡"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ë÷Áÿÿÿÿÿ
-a	php:S1192$"LDefine a constant instead of duplicating this literal "directionId" 3 times.(…Ë³ş
+u	php:S1488Ì"_Immediately return this expression instead of assigning it to the temporary variable "$result".(·å­Ú
+6	php:S1116G"Remove this empty statement.(ôŸìúÿÿÿÿ
 y	php:S1488«"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ë÷Áÿÿÿÿÿ
 6	php:S1116p"Remove this empty statement.(ôŸìúÿÿÿÿ
-y	php:S1488¾"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
-x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÇáÔĞşÿÿÿÿ
-j	php:S1192+"PDefine a constant instead of duplicating this literal "ableComposition" 3 times.(§ã±úÿÿÿÿ
-6	php:S1116G"Remove this empty statement.(ôŸìúÿÿÿÿ
-6	php:S1116;"Remove this empty statement.(ôŸìúÿÿÿÿ
-6	php:S1116A"Remove this empty statement.(ôŸìúÿÿÿÿ
+J	php:S1109©"/Move this closing curly brace to the next line.(Ïú¸Œøÿÿÿÿ
+y	php:S1488Ä"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
+[	php:S1192†"FDefine a constant instead of duplicating this literal "title" 3 times.(øõëL
+y	php:S1488‡"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ë÷Áÿÿÿÿÿ
+6	php:S1116]"Remove this empty statement.(ôŸìúÿÿÿÿ
 {	php:S1488Û"eImmediately return this expression instead of assigning it to the temporary variable "$postApproval".(ı¡¸û
+Kphp:S131b"7Add a "case default" clause to this "switch" statement.(üÅù³
+6	php:S1116;"Remove this empty statement.(ôŸìúÿÿÿÿ
 a	php:S1192/"GDefine a constant instead of duplicating this literal "seller" 7 times.(ë÷Áÿÿÿÿÿ
+e	php:S1192/"KDefine a constant instead of duplicating this literal "categories" 9 times.(ë÷Áÿÿÿÿÿ
 `	php:S11920"KDefine a constant instead of duplicating this literal "directions" 7 times.(ÔÁ´œ
-a	php:S1192/"GDefine a constant instead of duplicating this literal "region" 8 times.(ë÷Áÿÿÿÿÿ
-[	php:S1192N"FDefine a constant instead of duplicating this literal "price" 8 times.(óÕú°
-_	php:S1192#"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(ú¸Ñ
+Lphp:S131¤"7Add a "case default" clause to this "switch" statement.(¼ô ö
+c	php:S1192&"IDefine a constant instead of duplicating this literal "regionId" 3 times.(»å§—úÿÿÿÿ
 Pphp:S131L"7Add a "case default" clause to this "switch" statement.(·Ìîûùÿÿÿÿ
+Lphp:S131"7Add a "case default" clause to this "switch" statement.(¼ô ö
+_	php:S1192#"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(ú¸Ñ
+e	php:S11920"PDefine a constant instead of duplicating this literal "status_of_posts" 7 times.(ÔÁ´œ
+y	php:S1488ã"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ë÷Áÿÿÿÿÿ
+[	php:S1192N"FDefine a constant instead of duplicating this literal "price" 8 times.(óÕú°
+6	php:S1116D"Remove this empty statement.(ôŸìúÿÿÿÿ
+6	php:S1116A"Remove this empty statement.(ôŸìúÿÿÿÿ
+a	php:S1192/"GDefine a constant instead of duplicating this literal "region" 8 times.(ë÷Áÿÿÿÿÿ
+h	php:S1192/"NDefine a constant instead of duplicating this literal "post_of_types" 9 times.(ë÷Áÿÿÿÿÿ
+a	php:S1192$"LDefine a constant instead of duplicating this literal "directionId" 3 times.(…Ë³ş
+x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÇáÔĞşÿÿÿÿ
+y	php:S1488¾"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
+‡	php:S1488ê"eImmediately return this expression instead of assigning it to the temporary variable "$postApproval".(ŒŸşÙÿÿÿÿÿ8“Äøé-

@@ -116,6 +116,13 @@ Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId
 Route::post('/lockUserAccount','UserController@lockUserAccount');
 Route::post('/unlockUserAccount','UserController@unlockUserAccount');
 
+
 //thay doi mat khau
 Route::post('changepassword', 'UserController@postChangePassword');
 Route::post('/updateedit', 'UserController@putupdateeditusers');
+
+//
+Route::post('/getNumberOfPostOfUserByUserId','PostController@getNumberOfPostOfUserByUserId');
+Route::get('/getNumberOfUsers','UserController@getNumberOfUsers');
+Route::post('/findUser','UserController@findUser');
+

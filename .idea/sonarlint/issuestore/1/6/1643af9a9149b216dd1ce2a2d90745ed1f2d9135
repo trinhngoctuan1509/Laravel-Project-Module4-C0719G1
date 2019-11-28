@@ -1,0 +1,68 @@
+
+b	php:S1117z"HRename "$user" which has the same name as the field declared at line 23.(Şì•íüÿÿÿÿ
+O	php:S1106¬"9Move this open curly brace to the beginning of next line.(ÚÔ›ç
+9php:S125¿"Remove this commented out code.(·ËÌÍüÿÿÿÿ
+]	php:S1192l"HDefine a constant instead of duplicating this literal "success" 5 times.(‘êşÕ
+N	php:S1106C"9Move this open curly brace to the beginning of next line.(Öñëû
+L	php:S1808¾"6Put exactly one space after comma separated arguments.(‡‡Êÿ
+N	php:S1106_"9Move this open curly brace to the beginning of next line.(ÂäéŸ
+R	php:S1808_"=Move this open curly brace to the beginning of the next line.(ÂäéŸ
+]	php:S1192m"HDefine a constant instead of duplicating this literal "message" 5 times.(Üıúê
+x	php:S1488S"^Immediately return this expression instead of assigning it to the temporary variable "$users".(¯õß™úÿÿÿÿ
+d	php:S1808y"JPut one space between the closing parenthesis and the opening curly brace.(ÙÎö½üÿÿÿÿ
+_	php:S1808_"JPut one space between the closing parenthesis and the opening curly brace.(ÂäéŸ
+b	php:S1117b"HRename "$user" which has the same name as the field declared at line 23.(Şì•íüÿÿÿÿ
+^	php:S1192."IDefine a constant instead of duplicating this literal "password" 3 times.(Ó÷Î†
+O	php:S1106‰"9Move this open curly brace to the beginning of next line.(¬ÿ¬¤
+3php:S125["Remove this commented out code.(ö¬­‚
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+r	php:S1488L"^Immediately return this expression instead of assigning it to the temporary variable "$users".(á«ís
+S	php:S1808‰"=Move this open curly brace to the beginning of the next line.(¬ÿ¬¤
+X	php:S1808µ"=Move this open curly brace to the beginning of the next line.(çµûÿÿÿÿ
+U	php:S1105Y";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+S	php:S1106g"9Move this open curly brace to the beginning of next line.(ÔÈ‚Úüÿÿÿÿ
+d	php:S1808g"JPut one space between the closing parenthesis and the opening curly brace.(ÔÈ‚Úüÿÿÿÿ
+T	php:S1106µ"9Move this open curly brace to the beginning of next line.(çµûÿÿÿÿ
+S	php:S1106Q"9Move this open curly brace to the beginning of next line.(Îÿßùıÿÿÿÿ
+X	php:S1808»"=Move this open curly brace to the beginning of the next line.(¾û¯†ÿÿÿÿÿ
+a	php:S1192*"LDefine a constant instead of duplicating this literal "phoneNumber" 3 times.(ŞíŠ
+`php:S103¼"KSplit this 147 characters long line (which is greater than 120 authorized).(¶ä»å
+Z	php:S1192("FDefine a constant instead of duplicating this literal "email" 7 times.(ôÖx
+^	php:S1117"HRename "$user" which has the same name as the field declared at line 23.(İªÎà
+S	php:S1808”"=Move this open curly brace to the beginning of the next line.(úê›ø
+[	php:S1808q"FPut one space between this "else" keyword and the opening curly brace.(å¥‡
+S	php:S1106y"9Move this open curly brace to the beginning of next line.(ÙÎö½üÿÿÿÿ
+`php:S103¾"KSplit this 150 characters long line (which is greater than 120 authorized).(‡‡Êÿ
+N	php:S1106q"9Move this open curly brace to the beginning of next line.(å¥‡
+U	php:S1105K";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+P	php:S1808S"6Put exactly one space after comma separated arguments.(¯õß™úÿÿÿÿ
+S	php:S1106="9Move this open curly brace to the beginning of next line.(°¹›ıÿÿÿÿ
+T	php:S1106»"9Move this open curly brace to the beginning of next line.(¾û¯†ÿÿÿÿÿ
+^	php:S1117•"HRename "$user" which has the same name as the field declared at line 23.(İªÎà
+j	php:S1779"]Replace all non line feed end of line characters in this file "UserRepositoryImpl.php" by LF.
+€	php:S1488·"eImmediately return this expression instead of assigning it to the temporary variable "$numberOfUser".(À±ôÈùÿÿÿÿ
+b	php:S1192)"HDefine a constant instead of duplicating this literal "address" 3 times.(Ÿûíşÿÿÿÿ
+S	php:S1106&"9Move this open curly brace to the beginning of next line.(¡»¢üùÿÿÿÿ
+L	php:S1808¼"6Put exactly one space after comma separated arguments.(¶ä»å
+8php:S125v"Remove this commented out code.(óıñÕşÿÿÿÿ
+`	php:S1808‰"JPut one space between the closing parenthesis and the opening curly brace.(¬ÿ¬¤
+`	php:S1808”"JPut one space between the closing parenthesis and the opening curly brace.(úê›ø
+s	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(Ïšêø
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+O	php:S1106”"9Move this open curly brace to the beginning of next line.(úê›ø
+H	php:S1481=".Remove this unused "$fullName" local variable.(°¹›ıÿÿÿÿ
+U	php:S1105%";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+ƒphp:S117½"iRename this local variable "$NumberOfResultFindUser" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(È™ËËøÿÿÿÿ
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+d	php:S1808Q"JPut one space between the closing parenthesis and the opening curly brace.(Îÿßùıÿÿÿÿ
+b	php:S1117Z"HRename "$user" which has the same name as the field declared at line 23.(Şì•íüÿÿÿÿ
+e	php:S1808»"JPut one space between the closing parenthesis and the opening curly brace.(¾û¯†ÿÿÿÿÿ
+^	php:S1192'"IDefine a constant instead of duplicating this literal "fullName" 5 times.(¼ĞÓ­
+W	php:S1808Q"=Move this open curly brace to the beginning of the next line.(Îÿßùıÿÿÿÿ
+V	php:S1105£";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+O	php:S1481/"5Remove this unused "$passwordConfirm" local variable.(â€£üÿÿÿÿ
+L	php:S1808¼"6Put exactly one space after comma separated arguments.(¶ä»å
+e	php:S1808µ"JPut one space between the closing parenthesis and the opening curly brace.(çµûÿÿÿÿ
+L	php:S1808¾"6Put exactly one space after comma separated arguments.(‡‡Êÿ
+W	php:S1808y"=Move this open curly brace to the beginning of the next line.(ÙÎö½üÿÿÿÿ
+T	php:S1106¥"9Move this open curly brace to the beginning of next line.(¡»¢üùÿÿÿÿ

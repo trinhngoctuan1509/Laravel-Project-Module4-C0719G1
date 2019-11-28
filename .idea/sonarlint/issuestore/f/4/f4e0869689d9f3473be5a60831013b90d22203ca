@@ -1,0 +1,4 @@
+
+9	php:S2043"Do not access "$_ENV" directly.(€ÒÇûÿÿÿÿ
+[	php:S1779"NReplace all non line feed end of line characters in this file "app.php" by LF.
+:	php:S2007" Move this variable into a class.(ß‘Õïùÿÿÿÿ

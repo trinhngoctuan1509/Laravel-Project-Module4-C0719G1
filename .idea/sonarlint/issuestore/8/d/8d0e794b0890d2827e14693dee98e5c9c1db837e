@@ -1,0 +1,5 @@
+
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÆˆÂùøÿÿÿÿ
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"

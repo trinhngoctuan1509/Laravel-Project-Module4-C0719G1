@@ -1,0 +1,34 @@
+
+ˆ	php:S1192"nDefine a constant instead of duplicating this literal "Illuminate\\Pipeline\\PipelineServiceProvider" 3 times.(„ìÕüÿÿÿÿ
+[	php:S1131´"@Remove the useless trailing whitespaces at the end of this line.(Æû’şÿÿÿÿ
+y	php:S1192"dDefine a constant instead of duplicating this literal "Illuminate\\Bus\\BusServiceProvider" 5 times.(‚õÁ¹
+	php:S1192"‚Define a constant instead of duplicating this literal "Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider" 76 times.(§¼Ö¨ûÿÿÿÿ
+V	php:S1131Ì"@Remove the useless trailing whitespaces at the end of this line.(¼Ö©¾
+V	php:S1131±"@Remove the useless trailing whitespaces at the end of this line.(²Şİø
+3php:S113"'Add a new line at the end of this file.
+‡	php:S1192"rDefine a constant instead of duplicating this literal "Tymon\\JWTAuth\\Providers\\LaravelServiceProvider" 4 times.(Û®«ö
+‚	php:S1192"hDefine a constant instead of duplicating this literal "Illuminate\\Queue\\QueueServiceProvider" 7 times.(Ş¶¶…øÿÿÿÿ
+[	php:S1131©"@Remove the useless trailing whitespaces at the end of this line.(ó¼ÿ¸ıÿÿÿÿ
+_php:S103f"KSplit this 131 characters long line (which is greater than 120 authorized).(ßºøõ
+[	php:S1131Ã"@Remove the useless trailing whitespaces at the end of this line.(¯´ÈÍşÿÿÿÿ
+‚	php:S1192"hDefine a constant instead of duplicating this literal "Illuminate\\Redis\\RedisServiceProvider" 4 times.(Î¢ÿ‚şÿÿÿÿ
+ƒ	php:S1192"iDefine a constant instead of duplicating this literal "Illuminate\\Hashing\\HashServiceProvider" 4 times.(Â†‡İşÿÿÿÿ
+3	php:S1451"&Add or update the header of this file.
+U	php:S1131½"@Remove the useless trailing whitespaces at the end of this line.(¤š‰4
+V	php:S1131«"@Remove the useless trailing whitespaces at the end of this line.(Ø–™
+V	php:S1131É"@Remove the useless trailing whitespaces at the end of this line.(Å…ûõ
+‚	php:S1192"hDefine a constant instead of duplicating this literal "Illuminate\\Cache\\CacheServiceProvider" 6 times.(©è¡ üÿÿÿÿ
+V	php:S1131À"@Remove the useless trailing whitespaces at the end of this line.(ÏÈ¶
+[	php:S1131®"@Remove the useless trailing whitespaces at the end of this line.(ˆÍ§Æùÿÿÿÿ
+	php:S1192"tDefine a constant instead of duplicating this literal "Illuminate\\Translation\\TranslationServiceProvider" 4 times.(šŒÂÿÿÿÿÿ
+Z	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ƒ¤¾Ÿøÿÿÿÿ
+[	php:S1131Æ"@Remove the useless trailing whitespaces at the end of this line.(¾ÿ—úÿÿÿÿ
+‡	php:S1192"rDefine a constant instead of duplicating this literal "Illuminate\\Validation\\ValidationServiceProvider" 4 times.(‘ªÑ—
+dphp:S103g"KSplit this 128 characters long line (which is greater than 120 authorized).(Ê„ªıÿÿÿÿ
+€	php:S1192"fDefine a constant instead of duplicating this literal "Illuminate\\Mail\\MailServiceProvider" 6 times.(˜Ö×ùÿÿÿÿ
+	php:S1192"sDefine a constant instead of duplicating this literal "Illuminate\\Broadcasting\\BroadcastServiceProvider" 5 times.(á¢¾şÿÿÿÿ
+”	php:S1192"zDefine a constant instead of duplicating this literal "Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider" 4 times.(®´©Œüÿÿÿÿ
+U	php:S1131>"@Remove the useless trailing whitespaces at the end of this line.(Áá•
+V	php:S1131·"@Remove the useless trailing whitespaces at the end of this line.(Àó¸
+U	php:S1131&"@Remove the useless trailing whitespaces at the end of this line.(ìµŞ
+U	php:S1131º"@Remove the useless trailing whitespaces at the end of this line.(€õƒ%

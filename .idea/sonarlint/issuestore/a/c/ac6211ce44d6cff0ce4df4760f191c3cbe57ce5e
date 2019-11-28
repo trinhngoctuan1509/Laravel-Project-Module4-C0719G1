@@ -1,0 +1,9 @@
+
+_	php:S1808"JAdd a blank line after this "namespace App\Repositories\Impl" declaration.(Ñ¨‰‚
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+3	php:S1451"&Add or update the header of this file.
+n	php:S1779"aReplace all non line feed end of line characters in this file "CustomerRepositoryImpl.php" by LF.
+H	php:S1808".Add a blank line after this "use" declaration.(ëÞÝÜþÿÿÿÿ
+s	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ïƒ–µ

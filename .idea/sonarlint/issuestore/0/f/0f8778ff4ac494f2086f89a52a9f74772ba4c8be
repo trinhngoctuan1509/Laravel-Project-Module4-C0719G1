@@ -1,0 +1,63 @@
+
+Q	php:S18089"=Move this open curly brace to the beginning of the next line.(¶™ˆ]
+e	php:S1808†"JPut one space between the closing parenthesis and the opening curly brace.(Á°…®üÿÿÿÿ
+s	php:S1488w"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(‘·ˆâ
+U	php:S1105 ";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+z	php:S1488q"eImmediately return this expression instead of assigning it to the temporary variable "$numberOfPost".(ÍÔê·
+U	php:S1105'";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105.";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+S	php:S1106v"9Move this open curly brace to the beginning of next line.(¦¸¡ùÿÿÿÿ
+w	php:S1488:"]Immediately return this expression instead of assigning it to the temporary variable "$post".(Åáúÿÿÿÿ
+W	php:S1808i"=Move this open curly brace to the beginning of the next line.(€Â’úÿÿÿÿ
+s	php:S1488}"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ÉÑÔ—
+R	php:S1808b"=Move this open curly brace to the beginning of the next line.(´Î©
+_	php:S18084"JPut one space between the closing parenthesis and the opening curly brace.(İÕâ
+S	php:S1106o"9Move this open curly brace to the beginning of next line.(¢–ç÷şÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+d	php:S1808\"JPut one space between the closing parenthesis and the opening curly brace.(¾Ìšßøÿÿÿÿ
+d	php:S1808o"JPut one space between the closing parenthesis and the opening curly brace.(¢–ç÷şÿÿÿÿ
+N	php:S11064"9Move this open curly brace to the beginning of next line.(İÕâ
+s	php:S1488^"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(¯ÍÅï
+d	php:S1808v"JPut one space between the closing parenthesis and the opening curly brace.(¦¸¡ùÿÿÿÿ
+S	php:S1106\"9Move this open curly brace to the beginning of next line.(¾Ìšßøÿÿÿÿ
+N	php:S1106|"9Move this open curly brace to the beginning of next line.(Óıš„
+w	php:S14885"]Immediately return this expression instead of assigning it to the temporary variable "$post".(¢‰Ÿ¯úÿÿÿÿ
+S	php:S1106i"9Move this open curly brace to the beginning of next line.(€Â’úÿÿÿÿ
+N	php:S1106b"9Move this open curly brace to the beginning of next line.(´Î©
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+U	php:S1105Q";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+R	php:S18084"=Move this open curly brace to the beginning of the next line.(İÕâ
+_	php:S1808b"JPut one space between the closing parenthesis and the opening curly brace.(´Î©
+R	php:S1808J"=Move this open curly brace to the beginning of the next line.(õ¡éÖ
+N	php:S1106J"9Move this open curly brace to the beginning of next line.(õ¡éÖ
+W	php:S1808\"=Move this open curly brace to the beginning of the next line.(¾Ìšßøÿÿÿÿ
+X	php:S1808†"=Move this open curly brace to the beginning of the next line.(Á°…®üÿÿÿÿ
+`	php:S1192"KDefine a constant instead of duplicating this literal "statusCode" 6 times.(úÃÆ¨
+R	php:S1808|"=Move this open curly brace to the beginning of the next line.(Óıš„
+f	php:S1779"YReplace all non line feed end of line characters in this file "PostController.php" by LF.
+W	php:S1808>"=Move this open curly brace to the beginning of the next line.(’¶Úºøÿÿÿÿ
+U	php:S1105D";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+R	php:S1808W"=Move this open curly brace to the beginning of the next line.(ŞÌ
+e	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(ïŒÊèıÿÿÿÿ
+r	php:S1488?"]Immediately return this expression instead of assigning it to the temporary variable "$post".(€µ£‰
+x	php:S1488‡"]Immediately return this expression instead of assigning it to the temporary variable "$post".(ÃÆ¯úÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+S	php:S1106>"9Move this open curly brace to the beginning of next line.(’¶Úºøÿÿÿÿ
+^	php:S18089"JPut one space between the closing parenthesis and the opening curly brace.(¶™ˆ]
+d	php:S1808>"JPut one space between the closing parenthesis and the opening curly brace.(’¶Úºøÿÿÿÿ
+H	php:S1808".Add a blank line after this "use" declaration.(ù†Ïûÿÿÿÿ
+s	php:S1488‚"]Immediately return this expression instead of assigning it to the temporary variable "$post".(ƒÛÃí
+T	php:S1106†"9Move this open curly brace to the beginning of next line.(Á°…®üÿÿÿÿ
+_	php:S1808W"JPut one space between the closing parenthesis and the opening curly brace.(ŞÌ
+	php:S1448"jClass "PostController" has 21 methods, which is greater than 20 authorized. Split it into smaller classes.(ØÕŒİ
+d	php:S1808i"JPut one space between the closing parenthesis and the opening curly brace.(€Â’úÿÿÿÿ
+M	php:S11069"9Move this open curly brace to the beginning of next line.(¶™ˆ]
+W	php:S1808v"=Move this open curly brace to the beginning of the next line.(¦¸¡ùÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+X	php:S1808"=Move this open curly brace to the beginning of the next line.(ïŒÊèıÿÿÿÿ
+W	php:S1808o"=Move this open curly brace to the beginning of the next line.(¢–ç÷şÿÿÿÿ
+U	php:S1105	";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+_	php:S1808J"JPut one space between the closing parenthesis and the opening curly brace.(õ¡éÖ
+N	php:S1106W"9Move this open curly brace to the beginning of next line.(ŞÌ
+T	php:S1106"9Move this open curly brace to the beginning of next line.(ïŒÊèıÿÿÿÿ
+_	php:S1808|"JPut one space between the closing parenthesis and the opening curly brace.(Óıš„

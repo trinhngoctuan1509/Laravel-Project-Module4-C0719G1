@@ -1,0 +1,38 @@
+
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+k	php:S1192$"QDefine a constant instead of duplicating this literal "ableComposition" 14 times.(Ÿ§ìôşÿÿÿÿ
+\	php:S1192ì"GDefine a constant instead of duplicating this literal "posts" 14 times.(«Ó¾
+f	php:S1192"LDefine a constant instead of duplicating this literal "imagePost1" 14 times.(³ˆŠÜùÿÿÿÿ
+a	php:S1192 "LDefine a constant instead of duplicating this literal "imagePost5" 14 times.(Ó¬ğ
+a	php:S1192!"LDefine a constant instead of duplicating this literal "image6.png" 14 times.(ÙÊ“Á
+a	php:S1192"LDefine a constant instead of duplicating this literal "imagePost3" 14 times.(õÂâ“
+h	php:S1192"SDefine a constant instead of duplicating this literal "123 Dien Bien Phu" 14 times.(¤¦Ÿˆ
+	php:S2042"jClass "PostSeeder" has 356 lines, which is greater than the 200 authorized. Split it into smaller classes.(İíöä
+f	php:S1192"LDefine a constant instead of duplicating this literal "image4.png" 14 times.(ïºî‹ùÿÿÿÿ
+d	php:S1192"JDefine a constant instead of duplicating this literal "sellerId" 14 times.(µÒ¸üÿÿÿÿ
+a	php:S1192"LDefine a constant instead of duplicating this literal "image2.png" 14 times.(ıÆç
+a	php:S1192!"LDefine a constant instead of duplicating this literal "imagePost6" 14 times.(ÙÊ“Á
+a	php:S1192"LDefine a constant instead of duplicating this literal "imagePost2" 14 times.(ıÆç
+d	php:S1192"JDefine a constant instead of duplicating this literal "regionId" 14 times.(ÊÄàçÿÿÿÿÿ
+`	php:S1192"LDefine a constant instead of duplicating this literal "categoryId" 14 times.(Ğ­©u
+f	php:S1192"LDefine a constant instead of duplicating this literal "imagePost4" 14 times.(ïºî‹ùÿÿÿÿ
+•	php:S1192"{Define a constant instead of duplicating this literal "Dang can tien - Ban gap - Giam gia cho nguoi co thien chi" 14 times.(ŒªŒªşÿÿÿÿ
+b	php:S1192"MDefine a constant instead of duplicating this literal "directionId" 14 times.(Öéˆé
+b	php:S1192"NDefine a constant instead of duplicating this literal "postOfTypeId" 14 times.(‹Æû9
+a	php:S1192"LDefine a constant instead of duplicating this literal "image3.png" 14 times.(õÂâ“
+f	php:S1192"LDefine a constant instead of duplicating this literal "image1.png" 14 times.(³ˆŠÜùÿÿÿÿ
+g	php:S1192"MDefine a constant instead of duplicating this literal "contentPost" 14 times.(ŒªŒªşÿÿÿÿ
+a	php:S1192""LDefine a constant instead of duplicating this literal "created_at" 14 times.(¹„
+a	php:S1192"GDefine a constant instead of duplicating this literal "title" 14 times.(İİ¢©úÿÿÿÿ
+j	php:S1192"PDefine a constant instead of duplicating this literal "statusOfPostId" 14 times.( œŸ…üÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+b	php:S1779"UReplace all non line feed end of line characters in this file "PostSeeder.php" by LF.
+]	php:S1192"HDefine a constant instead of duplicating this literal "userId" 14 times.(ôÇ£
+a	php:S1192""LDefine a constant instead of duplicating this literal "2019/11/02" 14 times.(¹„
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+w	php:S1192#"]Define a constant instead of duplicating this literal "post_availability_status_id" 14 times.(Ôö”ùÿÿÿÿ
+k	php:S1192"QDefine a constant instead of duplicating this literal "imageFolderName" 14 times.(Îİ¡Ûûÿÿÿÿ
+‡php:S138"sThis function "run" has 353 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¯ ö
+a	php:S1192 "LDefine a constant instead of duplicating this literal "image5.png" 14 times.(Ó¬ğ
+[	php:S1192"GDefine a constant instead of duplicating this literal "price" 14 times.(ı™‘
+^	php:S1192"IDefine a constant instead of duplicating this literal "address" 14 times.(¤¦Ÿˆ

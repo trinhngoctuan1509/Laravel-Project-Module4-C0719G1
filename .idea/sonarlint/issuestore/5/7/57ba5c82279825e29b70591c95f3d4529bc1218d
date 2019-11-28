@@ -1,0 +1,4 @@
+
+d	php:S1779"WReplace all non line feed end of line characters in this file "statusOfUser.php" by LF.
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+iphp:S101"PRename class "statusOfUser" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(’ùäæøÿÿÿÿ

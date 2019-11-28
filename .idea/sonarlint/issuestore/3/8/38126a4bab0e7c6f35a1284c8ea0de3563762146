@@ -1,0 +1,5 @@
+
+E	php:S2000"0Remove the extra characters before the open tag.(Ôî›ö
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+3	php:S1451"&Add or update the header of this file.
+c	php:S1779"VReplace all non line feed end of line characters in this file "email.blade.php" by LF.

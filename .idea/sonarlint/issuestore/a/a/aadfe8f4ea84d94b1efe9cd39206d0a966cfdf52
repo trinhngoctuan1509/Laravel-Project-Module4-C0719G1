@@ -1,0 +1,7 @@
+
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+1	php:S1997"$Remove the inline HTML in this file.
+3	php:S1451"&Add or update the header of this file.
+J	php:S2000"0Remove the extra characters before the open tag.(¾®¡×þÿÿÿÿ
+€	php:S1779"sReplace all non line feed end of line characters in this file "8a203a6e0f7379c0653187e2dd144d8c2cf06e0e.php" by LF.
+3php:S113"'Add a new line at the end of this file.

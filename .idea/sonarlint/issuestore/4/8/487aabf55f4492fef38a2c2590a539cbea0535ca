@@ -1,0 +1,7 @@
+
+U	php:S1105	";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+p	php:S1779"cReplace all non line feed end of line characters in this file "BroadcastServiceProvider.php" by LF.
+:	php:S2003"&Replace "require" with "require_once".(²è£D
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+`	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(²è£D

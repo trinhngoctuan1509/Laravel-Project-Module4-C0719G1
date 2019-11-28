@@ -1,0 +1,7 @@
+
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+s	php:S1192"YDefine a constant instead of duplicating this literal "post_availability_status" 3 times.(¢Æ”‰úÿÿÿÿ
+n	php:S1192"TDefine a constant instead of duplicating this literal "availability_status" 3 times.(å®èüÿÿÿÿ
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+t	php:S1779"gReplace all non line feed end of line characters in this file "PostAvailabilityStatusSeeder.php" by LF.

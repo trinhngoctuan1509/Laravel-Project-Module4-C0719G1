@@ -1,0 +1,8 @@
+
+U	php:S1105	";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+U	php:S11050";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+K	php:S1185#"1Remove this method "report" to simply inherit it.(’ŒÀôûÿÿÿÿ
+_	php:S1779"RReplace all non line feed end of line characters in this file "Handler.php" by LF.
+U	php:S1105$";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+K	php:S1185/"1Remove this method "render" to simply inherit it.(ËÙÜ¯úÿÿÿÿ

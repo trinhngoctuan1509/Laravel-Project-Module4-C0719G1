@@ -1,0 +1,8 @@
+
+h	php:S1192"NDefine a constant instead of duplicating this literal "directionCode" 8 times.(·áûàûÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+e	php:S11926"KDefine a constant instead of duplicating this literal "directions" 8 times.(‡‰¢äÿÿÿÿÿ
+g	php:S1779"ZReplace all non line feed end of line characters in this file "DirectionSeeder.php" by LF.
+c	php:S1192"NDefine a constant instead of duplicating this literal "directionName" 8 times.(ÇÁ„Ñ
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"

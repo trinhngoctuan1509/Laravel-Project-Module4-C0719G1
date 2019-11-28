@@ -1,0 +1,25 @@
+
+P	php:S1808~"6Put exactly one space after comma separated arguments.(À†Ù‰øÿÿÿÿ
+P	php:S1808'"6Put exactly one space after comma separated arguments.(ÕùîÅøÿÿÿÿ
+L	php:S1808‰"6Put exactly one space after comma separated arguments.(ÃûÄ
+K	php:S1808"6Put exactly one space after comma separated arguments.(º³ÚÃ
+S	php:S1106"9Move this open curly brace to the beginning of next line.(åªËşşÿÿÿÿ
+L	php:S1808‡"6Put exactly one space after comma separated arguments.(ø­¸Š
+K	php:S1808)"6Put exactly one space after comma separated arguments.(¹«Ş
+K	php:S1808w"6Put exactly one space after comma separated arguments.(ûÅ‰‰
+Q	php:S1808ˆ"6Put exactly one space after comma separated arguments.(ÄèÀ´øÿÿÿÿ
+Q	php:S1808‹"6Put exactly one space after comma separated arguments.(Åó¯™úÿÿÿÿ
+P	php:S1808-"6Put exactly one space after comma separated arguments.(Ş¡–»ıÿÿÿÿ
+k	php:S1192"VDefine a constant instead of duplicating this literal "/comments/{commentId}" 3 times.(‰å¼ˆ
+P	php:S1808,"6Put exactly one space after comma separated arguments.(ªôªùÿÿÿÿ
+[	php:S1779"NReplace all non line feed end of line characters in this file "api.php" by LF.
+K	php:S1808s"6Put exactly one space after comma separated arguments.(æ»Ë
+r	php:S1192"XDefine a constant instead of duplicating this literal "/customers/{customerId}" 3 times.(ıçìùÿÿÿÿ
+P	php:S1808$"6Put exactly one space after comma separated arguments.(õĞ°óşÿÿÿÿ
+P	php:S18080"6Put exactly one space after comma separated arguments.(ôÜã–ûÿÿÿÿ
+P	php:S1808|"6Put exactly one space after comma separated arguments.(‡ëÖÚúÿÿÿÿ
+j	php:S11923"PDefine a constant instead of duplicating this literal "/posts/{postId}" 3 times.(ÂÒëûÿÿÿÿ
+Q	php:S1808Š"6Put exactly one space after comma separated arguments.(óü—¶ûÿÿÿÿ
+P	php:S1808""6Put exactly one space after comma separated arguments.(Şõ·¯üÿÿÿÿ
+P	php:S1808+"6Put exactly one space after comma separated arguments.(µÈâ©ùÿÿÿÿ
+g	php:S1192S"RDefine a constant instead of duplicating this literal "/my-post/{postId}" 3 times.(ñíº¤

@@ -1,0 +1,25 @@
+
+U	php:S1105$";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+v	php:S1488"bImmediately return this expression instead of assigning it to the temporary variable "$customers".(àçÓc
+w	php:S1488"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+k	php:S1779"^Replace all non line feed end of line characters in this file "CustomerServiceImpl.php" by LF.
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+w	php:S14889"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+Dphp:S121'"0Add curly braces around the nested statement(s).(Ì·›•
+N	php:S11065"9Move this open curly brace to the beginning of next line.(å¥ž‡
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+w	php:S1488)"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+Dphp:S121"0Add curly braces around the nested statement(s).(Ì·›•
+_	php:S1192"JDefine a constant instead of duplicating this literal "customers" 3 times.(ý³¶Ú
+N	php:S1106D"9Move this open curly brace to the beginning of next line.(ˆñŸ™
+[	php:S1808"FAdd a blank line after this "namespace App\Services\Impl" declaration.(Æú¦ê
+e	php:S1192"KDefine a constant instead of duplicating this literal "statusCode" 4 times.(ÿæàìúÿÿÿÿ
+3	php:S1451"&Add or update the header of this file.
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+S	php:S11062"9Move this open curly brace to the beginning of next line.(¯Ùà®þÿÿÿÿ
+w	php:S1488I"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+H	php:S1808".Add a blank line after this "use" declaration.(Ñþ÷†ýÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S11050";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105@";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ

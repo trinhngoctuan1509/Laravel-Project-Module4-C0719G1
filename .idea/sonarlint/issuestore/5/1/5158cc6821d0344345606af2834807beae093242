@@ -1,0 +1,21 @@
+
+P	php:S1808J"6Put exactly one space after comma separated arguments.(®ÿÆˆüÿÿÿÿ
+R	php:S1808I"=Move this open curly brace to the beginning of the next line.(Ä•äº
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+ophp:S100E"VRename function "status_of_users" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Âû¾ºüÿÿÿÿ
+iphp:S100I"URename function "level_of_users" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ä•äº
+\	php:S1779"OReplace all non line feed end of line characters in this file "User.php" by LF.
+W	php:S1808@"=Move this open curly brace to the beginning of the next line.(¹™Óùÿÿÿÿ
+U	php:S11052";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+K	php:S1808A"6Put exactly one space after comma separated arguments.(İÂÍ
+R	php:S1784@"8Explicitly mention the visibility of this method "post".(¹™Óùÿÿÿÿ
+W	php:S1808E"=Move this open curly brace to the beginning of the next line.(Âû¾ºüÿÿÿÿ
+_	php:S1808I"JPut one space between the closing parenthesis and the opening curly brace.(Ä•äº
+N	php:S1106I"9Move this open curly brace to the beginning of next line.(Ä•äº
+S	php:S1106@"9Move this open curly brace to the beginning of next line.(¹™Óùÿÿÿÿ
+d	php:S1808@"JPut one space between the closing parenthesis and the opening curly brace.(¹™Óùÿÿÿÿ
+d	php:S1808E"JPut one space between the closing parenthesis and the opening curly brace.(Âû¾ºüÿÿÿÿ
+S	php:S1106E"9Move this open curly brace to the beginning of next line.(Âû¾ºüÿÿÿÿ
+U	php:S1105<";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+P	php:S1808F"6Put exactly one space after comma separated arguments.(ªœé¾ıÿÿÿÿ

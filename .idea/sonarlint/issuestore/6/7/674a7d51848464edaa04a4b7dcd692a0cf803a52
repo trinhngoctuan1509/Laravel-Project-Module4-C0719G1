@@ -1,0 +1,97 @@
+
+V	php:S1105£";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+ephp:S103"KSplit this 133 characters long line (which is greater than 120 authorized).(¡ÍçÈÿÿÿÿÿ
+	php:S1808º"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "186".(ë÷Áÿÿÿÿÿ
+S	php:S1106:"9Move this open curly brace to the beginning of next line.(‚Äíçøÿÿÿÿ
+|	php:S1808Ù"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "217".(·å­Ú
+P	php:S1105¹";Move this open curly brace to the end of the previous line.(èšŒq
+O	php:S1106İ"9Move this open curly brace to the beginning of next line.(‹æ„„
+V	php:S1105Á";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+V	php:S1105”";Move this open curly brace to the end of the previous line.(ö¢Ãˆùÿÿÿÿ
+u	php:S1488Ù"_Immediately return this expression instead of assigning it to the temporary variable "$result".(·å­Ú
+Œ	php:S2042"rClass "PostRepositoryImpl" has 234 lines, which is greater than the 200 authorized. Split it into smaller classes.(’Õ¢‚ùÿÿÿÿ
+N	php:S1106C"9Move this open curly brace to the beginning of next line.(ÈÿœŸ
+c	php:S1192'"IDefine a constant instead of duplicating this literal "regionId" 3 times.(»å§—úÿÿÿÿ
+j	php:S1779"]Replace all non line feed end of line characters in this file "PostRepositoryImpl.php" by LF.
+N	php:S1106F"9Move this open curly brace to the beginning of next line.(ˆ®Ë
+i	php:S11920"ODefine a constant instead of duplicating this literal "post_of_types" 16 times.(ë÷Áÿÿÿÿÿ
+x	php:S1192Ê"]Define a constant instead of duplicating this literal "post_availability_status_id" 12 times.(‚şÇœşÿÿÿÿ
+Lphp:S131›"7Add a "case default" clause to this "switch" statement.(¼ô ö
+6	php:S1116?"Remove this empty statement.(ôŸìúÿÿÿÿ
+`php:S103ê"KSplit this 133 characters long line (which is greater than 120 authorized).(ãšÌî
+O	php:S1106ª"9Move this open curly brace to the beginning of next line.(¼ô ö
+O	php:S1106©"9Move this open curly brace to the beginning of next line.(å¥‡
+a	php:S11920"GDefine a constant instead of duplicating this literal "region" 9 times.(ë÷Áÿÿÿÿÿ
+_	php:S1192$"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(ú¸Ñ
+	php:S1808³"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "307".(ÕÏü˜ùÿÿÿÿ
+V	php:S1105è";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+C	php:S1808»".Move the closing parenthesis on the next line.(Å› 
+x	php:S1488ì"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+V	php:S1105Œ";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+ephp:S103é"KSplit this 124 characters long line (which is greater than 120 authorized).(éÇ†ªùÿÿÿÿ
+	php:S1808É"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "201".(ÕÏü˜ùÿÿÿÿ
+y	php:S1488É"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
+x	php:S1488ƒ"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+	php:S18080"eEither split this list into multiple lines, aligned at column "12" or put all arguments on line "48".(ë÷Áÿÿÿÿÿ
+	php:S1808ù"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "249".(ë÷Áÿÿÿÿÿ
+O	php:S1106›"9Move this open curly brace to the beginning of next line.(¼ô ö
+V	php:S1105Ğ";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+I	php:S1808Ê".Move the closing parenthesis on the next line.(‚şÇœşÿÿÿÿ
+Lphp:S131ª"7Add a "case default" clause to this "switch" statement.(¼ô ö
+6	php:S1116<"Remove this empty statement.(ôŸìúÿÿÿÿ
+Pphp:S131M"7Add a "case default" clause to this "switch" statement.(·Ìîûùÿÿÿÿ
+I	php:S1808Ú".Move the closing parenthesis on the next line.(õ‡åøÿÿÿÿ
+N	php:S1106b"9Move this open curly brace to the beginning of next line.(±¬˜
+S	php:S1106M"9Move this open curly brace to the beginning of next line.(·Ìîûùÿÿÿÿ
+[	php:S1192O"FDefine a constant instead of duplicating this literal "price" 8 times.(óÕú°
+V	php:S1105ø";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+I	php:S1808´".Move the closing parenthesis on the next line.(âÔæÊüÿÿÿÿ
+e	php:S11921"PDefine a constant instead of duplicating this literal "status_of_posts" 8 times.(ÔÁ´œ
+x	php:S1488©"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+6	php:S1116E"Remove this empty statement.(ôŸìúÿÿÿÿ
+y	php:S1488Ñ"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
+V	php:S1105×";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+I	php:S1808Ò".Move the closing parenthesis on the next line.(ğÂ¦Ùúÿÿÿÿ
+6	php:S1116q"Remove this empty statement.(ôŸìúÿÿÿÿ
+N	php:S1106w"9Move this open curly brace to the beginning of next line.(å¥‡
+U	php:S1105#";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+f	php:S11920"LDefine a constant instead of duplicating this literal "categories" 16 times.(ë÷Áÿÿÿÿÿ
+N	php:S1106L"9Move this open curly brace to the beginning of next line.(ü€ï‘
+I	php:S1808ú".Move the closing parenthesis on the next line.(¼ÿ·úÿÿÿÿ
+|	php:S1488"fImmediately return this expression instead of assigning it to the temporary variable "$numberOfPosts".(Ì¬ŸÀ
+h	php:S1192í"MDefine a constant instead of duplicating this literal "postApproval" 3 times.(æè•¦üÿÿÿÿ
+`	php:S11921"KDefine a constant instead of duplicating this literal "directions" 8 times.(ÔÁ´œ
+T	php:S1106š"9Move this open curly brace to the beginning of next line.(óÇùÆúÿÿÿÿ
+V	php:S1105€";Move this open curly brace to the end of the previous line.(ë¡¯üÿÿÿÿ
+6	php:S1116B"Remove this empty statement.(ôŸìúÿÿÿÿ
+\	php:S1192†"GDefine a constant instead of duplicating this literal "title" 11 times.(øõëL
+a	php:S11920"GDefine a constant instead of duplicating this literal "seller" 8 times.(ë÷Áÿÿÿÿÿ
+a	php:S1192%"LDefine a constant instead of duplicating this literal "directionId" 3 times.(…Ë³ş
+	php:S1808Ñ"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "209".(ÕÏü˜ùÿÿÿÿ
+V	php:S1105”";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+Kphp:S131c"7Add a "case default" clause to this "switch" statement.(üÅù³
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
+M	php:S1106@"9Move this open curly brace to the beginning of next line.(…¼˜-
+a	php:S1192î"FDefine a constant instead of duplicating this literal "count" 4 times.(Ş¶”øÿÿÿÿ
+V	php:S1105²";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+	php:S1808‡"fEither split this list into multiple lines, aligned at column "12" or put all arguments on line "135".(ë÷Áÿÿÿÿÿ
+x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÇáÔĞşÿÿÿÿ
+y	php:S1488³"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÕÏü˜ùÿÿÿÿ
+I	php:S1808ˆ".Move the closing parenthesis on the next line.(†®ê»øÿÿÿÿ
+S	php:S1106u"9Move this open curly brace to the beginning of next line.(¼ÌÆ±øÿÿÿÿ
+x	php:S1488š"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+y	php:S1488‡"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ë÷Áÿÿÿÿÿ
+y	php:S1488º"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ë÷Áÿÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+6	php:S1116H"Remove this empty statement.(ôŸìúÿÿÿÿ
+ephp:S103€"KSplit this 123 characters long line (which is greater than 120 authorized).(ë¡¯üÿÿÿÿ
+C	php:S18081".Move the closing parenthesis on the next line.(ÔÁ´œ
+y	php:S1488ù"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ë÷Áÿÿÿÿÿ
+S	php:S1106="9Move this open curly brace to the beginning of next line.(Ğ¾®¤ÿÿÿÿÿ
+N	php:S1106c"9Move this open curly brace to the beginning of next line.(üÅù³
+S	php:S11065"9Move this open curly brace to the beginning of next line.(åğºÂùÿÿÿÿ
+j	php:S1192,"PDefine a constant instead of duplicating this literal "ableComposition" 3 times.(§ã±úÿÿÿÿ
+V	php:S1105…";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+6	php:S1116^"Remove this empty statement.(ôŸìúÿÿÿÿ
+V	php:S1105Ç";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ

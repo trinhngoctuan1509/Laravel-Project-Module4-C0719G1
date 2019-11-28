@@ -1,0 +1,8 @@
+
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+rphp:S101
+"YRename class "loginAdminServiceImpl" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(îß‹«şÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+{	php:S1488"aImmediately return this expression instead of assigning it to the temporary variable "$dataUser".(óÈÕÀıÿÿÿÿ
+m	php:S1779"`Replace all non line feed end of line characters in this file "loginAdminServiceImpl.php" by LF.
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ

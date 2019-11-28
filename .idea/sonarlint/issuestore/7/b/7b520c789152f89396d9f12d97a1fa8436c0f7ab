@@ -1,0 +1,13 @@
+
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+j	php:S1779"]Replace all non line feed end of line characters in this file "CustomerController.php" by LF.
+d	php:S1192"JDefine a constant instead of duplicating this literal "customers" 3 times.(½•ıùÿÿÿÿ
+U	php:S1105-";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+3	php:S1451"&Add or update the header of this file.
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105&";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
+e	php:S1192"KDefine a constant instead of duplicating this literal "statusCode" 4 times.(½•ıùÿÿÿÿ
+W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"

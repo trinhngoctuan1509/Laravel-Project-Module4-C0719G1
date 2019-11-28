@@ -1,4 +1,0 @@
-
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-a	php:S1779"TReplace all non line feed end of line characters in this file "AreaRange.php" by LF.

@@ -1,5 +1,0 @@
-
-J	php:S2000"0Remove the extra characters before the open tag.(¾®¡×þÿÿÿÿ
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-3	php:S1451"&Add or update the header of this file.
-e	php:S1779"XReplace all non line feed end of line characters in this file "welcome.blade.php" by LF.

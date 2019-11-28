@@ -1,11 +1,0 @@
-
-j	php:S1779"]Replace all non line feed end of line characters in this file "RegisterController.php" by LF.
-^	php:S11924"IDefine a constant instead of duplicating this literal "required" 3 times.(Óÿ°ÿ
-[	php:S11925"FDefine a constant instead of duplicating this literal "email" 4 times.(ƒîĞÓ
-U	php:S1105A";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-\	php:S11924"GDefine a constant instead of duplicating this literal "string" 3 times.(Óÿ°ÿ
-^	php:S11926"IDefine a constant instead of duplicating this literal "password" 3 times.( ²ß
-U	php:S11052";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-U	php:S1105'";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ

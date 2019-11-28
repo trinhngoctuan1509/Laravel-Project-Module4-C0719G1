@@ -1,8 +1,0 @@
-
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-h	php:S1192"NDefine a constant instead of duplicating this literal "post_of_types" 4 times.(Æ¦¼¹ûÿÿÿÿ
-i	php:S1192"ODefine a constant instead of duplicating this literal "postOfTypeCode" 4 times.(†µÁýþÿÿÿÿ
-i	php:S1192"ODefine a constant instead of duplicating this literal "postOfTypeName" 4 times.(¿Üæ–øÿÿÿÿ
-h	php:S1779"[Replace all non line feed end of line characters in this file "PostOfTypeSeeder.php" by LF.
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ

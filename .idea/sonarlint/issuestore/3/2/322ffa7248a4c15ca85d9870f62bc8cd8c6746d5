@@ -1,7 +1,0 @@
-
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-s	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(•¸ó
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-_	php:S1808"JAdd a blank line after this "namespace App\Repositories\Impl" declaration.(Ñ¨‰‚
-U	php:S1105
-";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ

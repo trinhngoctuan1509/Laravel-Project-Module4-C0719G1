@@ -1,8 +1,0 @@
-
-]	php:S1192%"HDefine a constant instead of duplicating this literal "regions" 5 times.(Êëã
-`	php:S1192"KDefine a constant instead of duplicating this literal "regionCode" 5 times.(ıå¹´
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-e	php:S1192"KDefine a constant instead of duplicating this literal "regionName" 5 times.(¾¿şÄÿÿÿÿÿ
-d	php:S1779"WReplace all non line feed end of line characters in this file "RegionSeeder.php" by LF.

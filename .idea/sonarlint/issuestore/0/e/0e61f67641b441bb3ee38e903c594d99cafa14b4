@@ -1,9 +1,0 @@
-
-f	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(ÝÅÞèøÿÿÿÿ
-:	php:S20074" Move this variable into a class.(ðîÇþøÿÿÿÿ
-@	php:S2003"&Replace "require" with "require_once".(ÝÅÞèøÿÿÿÿ
-:	php:S20077" Move this variable into a class.(Ä¥íšÿÿÿÿÿ
-:	php:S2007&" Move this variable into a class.(ë¨ÚÕúÿÿÿÿ
-]	php:S1779"PReplace all non line feed end of line characters in this file "index.php" by LF.
-k	php:S4833&"QReplace "require_once" with namespace import mechanism through the "use" keyword.(ë¨ÚÕúÿÿÿÿ
-:	php:S20076" Move this variable into a class.(Ï°Ÿ¼þÿÿÿÿ

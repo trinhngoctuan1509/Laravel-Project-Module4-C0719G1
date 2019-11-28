@@ -1,6 +1,0 @@
-
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-k	php:S1779"^Replace all non line feed end of line characters in this file "HelpsRepositoryImpl.php" by LF.
-s	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(ÚÍÐÓ
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ

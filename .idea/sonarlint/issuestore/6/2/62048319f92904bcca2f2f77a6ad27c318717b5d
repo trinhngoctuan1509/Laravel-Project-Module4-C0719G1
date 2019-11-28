@@ -1,7 +1,0 @@
-
-r	php:S1488"]Immediately return this expression instead of assigning it to the temporary variable "$data".(Ã§›¥
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-U	php:S1105	";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-g	php:S1779"ZReplace all non line feed end of line characters in this file "LoginController.php" by LF.

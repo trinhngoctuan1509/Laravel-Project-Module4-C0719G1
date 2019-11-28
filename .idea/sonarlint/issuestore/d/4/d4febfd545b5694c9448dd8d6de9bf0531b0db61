@@ -1,9 +1,0 @@
-
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-U	php:S1105	";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-U	php:S1105C";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-U	php:S1105%";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-l	php:S1779"_Replace all non line feed end of line characters in this file "RouteServiceProvider.php" by LF.
-I	php:S1185"/Remove this method "boot" to simply inherit it.(÷ß¢…øÿÿÿÿ
-U	php:S11055";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ

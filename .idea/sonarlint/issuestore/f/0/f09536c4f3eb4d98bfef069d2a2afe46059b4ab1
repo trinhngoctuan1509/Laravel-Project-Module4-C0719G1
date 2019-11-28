@@ -1,8 +1,0 @@
-
-W	php:S1578"JRename this file to match this regular expression: "[a-z][A-Za-z0-9]+.php"
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-j	php:S1192"PDefine a constant instead of duplicating this literal "userLevelOfName" 3 times.(èº—†úÿÿÿÿ
-i	php:S1779"\Replace all non line feed end of line characters in this file "LevelOfUserSeeder.php" by LF.
-j	php:S1192"PDefine a constant instead of duplicating this literal "userLevelOfCode" 3 times.(þù»Ÿüÿÿÿÿ
-U	php:S1105";Move this open curly brace to the end of the previous line.(ÒÌâ–øÿÿÿÿ
-d	php:S1192"ODefine a constant instead of duplicating this literal "level_of_users" 3 times.( ®àþ

@@ -38,7 +38,7 @@ class Register extends FormRequest
         return [
             'fullName.required' => '* Vui lòng nhập Họ và tên',
 
-            'email.required' => '* * Vui lòng nhập email',
+            'email.required' => '* Vui lòng nhập email',
             'email.email' => '* Định dang email không đúng',
             'email.unique' => '* Email này đã có người đăng ký',
 

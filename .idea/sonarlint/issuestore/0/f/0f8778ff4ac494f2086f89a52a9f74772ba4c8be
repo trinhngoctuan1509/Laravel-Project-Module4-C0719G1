@@ -1,0 +1,12 @@
+
+	php:S1448"jClass "PostController" has 21 methods, which is greater than 20 authorized. Split it into smaller classes.(ØÕŒİ
+`	php:S1192"KDefine a constant instead of duplicating this literal "statusCode" 6 times.(úÃÆ¨
+w	php:S14885"]Immediately return this expression instead of assigning it to the temporary variable "$post".(¢‰Ÿ¯úÿÿÿÿ
+w	php:S1488:"]Immediately return this expression instead of assigning it to the temporary variable "$post".(Åáúÿÿÿÿ
+r	php:S1488?"]Immediately return this expression instead of assigning it to the temporary variable "$post".(€µ£‰
+s	php:S1488^"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(¯ÍÅï
+z	php:S1488q"eImmediately return this expression instead of assigning it to the temporary variable "$numberOfPost".(ÍÔê·
+s	php:S1488w"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(‘·ˆâ
+s	php:S1488}"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ÉÑÔ—
+s	php:S1488‚"]Immediately return this expression instead of assigning it to the temporary variable "$post".(ƒÛÃí
+x	php:S1488‡"]Immediately return this expression instead of assigning it to the temporary variable "$post".(ÃÆ¯úÿÿÿÿ

@@ -1,0 +1,13 @@
+
+w	php:S1488"]Immediately return this expression instead of assigning it to the temporary variable "$data".(ÀÖİïüÿÿÿÿ
+x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$users".(¬È½®øÿÿÿÿ
+r	php:S1488%"]Immediately return this expression instead of assigning it to the temporary variable "$user".(ê£Ï
+x	php:S1488,"^Immediately return this expression instead of assigning it to the temporary variable "$users".(ÜÀ —úÿÿÿÿ
+q	php:S14883"]Immediately return this expression instead of assigning it to the temporary variable "$user".(Û¼Æ|
+	php:S14889"vImmediately return this expression instead of assigning it to the temporary variable "$messageLockUserAccountSuccess".(¢¢¦øÿÿÿÿ
+Œ	php:S1488@"xImmediately return this expression instead of assigning it to the temporary variable "$messageUnlockUserAccountSuccess".(çÄås
+y	php:S1488N"_Immediately return this expression instead of assigning it to the temporary variable "$loguot".(ø…“Äşÿÿÿÿ
+{	php:S1488_"fImmediately return this expression instead of assigning it to the temporary variable "$numberOfUsers".(ãÙ—½
+|	php:S1488d"gImmediately return this expression instead of assigning it to the temporary variable "$changepassword".(—–”
+	php:S1488i"gImmediately return this expression instead of assigning it to the temporary variable "$changepassword".(¯ÔÛĞûÿÿÿÿ
+C	php:S1481Y")Remove this unused "$mes" local variable.(·Ò®çøÿÿÿÿ

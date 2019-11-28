@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
          $this->call(StatusOfPostSeeder::class);
          $this->call(StatusOfUserSeeder::class);
          $this->call(PostAvailabilityStatusSeeder::class);
-        $this->call(Verifymail::class);
+//        $this->call(Verifymail::class);
 
         $this->call(UserSeeder::class);
         $this->call(PostSeeder::class);

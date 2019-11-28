@@ -231,7 +231,7 @@ class PostRepositoryImpl extends EloquentRepository implements PostRepository
     public function getPostApproval()
     {
         $countPost = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 2)->get();
-        $postApproval = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 2)->paginate(5);
+        $postApproval = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 2)->orderBy('updated_at','desc')->paginate(5);
         $count=count($countPost);
         $data=[
             "postApproval"=>$postApproval,
@@ -254,7 +254,7 @@ class PostRepositoryImpl extends EloquentRepository implements PostRepository
     // function get bài đăng đang đã duyệt
     public function getPostAppred()
     { $countPosts = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 1)->get();
-        $postApproval = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 1)->paginate(5);
+        $postApproval = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 1)->orderBy('updated_at','desc')->paginate(5);
        $count=count($countPosts);
        $data=[
            "postApproval"=>$postApproval,
@@ -276,7 +276,7 @@ class PostRepositoryImpl extends EloquentRepository implements PostRepository
     {  $countPosts = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 2)
         ->where('title', 'like', '%' . $data['title'] . '%')->get();
         $posts = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 2)
-            ->where('title', 'like', '%' . $data['title'] . '%')->paginate(5);
+            ->where('title', 'like', '%' . $data['title'] . '%')->orderBy('updated_at','desc')->paginate(5);
         $count=count($countPosts);
 
             $data=[
@@ -292,7 +292,7 @@ class PostRepositoryImpl extends EloquentRepository implements PostRepository
         $postsCount = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 1)
             ->where('title', 'like', '%' . $data['title'] . '%')->get();
         $posts = $this->model->with('post_of_types', 'categories')->where('post_availability_status_id', '=', 1)
-            ->where('title', 'like', '%' . $data['title'] . '%')->paginate(5);
+            ->where('title', 'like', '%' . $data['title'] . '%')->orderBy('updated_at','desc')->paginate(5);
         $count=count($postsCount);
         $data=[
             'posts'=>$posts,

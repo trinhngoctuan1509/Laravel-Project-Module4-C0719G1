@@ -1,0 +1,27 @@
+
+x	php:S1488x"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ãÚİİşÿÿÿÿ
+x	php:S1488f"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(¨“»áüÿÿÿÿ
+e	php:S1192)"KDefine a constant instead of duplicating this literal "statusCode" 6 times.(ÿæàìúÿÿÿÿ
+q	php:S1488q"]Immediately return this expression instead of assigning it to the temporary variable "$post".(é¬±V
+x	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(÷Ä²Æúÿÿÿÿ
+w	php:S1488K"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+€	php:S1488¥"eImmediately return this expression instead of assigning it to the temporary variable "$numberOfPost".(ã“©Ñıÿÿÿÿ
+Jphp:S121€"0Add curly braces around the nested statement(s).(ˆËÜ¬ıÿÿÿÿ
+w	php:S14888"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+‚	php:S1488 "lImmediately return this expression instead of assigning it to the temporary variable "$postPendingApproval".(øÈÊ×
+{	php:S1488š"eImmediately return this expression instead of assigning it to the temporary variable "$postApproval".(¦Üş¢
+w	php:S1488("]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+r	php:S1488Ç"]Immediately return this expression instead of assigning it to the temporary variable "$post".(ÂÜù
+…	php:S1448"kClass "PostServiceImpl" has 21 methods, which is greater than 20 authorized. Split it into smaller classes.(¬ÕüÜÿÿÿÿÿ
+Dphp:S1215"0Add curly braces around the nested statement(s).(‰é©÷
+s	php:S1488Í"]Immediately return this expression instead of assigning it to the temporary variable "$post".(›˜çŸ
+y	php:S1488“"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ê·åùÿÿÿÿ
+w	php:S1488^"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+w	php:S1488k"]Immediately return this expression instead of assigning it to the temporary variable "$post".(¢üêüıÿÿÿÿ
+x	php:S1488ƒ"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+x	php:S1488½"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
+y	php:S1488«"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(ìÏãÿÿÿÿÿ
+Dphp:S121%"0Add curly braces around the nested statement(s).(‰é©÷
+Ephp:S121º"0Add curly braces around the nested statement(s).(‰é©÷
+z	php:S1488"_Immediately return this expression instead of assigning it to the temporary variable "$result".(†é¢ºûÿÿÿÿ
+y	php:S1488±"^Immediately return this expression instead of assigning it to the temporary variable "$posts".(»ı¨Èúÿÿÿÿ

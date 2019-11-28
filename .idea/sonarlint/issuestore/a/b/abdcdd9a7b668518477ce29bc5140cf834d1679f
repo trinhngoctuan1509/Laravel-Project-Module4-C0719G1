@@ -1,0 +1,3 @@
+
+qphp:S101	"XRename class "loginAdminController" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(ìýï“ûÿÿÿÿ
+r	php:S1488"]Immediately return this expression instead of assigning it to the temporary variable "$data".(×Çü‚

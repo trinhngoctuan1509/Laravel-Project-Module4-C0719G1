@@ -21,7 +21,7 @@ class PostAuthUserRepositoryImpl implements PostAuthUserRepository
     public function getPostByUser()
     {
         $post = $this->user->post()->with('user','categories', 'region', 'seller', 'post_of_types',
-            'status_of_posts', 'directions','post_availability_status')->orderBy('created_at','desc')->get();
+            'status_of_posts', 'directions','post_availability_status')->orderBy('created_at','desc')->paginate(3);
         return $post;
     }
 
@@ -65,7 +65,7 @@ class PostAuthUserRepositoryImpl implements PostAuthUserRepository
         $input = $data['searchWord'];
         $result = $this->user->post()->with('user','categories', 'region', 'seller', 'post_of_types',
             'status_of_posts', 'directions','post_availability_status')
-            ->where('title','like','%'.$input.'%')->get();
+            ->where('title','like','%'.$input.'%')->paginate(3);
         return $result;
     }
 }

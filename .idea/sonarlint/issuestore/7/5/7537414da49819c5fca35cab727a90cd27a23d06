@@ -1,4 +1,0 @@
-
-rphp:S101
-"YRename class "loginAdminServiceImpl" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(îß‹«şÿÿÿÿ
-{	php:S1488"aImmediately return this expression instead of assigning it to the temporary variable "$dataUser".(óÈÕÀıÿÿÿÿ

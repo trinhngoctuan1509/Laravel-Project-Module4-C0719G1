@@ -1,8 +1,0 @@
-
-e	php:S1192"KDefine a constant instead of duplicating this literal "statusCode" 5 times.(ÿæàìúÿÿÿÿ
-Dphp:S121."0Add curly braces around the nested statement(s).(‰é©÷
-y	php:S1488"_Immediately return this expression instead of assigning it to the temporary variable "$result".(¨á¸–þÿÿÿÿ
-y	php:S14880"_Immediately return this expression instead of assigning it to the temporary variable "$result".(áôÀ÷þÿÿÿÿ
-w	php:S1488C"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-w	php:S1488T"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-r	php:S1488]"]Immediately return this expression instead of assigning it to the temporary variable "$post".(Ðƒ˜ö

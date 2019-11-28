@@ -1,5 +1,0 @@
-
-d	php:S1142"OReduce the number of returns of this function 4, down to the maximum allowed 3.(íÎ°À
-b	php:S1192)"HDefine a constant instead of duplicating this literal "message" 3 times.(â¸áóøÿÿÿÿ
-b	php:S1192("HDefine a constant instead of duplicating this literal "success" 4 times.(—¬¢¡ýÿÿÿÿ
-s	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$model".(Ïšêø

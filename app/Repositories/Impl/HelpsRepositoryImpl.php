@@ -24,5 +24,4 @@ class HelpsRepositoryImpl extends EloquentRepository  implements HelpsRepository
         $model = Helps::class;
         return $model;
     }
-
 }

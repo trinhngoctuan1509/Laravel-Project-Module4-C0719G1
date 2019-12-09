@@ -51,7 +51,7 @@ abstract class EloquentRepository implements Repository
         try {
             $object = $this->model->create($data);
         } catch (\Exception $e) {
-            return null;
+            return $e;
         }
         return $object;
     }

@@ -1,5 +1,0 @@
-
-g	php:S1192S"RDefine a constant instead of duplicating this literal "/my-post/{postId}" 3 times.(ñíº¤
-r	php:S1192"XDefine a constant instead of duplicating this literal "/customers/{customerId}" 3 times.(ıçìùÿÿÿÿ
-k	php:S1192"VDefine a constant instead of duplicating this literal "/comments/{commentId}" 3 times.(‰å¼ˆ
-j	php:S11923"PDefine a constant instead of duplicating this literal "/posts/{postId}" 3 times.(ÂÒëûÿÿÿÿ

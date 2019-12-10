@@ -105,4 +105,40 @@ class UserController extends Controller
         $changepassword=$this->userService-> updateedit($request);
         return $changepassword;
     }
+    function getEmployees(){
+        $allEmployees= $this->userService->getEmployees();
+        return $allEmployees;
+    }
+
+    function getEmployeeById($id){
+        $employee=$this->userService->getEmployeeFindId($id);
+        return $employee;
+    }
+
+    public function lockAccountEmployee($id){
+        $employee=$this->userService->lockAccountEmployee($id);
+        return $employee;
+    }
+    public function unLockAccountEmployee($id){
+        $employee=$this->userService->unLockAccountEmployee($id);
+        return $employee;
+    }
+    public function deleteEmployee($id){
+        $mes=$this->userService->deleteEmployee($id);
+        return $mes;
+    }
+    public function updateEmployee(Request $request){
+        $update=$this->userService->updateEmployee($request);
+        return $update;
+    }
+
+    public function changePasswordEmployee(Request $request){
+        $changePassword=$this->userService->changePasswordEmployee($request);
+        return $changePassword;
+    }
+
+    public function addEmployee(Request $request){
+        $addEmployee=$this->userService->addEmployee($request);
+        return $addEmployee;
+    }
 }

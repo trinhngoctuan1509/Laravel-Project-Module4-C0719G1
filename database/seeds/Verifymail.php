@@ -17,7 +17,7 @@ class Verifymail extends Seeder
         ];
         $data2 = [
 
-            'VerifymailName' => 'Đã Confirm email'
+                'VerifymailName' => 'Đã Confirm email'
         ];
         DB::table('verifymails')->insert($data1);
         DB::table('verifymails')->insert($data2);

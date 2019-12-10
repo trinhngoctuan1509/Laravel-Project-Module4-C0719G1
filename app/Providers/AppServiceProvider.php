@@ -3,24 +3,36 @@
 namespace App\Providers;
 
 
+use App\Repositories\Impl\LevelOfUserReponsitoryImpl;
 use App\Repositories\Impl\LoginReponsitoryImpl;
+use App\Repositories\Impl\PostViewRepositoryImpl;
+use App\Repositories\Impl\TrafficRepositoryImpl;
 use App\Repositories\Impl\UserRepositoryImpl;
+use App\Repositories\LevelOfUserReponsitory;
 use App\Repositories\LoginReponsitory;
+use App\Repositories\PostViewRepository;
+use App\Repositories\TrafficRepository;
 use App\Repositories\UserRepository;
 
 use App\Services\HelpsService;
 use App\Services\Impl\HelpsServiceImpl;
 
 
+use App\Services\Impl\LevelOfUserServiceImpl;
 use App\Services\Impl\LoginServiceImpl;
 
 use App\Services\Impl\loginAdminServiceImpl;
 use App\Repositories\LoginAdminReponsitory;
 use App\Repositories\Impl\loginAdminReponsitoryImpl;
 
+use App\Services\Impl\PostViewServiceImpl;
+use App\Services\Impl\TrafficServiceImpl;
 use App\Services\Impl\UserServiceImpl;
+use App\Services\LevelOfUserService;
 use App\Services\LoginAdminService;
 use App\Services\LoginService;
+use App\Services\PostViewService;
+use App\Services\TrafficService;
 use App\Services\UserService;
 
 use App\Repositories\CustomerRepository;
@@ -217,6 +229,37 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(
             PostAuthUserService::class,
             PostAuthUserServiceImpl::class
+
+        );
+
+
+        $this->app->singleton(
+            LevelOfUserReponsitory::class,
+            LevelOfUserReponsitoryImpl::class
+        );
+        $this->app->singleton(
+            LevelOfUserService::class,
+            LevelOfUserServiceImpl::class
+
+        //Traffic
+        $this->app->singleton(
+            TrafficRepository::class,
+            TrafficRepositoryImpl::class
+        );
+        $this->app->singleton(
+            TrafficService::class,
+            TrafficServiceImpl::class
+        );
+
+        //View Post
+        //Traffic
+        $this->app->singleton(
+            PostViewRepository::class,
+            PostViewRepositoryImpl::class
+        );
+        $this->app->singleton(
+            PostViewService::class,
+            PostViewServiceImpl::class
 
         );
     }

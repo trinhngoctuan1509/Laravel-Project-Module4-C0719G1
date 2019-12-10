@@ -126,6 +126,8 @@ Route::post('/helps', 'HelpsController@store')->name('helps.store');
 
 // Edit User New
 Route::post('/editUser','UserController@EditUser');
+Route::get('/lockAccountEmployee/{id}','UserController@lockAccountEmployee');
+Route::get('/unLockAccountEmployee/{id}','UserController@unLockAccountEmployee');
 
 Route::put('/editUsers/{editUsersId}', 'UserController@update')->name('editUsers.update');
 //loginadmin
@@ -138,6 +140,7 @@ Route::post('/getAllPostOfUserByUserId','PostController@getAllPostOfUserByUserId
 // Khóa tài khoản user
 Route::post('/lockUserAccount','UserController@lockUserAccount');
 Route::post('/unlockUserAccount','UserController@unlockUserAccount');
+Route::get('/getEmployeeById/{id}','UserController@getEmployeeById');
 
 
 //thay doi mat khau
@@ -150,3 +153,22 @@ Route::get('/getNumberOfUsers','UserController@getNumberOfUsers');
 Route::post('/findUser','UserController@findUser');
 Route::post('changeStatusPostAppvoral','PostController@changeStatusPostAppvoral');
 Route::post('changeStatusPostAppved','PostController@changeStatusPostAppved');
+
+
+Route::get('getEmployees','UserController@getEmployees');
+Route::get('getAllLevelOfUser','LevelController@getAllLevelOfUser');
+Route::delete('deleteEmployee/{id}','UserController@deleteEmployee');
+Route::put('updateEmployee','UserController@updateEmployee');
+Route::put('changePasswordEmployee','UserController@changePasswordEmployee');
+Route::post('/addEmployee','UserController@addEmployee')->name('addEmployee');
+
+
+// Traffic
+Route::post('/traffic','TrafficController@addView');
+Route::get('/traffic','TrafficController@totalView');
+Route::post('/countViewDate','TrafficController@countViewDate');
+
+
+Route::post('/viewpost','PostViewController@upView');
+Route::get('/viewpost/topview','PostViewController@getTopView');
+

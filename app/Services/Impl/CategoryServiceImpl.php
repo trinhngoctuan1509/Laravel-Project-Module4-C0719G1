@@ -39,4 +39,20 @@ class CategoryServiceImpl implements CategoryService
 
         return $data;
     }
+
+    public function createNewCategory($data)
+    {
+        $category = $this->categoryReponsitory->createNewCategory($data);
+        return $category;
+    }
+
+    public function deleteCategory($id){
+        $category = $this->categoryReponsitory->deleteCategory($id);
+        return $category;
+    }
+
+    public function editCategory($data){
+        $category = $this->categoryReponsitory->editCategory($data);
+        return $category;
+    }
 }

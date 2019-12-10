@@ -23,4 +23,22 @@ class CategoryController extends Controller
 
         return response()->json($categories['categories'], $categories['statusCode']);
     }
+
+    public function createNewCategory(Request $request){
+        $data = $request->all();
+        $category = $this->category->createNewCategory($data);
+        return $category;
+    }
+
+    public function deleteCategory(Request $request){
+        $id = $request[0];
+        $category = $this->category->deleteCategory($id);
+        return $category;
+    }
+
+    public function editCategory(Request $request){
+        $data = $request->all();
+        $category = $this->category->editCategory($data);
+        return $category;
+    }
 }

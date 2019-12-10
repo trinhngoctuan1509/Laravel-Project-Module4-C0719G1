@@ -36,4 +36,9 @@ class Post extends Model
     public function post_availability_status(){
         return $this->belongsTo('App\PostAvailabilityStatus','post_availability_status_id');
     }
+
+//    public function post_view(){
+//        return $this->hasMany('App\post_view','posts_id');
+//    }
+
 }

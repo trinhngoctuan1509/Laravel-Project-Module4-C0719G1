@@ -27,7 +27,7 @@ class CreatePostsTable extends Migration
             $table->integer('directionId');
             $table->string('contentPost');
             $table->bigInteger('price');
-            $table->string('imageFolderName');
+            $table->string('imageFolderName')->nullable();
             $table->string('imagePost1')->nullable();
             $table->string('imagePost2')->nullable();
             $table->string('imagePost3')->nullable();

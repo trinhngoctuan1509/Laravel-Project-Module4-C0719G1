@@ -141,10 +141,21 @@ Route::post('/findUser','UserController@findUser');
 Route::post('changeStatusPostAppvoral','PostController@changeStatusPostAppvoral');
 Route::post('changeStatusPostAppved','PostController@changeStatusPostAppved');
 
+
 Route::get('getEmployees','UserController@getEmployees');
 Route::get('getAllLevelOfUser','LevelController@getAllLevelOfUser');
 Route::delete('deleteEmployee/{id}','UserController@deleteEmployee');
 Route::put('updateEmployee','UserController@updateEmployee');
 Route::put('changePasswordEmployee','UserController@changePasswordEmployee');
 Route::post('/addEmployee','UserController@addEmployee')->name('addEmployee');
+
+
+// Traffic
+Route::post('/traffic','TrafficController@addView');
+Route::get('/traffic','TrafficController@totalView');
+Route::post('/countViewDate','TrafficController@countViewDate');
+
+
+Route::post('/viewpost','PostViewController@upView');
+Route::get('/viewpost/topview','PostViewController@getTopView');
 

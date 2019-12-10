@@ -137,3 +137,12 @@ Route::get('/getNumberOfUsers','UserController@getNumberOfUsers');
 Route::post('/findUser','UserController@findUser');
 Route::post('changeStatusPostAppvoral','PostController@changeStatusPostAppvoral');
 Route::post('changeStatusPostAppved','PostController@changeStatusPostAppved');
+
+// Traffic
+Route::post('/traffic','TrafficController@addView');
+Route::get('/traffic','TrafficController@totalView');
+Route::post('/countViewDate','TrafficController@countViewDate');
+
+
+Route::post('/viewpost','PostViewController@upView');
+Route::get('/viewpost/topview','PostViewController@getTopView');

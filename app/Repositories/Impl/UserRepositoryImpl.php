@@ -188,7 +188,103 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
         $allUsers = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%')->get();
         $NumberOfResultFindUser = count($allUsers);
         $users = $this->model->where('fullName','like','%'.$keyWordForFindUser.'%')->orwhere('email','like','%'.$keyWordForFindUser.'%')->paginate(3);
-//        return [$NumberOfResultFindUser, $users];
         return [$NumberOfResultFindUser,$users] ;
+    }
+
+    public function getEmployees()
+    {
+        $allEmployees = $this->model->with('level_of_users')->where('levelOfUserId','=',4)->orwhere('levelOfUserId','=',2)->get();
+        return $allEmployees;
+    }
+
+    public function getEmployeeFindId($id)
+    {
+        $employee=$this->model->whereNotIn('levelOfUserId',[1,3])->find($id);
+        return $employee;
+    }
+
+    public function lockAccountEmployee($id)
+    {
+        $employee=$this->model->find($id);
+        $employee->statusOfUserId=2;
+        $employee->save();
+        return $employee;
+    }
+
+    public function unLockAccountEmployee($id)
+    {
+        $employee=$this->model->find($id);
+        $employee->statusOfUserId=1;
+        $employee->save();
+        return $employee;
+    }
+
+    public function deleteEmployee($id)
+    {
+        $this->model->destroy($id);
+        $mes=['Đã xoá thành công'];
+        return $mes;
+    }
+
+    public function updateEmployee($data)
+    {
+        $user = JWTAuth::parseToken()->authenticate();
+        $user->fullName = $data['fullName'];
+        $user->address=$data['address'];
+        $user->phoneNumber=$data['phoneNumber'];
+        $user->save();
+        $mes=['Chỉnh sửa thông tin thành công'];
+        return $mes;
+    }
+
+    public function changePasswordEmployee($data)
+    {
+        $user= JWTAuth::parseToken()->authenticate();
+        $check=[
+            'email'=>$user->email,
+            'password'=>$data['passwordOld']
+        ];
+        if (Auth::attempt($check)){
+            $user->password=bcrypt($data['passwordNew']);
+            $user->save();
+            return response()->json([
+                'success'=>true,
+                'message'=>'Đổi mật khẩu thành công'
+            ]);
+        }else{
+            return response()->json([
+                'success'=>false,
+                'message'=>'Mật khẩu cũ không đúng'
+            ]);
+        }
+
+    }
+
+    public function addEmployee($data)
+    {
+        try {
+            $fullName = $data['fullName'];
+            $email = $data['email'];
+            $address = $data['address'];
+            $phoneNumber = "Chưa cập nhật";
+            $tokenVerifymail=Str::random();
+            $statusOfUserId = 2;
+            $levelOfUserId = $data['level'];
+            $password = bcrypt('123456');
+            $add = [
+                "fullName" => $fullName,
+                "email" => $email,
+                "address" => $address,
+                "phoneNumber" => $phoneNumber,
+                'tokenVerifymail'=>$tokenVerifymail,
+                "statusOfUserId" => $statusOfUserId,
+                "levelOfUserId" => $levelOfUserId,
+                "password" => $password
+            ];
+            $object = $this->model->create($add);
+        } catch (\Exception $e) {
+            return "Đăng ký thât bại";
+    }
+        return $object;
     }
 }

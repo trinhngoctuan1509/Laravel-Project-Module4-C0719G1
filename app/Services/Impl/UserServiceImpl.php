@@ -111,4 +111,54 @@ class UserServiceImpl implements UserService
        $updateEdit=$this->userRepository->updateedit($data);
        return $updateEdit;
     }
+
+    public function getEmployees()
+    {
+       $allEmployee = $this->userRepository->getEmployees();
+       return $allEmployee;
+    }
+
+    public function getEmployeeFindId($id)
+    {
+        $employee=$this->userRepository->getEmployeeFindId($id);
+        return $employee;
+    }
+
+    public function lockAccountEmployee($id)
+    {
+     $employee=$this->userRepository->lockAccountEmployee($id);
+     return $employee;
+    }
+
+    public function unLockAccountEmployee($id)
+    {
+        $employee=$this->userRepository->unLockAccountEmployee($id);
+        return $employee;
+    }
+
+    public function deleteEmployee($id)
+    {
+        $mes=$this->userRepository->deleteEmployee($id);
+return $mes;
+
+    }
+
+    public function updateEmployee($data)
+    {
+        $update=$this->userRepository->updateEmployee($data);
+        return $update;
+    }
+
+    public function changePasswordEmployee($data)
+    {
+      $changePassword=$this->userRepository->changePasswordEmployee($data);
+      return $changePassword;
+    }
+
+
+    public function addEmployee($data)
+    {
+        $addEmployee=$this->userRepository->addEmployee($data);
+        return $addEmployee;
+    }
 }

@@ -1,14 +1,0 @@
-
-r	php:S1488"^Immediately return this expression instead of assigning it to the temporary variable "$users".(“´§
-€	php:S1488U"fImmediately return this expression instead of assigning it to the temporary variable "$numberOfUsers".(—ÂÈÜüÿÿÿÿ
-x	php:S1488o"cImmediately return this expression instead of assigning it to the temporary variable "$updateEdit".(íÆ©«
-	php:S1488K"vImmediately return this expression instead of assigning it to the temporary variable "$messageLockUserAccountSuccess".(èËÜ–ùÿÿÿÿ
-s	php:S1488Z"^Immediately return this expression instead of assigning it to the temporary variable "$users".(†¹¦
-w	php:S1488?"]Immediately return this expression instead of assigning it to the temporary variable "$data".(»µ“ ÿÿÿÿÿ
-s	php:S1488a"_Immediately return this expression instead of assigning it to the temporary variable "$loguot".(€ .
-r	php:S1488,"]Immediately return this expression instead of assigning it to the temporary variable "$user".(¹ÅœÄ
-V	php:S1854:"ARemove this useless assignment to local variable '$newEditUsers'.(Óš©Ù
-r	php:S1488%"]Immediately return this expression instead of assigning it to the temporary variable "$user".(ô ™é
-	php:S1488P"xImmediately return this expression instead of assigning it to the temporary variable "$messageUnlockUserAccountSuccess".(€¼›¼
-	php:S1488h"gImmediately return this expression instead of assigning it to the temporary variable "$changepassword".(î²„Ôùÿÿÿÿ
-{	php:S1488"aImmediately return this expression instead of assigning it to the temporary variable "$dataUser".(ËÓÙ£øÿÿÿÿ

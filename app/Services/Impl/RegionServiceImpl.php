@@ -38,4 +38,24 @@ class RegionServiceImpl implements RegionService
 
         return $data;
     }
+
+    public function getAllRegions(){
+        $regions = $this->regionRepository->getAllRegions();
+        return $regions;
+    }
+
+    public function createNewRegion($data){
+        $region = $this->regionRepository->createNewRegion($data);
+        return $region;
+    }
+
+    public function deleteRegion($id){
+        $region = $this->regionRepository->deleteRegion($id);
+        return $region;
+    }
+
+    public function editRegion($data){
+        $region = $this->regionRepository->editRegion($data);
+        return $region;
+    }
 }

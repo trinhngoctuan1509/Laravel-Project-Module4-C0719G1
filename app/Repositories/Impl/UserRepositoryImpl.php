@@ -73,7 +73,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
     public function getAllUsers()
     {
-        $users = $this->model->with('status_of_users', 'level_of_users')->paginate(3);
+        $users = $this->model->with('status_of_users', 'level_of_users')->where('levelOfUserId','=',3)->paginate(3);
         return $users;
     }
 
@@ -179,7 +179,7 @@ class UserRepositoryImpl extends EloquentRepository implements UserRepository
 
 
     public function getNumberOfUsers(){
-        $users = $this->model->get();
+        $users = $this->model->where('levelOfUserId','=',3)->get();
         $numberOfUser = count($users);
         return $numberOfUser;
     }

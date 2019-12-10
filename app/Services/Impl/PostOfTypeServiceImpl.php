@@ -38,4 +38,27 @@ class PostOfTypeServiceImpl implements PostOfTypeService
 
         return $data;
     }
+
+    public function getAllPostOfType()
+    {
+        $postOfTypes = $this->postOfTypeReponsitory->getAllPostOfType();
+        return $postOfTypes;
+    }
+
+    public function deletePostOfType($id)
+    {
+        $postOfType = $this->postOfTypeReponsitory->deletePostOfType($id);
+        return $postOfType;
+    }
+
+    public function editPostOfType($data)
+    {
+        $postOfType = $this->postOfTypeReponsitory->editPostOfType($data);
+        return $postOfType;
+    }
+
+    public function createNewPostOfType($data){
+        $postOfType = $this->postOfTypeReponsitory->createNewPostOfType($data);
+        return $postOfType;
+    }
 }

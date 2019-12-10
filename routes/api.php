@@ -88,9 +88,16 @@ Route::post('/my-post/searchTitle', 'PostAuthUserController@searchTitlePostAuth'
 // Categories
 Route::get('/categories', 'CategoryController@index')->name('categories.all');
 Route::get('/categories/{categoryID}', 'CategoryController@show')->name('categories.show');
+Route::post('/categories','CategoryController@createNewCategory');
+Route::post('/deleteCategory','CategoryController@deleteCategory');
+Route::post('/editCategory','CategoryController@editCategory');
 // Region
 Route::get('/region', 'RegionController@index')->name('region.all');
 Route::get('/region/{regionId}', 'RegionController@show')->name('region.show');
+Route::get('/getAllRegions','RegionController@getAllRegions');
+Route::post('/createNewRegion','RegionController@createNewRegion');
+Route::post('/deleteRegion','RegionController@deleteRegion');
+Route::post('/editRegion','RegionController@editRegion');
 //Seller
 Route::get('/seller', 'SellerController@index')->name('seller.all');
 Route::get('/seller/{sellerId}', 'SellerController@show')->name('seller.show');
@@ -98,6 +105,12 @@ Route::get('/seller/{sellerId}', 'SellerController@show')->name('seller.show');
 //PostOfType
 Route::get('/postOfType', 'PostOfTypeController@index')->name('PostOfType.all');
 Route::get('/postOfType/{postOfTypeId}', 'PostOfTypeController@show')->name('postOfType.show');
+Route::get('/getAllPostOfType','PostOfTypeController@getAllPostOfType');
+Route::post('/editPostOfType','PostOfTypeController@editPostOfType');
+Route::post('/deletePostOfType','PostOfTypeController@deletePostOfType');
+Route::post('/createNewPostOfType','PostOfTypeController@createNewPostOfType');
+
+
 //statusOfPost
 Route::get('/statusOfPost', 'StatusOfPostController@index')->name('statusOfPost.all');
 Route::get('/statusOfPost/{statusOfPostId}', 'StatusOfPostController@show')->name('statusOfPost.show');

@@ -24,4 +24,27 @@ class RegionController extends Controller
 
         return response()->json($region['region'], $region['statusCode']);
     }
+
+    public function getAllRegions(){
+        $regions = $this->regionService->getAllRegions();
+        return $regions;
+    }
+
+    public function createNewRegion(Request $request){
+        $data = $request->all();
+        $region =$this->regionService->createNewRegion($data);
+        return $region;
+    }
+
+    public function deleteRegion(Request $request){
+        $id = $request[0];
+        $region =$this->regionService->deleteRegion($id);
+        return $region;
+    }
+
+    public function editRegion(Request $request){
+        $data = $request->all();
+        $region =$this->regionService->editRegion($data);
+        return $region;
+    }
 }
